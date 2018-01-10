@@ -1,11 +1,14 @@
 html{
     /*ne pas laisser un fond blanc si l'image de fond ne charge pas */
     background-color: #54585A;
+    background-image:url(../images/backgrounds/metro-chatelet.jpg);
+    background-size: 100% auto;
 }
 
 body{
     /*enlever les marges automatiques */
     margin: 0;
+    
 }
 
 header{
@@ -20,6 +23,7 @@ ul{
      list-style-type: none;
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
 }
 
 #menu{
@@ -61,4 +65,3 @@ height: 66.6vh;
     background-color: black;
     height: 20vh;
 }
-
