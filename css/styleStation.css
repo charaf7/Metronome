@@ -1,3 +1,64 @@
 html{
+    /*ne pas laisser un fond blanc si l'image de fond ne charge pas */
     background-color: #54585A;
 }
+
+body{
+    /*enlever les marges automatiques */
+    margin: 0;
+}
+
+header{
+     background-color: transparent;
+
+
+}
+
+ul{
+    /*cacher puce */
+    margin-top: 3vh;
+     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+
+#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+#menu li{
+    height: 0;
+}
+#menu li:hover {
+    text-decoration: underline;
+}
+
+
+.langue{
+    /* à l'origine, les langues sont cachées */
+    visibility: hidden;
+}
+
+
+#station{
+height: 66.6vh;    
+}
+
+
+#logo img{
+    height: 60px;
+    width: 60px;
+}
+#timeline{
+    background-color: black;
+    height: 20vh;
+}
+
