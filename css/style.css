@@ -42,6 +42,7 @@ h4{
 	display: block;
 	flex: 0 1 auto;
 	height: 0;
+	font-weight: bold;
 }
 
 li{
@@ -50,6 +51,7 @@ li{
 	display: block;
 	flex: 0 1 auto;
 	height: 0;
+	font-weight: bold;
 }
 
 #menu{
@@ -98,6 +100,58 @@ li:hover{
 	background-size: cover;
 	background-position: center;
 }
+.theMap{
+	position: relative;
+}
 .theMap img{
 	width: 30%;
+}
+.invalides{
+	position: absolute;
+	width: 70px;
+	left:50px;
+  	top:100px
+}
+.chatelet{
+	position: absolute;
+	width: 70px;
+	left:50px;
+  	top:100px
+}
+.cite{
+	position: absolute;
+	width: 70px;
+	left:50px;
+  	top:100px
+}
+.maubert{
+	position: absolute;
+	width: 70px;
+	left:50px;
+  	top:100px
+}
+
+.invalides img{
+	width: 20px;
+	position: fixed;
+	left: 529px;
+	top: 251px;
+}
+.chatelet img{
+	width: 20px;
+	position: fixed;
+	left: 529px;
+	top: 251px;
+}
+.cite img{
+	width: 20px;
+	position: fixed;
+	left: 529px;
+	top: 251px;
+}
+.maubert img{
+	width: 20px;
+	position: fixed;
+	left: 529px;
+	top: 251px;
 }
