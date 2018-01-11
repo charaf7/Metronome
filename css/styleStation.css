@@ -1,8 +1,9 @@
 html{
+    margin: 0;
     /*ne pas laisser un fond blanc si l'image de fond ne charge pas */
     background-color: #54585A;
-    background-image:url(../images/backgrounds/metro-chatelet.jpg);
-    background-size: 100% 100%;
+    /* background-image:url(../images/backgrounds/background_chatelet.jpg);
+    background-size: 100% 100%; */
 }
 
 body{
@@ -11,15 +12,36 @@ body{
     
 }
 
+/*#fond img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+    z-index: 0;
+
+}*/
+#decor img{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#reste{
+    position: relative;
+    z-index: 2;
+    
+}
+
 header{
      background-color: transparent;
-
 
 }
 
 ul{
     /*cacher puce */
-    margin-top: 3vh;
+    margin: 0;
+    padding-top: 3vh;
      list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -55,15 +77,24 @@ ul{
 
 
 #station{
-height: 66.6vh;    
+    height: 64.6vh;
 }
 
+
+/*#video img{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}*/
 
 #logo img{
-    height: 60px;
-    width: 60px;
+    width: 5%;
+    margin-left: 1%;
+    margin-top: 1%;
 }
 #timeline{
-    background-color: black;
-    height: 20vh;
+    background-color: wheat;
+ 
+
 }
