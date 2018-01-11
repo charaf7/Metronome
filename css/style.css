@@ -1,13 +1,157 @@
+@font-face {
+  font-family: 'paris';
+  src: url('../lib/fonts/Quick Toy.ttf') format('truetype'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   
+}
+
 body{
 	text-align: center;
-	
+	margin : 0 ;
 	background-color: #141414;
+	height: 100%;
+}
+
+header{
+	height: 10vh;
+	
+}
+ul{
+	margin : 0;
+	display : flex;
+	justify-content: space-between;
 }
 
 h1{
 	color : #ffcb26;
+	font-family: paris;
+	font-size: 50px;
+	margin: 15px;
 }
 
 h4{
 	color: #ffcb26;
+	margin: 0;
+}
+.langues{
+	visibility: hidden;
+}
+
+#menu li{
+	margin-top: 3vh;
+	list-style-type: none;
+	display: block;
+	flex: 0 1 auto;
+	height: 0;
+	font-weight: bold;
+}
+
+li{
+	margin-top: 3vh;
+	list-style-type: none;
+	display: block;
+	flex: 0 1 auto;
+	height: 0;
+	font-weight: bold;
+}
+
+#menu{
+	display: flex;
+	width: 30%;
+	justify-content: space-evenly;
+}
+#menu a{
+	text-decoration: none;
+	color : #000;
+}
+a{
+	text-decoration: none;
+	color : #000;
+}
+
+#menu li:hover{
+ 	text-decoration: underline;
+ }
+
+li:hover{
+ 	text-decoration: underline;
+}
+
+#logonav{
+	height: 12vh;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	
+}
+
+#logonav img{
+	width: 80px;
+	height: 80px;
+}
+#logonav h1{
+	
+}
+#white{
+	color: #fff;
+	margin: 1%;
+}
+#background{
+	background-image: url('../images/backgrounds/header_home.png');
+	background-size: cover;
+	background-position: center;
+}
+.theMap{
+	position: relative;
+}
+.theMap img{
+	width: 30%;
+}
+.invalides{
+	position: absolute;
+	width: 70px;
+	left:50px;
+  	top:100px
+}
+.chatelet{
+	position: absolute;
+	width: 70px;
+	left:50px;
+  	top:100px
+}
+.cite{
+	position: absolute;
+	width: 70px;
+	left:50px;
+  	top:100px
+}
+.maubert{
+	position: absolute;
+	width: 70px;
+	left:50px;
+  	top:100px
+}
+
+.invalides img{
+	width: 20px;
+	position: fixed;
+	left: 529px;
+	top: 251px;
+}
+.chatelet img{
+	width: 20px;
+	position: fixed;
+	left: 529px;
+	top: 251px;
+}
+.cite img{
+	width: 20px;
+	position: fixed;
+	left: 529px;
+	top: 251px;
+}
+.maubert img{
+	width: 20px;
+	position: fixed;
+	left: 529px;
+	top: 251px;
 }
