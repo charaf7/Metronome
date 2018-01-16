@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'paris';
-  src: url('../lib/fonts/Quick Toy.ttf') format('truetype'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url('../lib/fonts/Quick Toy.ttf') format('truetype'); 
    
 }
 
@@ -102,56 +102,44 @@ li:hover{
 }
 .theMap{
 	position: relative;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	width: 440px;
 }
 .theMap img{
-	width: 30%;
+	width: 100%;
 }
 .invalides{
 	position: absolute;
-	width: 70px;
-	left:50px;
-  	top:100px
+	left: 156px;
+	top: 121px;
 }
 .chatelet{
 	position: absolute;
-	width: 70px;
-	left:50px;
-  	top:100px
+	left: 236px;
+	top: 129px;
 }
 .cite{
 	position: absolute;
-	width: 70px;
-	left:50px;
-  	top:100px
+	left: 230px;
+	top: 143px;
 }
 .maubert{
 	position: absolute;
-	width: 70px;
-	left:50px;
-  	top:100px
+	left: 234px;
+	top: 165px;
 }
 
 .invalides img{
-	width: 20px;
-	position: fixed;
-	left: 529px;
-	top: 251px;
+	width: 20px;	
 }
 .chatelet img{
 	width: 20px;
-	position: fixed;
-	left: 529px;
-	top: 251px;
 }
 .cite img{
 	width: 20px;
-	position: fixed;
-	left: 529px;
-	top: 251px;
 }
 .maubert img{
 	width: 20px;
-	position: fixed;
-	left: 529px;
-	top: 251px;
 }
