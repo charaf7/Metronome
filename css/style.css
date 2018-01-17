@@ -1,7 +1,11 @@
 @font-face {
   font-family: 'paris';
   src: url('../lib/fonts/Quick Toy.ttf') format('truetype'); 
-   
+}
+
+@font-face {
+  font-family: 'parisine';
+  src: url('../lib/fonts/ParisineSombreRegular.ttf') format('truetype'); 
 }
 
 body{
@@ -18,6 +22,7 @@ header{
 ul{
 	margin : 0;
 	display : flex;
+	font-family: parisine;
 	justify-content: space-between;
 }
 
@@ -31,6 +36,11 @@ h1{
 h4{
 	color: #ffcb26;
 	margin: 0;
+	font-family: parisine;
+}
+span{
+	font-family: parisine;
+	font-size: 12px;
 }
 .langues{
 	visibility: hidden;
@@ -110,36 +120,62 @@ li:hover{
 .theMap img{
 	width: 100%;
 }
-.invalides{
+#invalides{
 	position: absolute;
 	left: 156px;
 	top: 121px;
+	display: none;
 }
-.chatelet{
+#chatelet{
 	position: absolute;
 	left: 236px;
 	top: 129px;
+	display: none;
 }
-.cite{
+#cite{
 	position: absolute;
 	left: 230px;
 	top: 143px;
+	display: none;
 }
-.maubert{
+#maubert {
 	position: absolute;
 	left: 234px;
 	top: 165px;
+	display: none;
 }
 
-.invalides img{
+#invalidesT{
+	position: absolute;
+	left: 138px;
+	top: 149px;
+}
+#chateletT{
+	position: absolute;
+	left: 256px;
+	top: 141px;
+}
+#citeT{
+	position: absolute;
+	left: 249px;
+	top: 157px;
+}
+#maubertT{
+	position: absolute;
+	left: 173px;
+	top: 196px;
+}
+
+#invalides img{
 	width: 20px;	
 }
-.chatelet img{
+#chatelet img{
 	width: 20px;
 }
-.cite img{
+#cite img{
 	width: 20px;
 }
-.maubert img{
+#maubert img{
 	width: 20px;
 }
+

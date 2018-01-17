@@ -11,9 +11,9 @@
 		<header>
 			<ul>
 				<div id="menu">
-					<li><a href="#">A PROPOS</a></li>
-					<li><a href="#">CREDIT</a></li>
-					<li><a href="#">AIDE</a></li>
+					<li><a href="#apropos">A PROPOS</a></li>
+					<li><a href="#credit">CREDIT</a></li>
+					<li><a href="#aide">AIDE</a></li>
 				</div>
 
 				<li>
@@ -44,12 +44,51 @@
 
 	<div class="theMap">
 		<img src="images/map/carte_vierge.png">
-		<div class="invalides"><a href="pagesStations/station1.html"><img src="images/map/pointer_invalides.png"></a></div>
-		<div class="chatelet"><a href="pagesStations/station2.html"><img src="images/map/pointer_chatelet.png"></a></div>
-		<div class="cite"><a href="pagesStations/station3.html"><img src="images/map/pointer_cite.png"></a></div>
-		<div class="maubert"><a href="pagesStations/station4.html"><img src="images/map/pointer_maubert.png"></a></div>
+		<div id="invalidesT" ><a href="pagesStations/station1.html"><span>Invalides</span></a></div>
+		<div id="chateletT"><a href="pagesStations/station2.html"><span>Chatelet</span></a></div>
+		<div id="citeT"><a href="pagesStations/station3.html"><span>Cité</span></a></div>
+		<div id="maubertT"><a href="pagesStations/station4.html"><span>Maubert-Mutualité</span></a></div>
+		<div id="invalides" ><a href="pagesStations/station1.html"><img src="images/map/pointer_invalides.png"></a></div>
+		<div id="chatelet"><a href="pagesStations/station2.html"><img src="images/map/pointer_chatelet.png"></a></div>
+		<div id="cite"><a href="pagesStations/station3.html"><img src="images/map/pointer_cite.png"></a></div>
+		<div id="maubert"><a href="pagesStations/station4.html"><img src="images/map/pointer_maubert.png"></a></div>
 	</div>
 
 </body>
 
 </html> 
+
+<script type="text/javascript">
+	invalides = document.getElementById("invalides");
+	document.getElementById("invalidesT").onmouseover = function() {
+    	invalides.style.display = "block";
+    }
+    document.getElementById("invalidesT").onmouseout = function() {
+    	invalides.style.display = "none";
+	}
+
+	chatelet = document.getElementById("chatelet");
+	document.getElementById("chateletT").onmouseover = function() {
+    	chatelet.style.display = "block";
+    }
+    document.getElementById("chateletT").onmouseout = function() {
+    	chatelet.style.display = "none";
+	}
+
+	cite = document.getElementById("cite");
+	document.getElementById("citeT").onmouseover = function() {
+    	cite.style.display = "block";
+    }
+    document.getElementById("citeT").onmouseout = function() {
+    	cite.style.display = "none";
+	}
+
+	maubert = document.getElementById("maubert");
+	document.getElementById("maubertT").onmouseover = function() {
+    	maubert.style.display = "block";
+    }
+    document.getElementById("maubertT").onmouseout = function() {
+    	maubert.style.display = "none";
+	}
+
+</script>
