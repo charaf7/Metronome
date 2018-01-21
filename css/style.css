@@ -31,19 +31,19 @@ h1{
 	font-family: paris;
 	font-size: 50px;
 	margin: 15px;
+	font-weight: lighter;
 }
 
 h4{
 	color: #ffcb26;
 	margin: 0;
 	font-family: parisine;
+	font-weight: initial;
 }
 span{
 	font-family: parisine;
 	font-size: 12px;
-}
-.langues{
-	visibility: hidden;
+	font-weight: initial;
 }
 
 #menu li{
@@ -52,16 +52,14 @@ span{
 	display: block;
 	flex: 0 1 auto;
 	height: 0;
-	font-weight: bold;
 }
 
 li{
 	margin-top: 3vh;
 	list-style-type: none;
 	display: block;
-	flex: 0 1 auto;
+	flex: 0.1 1 auto;
 	height: 0;
-	font-weight: bold;
 }
 
 #menu{
@@ -77,15 +75,61 @@ a{
 	text-decoration: none;
 	color : #000;
 }
-
-#menu li:hover{
- 	text-decoration: underline;
- }
-
-li:hover{
- 	text-decoration: underline;
+li{
+	position: relative;
 }
 
+li:hover::after{
+ 	width: 60px;
+ 	transition: width 0.5s;
+ }
+
+li::after{
+ 	content: "";
+	position: absolute;
+	top: 25px;
+	left: 0;
+	height: 3px;
+	width: 0;
+	background: black;
+}
+.langue{
+	position: relative;
+	display: inline-block;
+}
+.langue a {
+	height: 45px;
+	display: block;
+	width: 66%;
+}
+.langue:hover::after{
+	width: 156px;
+}
+.langues{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    right: 11px;
+    top: 28px;
+    opacity: 0.7;
+}
+.langues li {
+	padding: 15px;
+	border-bottom: 1px #ccc;
+}
+.langues li a{
+	display: initial;
+}
+.langues li:hover::after {
+	width: 40px;
+}
+.langue:hover .langues{
+    display: block;
+}
 #logonav{
 	height: 12vh;
 	display: flex;
@@ -179,3 +223,72 @@ li:hover{
 	width: 20px;
 }
 
+/*modal*/
+
+.modal-window {
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.15);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	opacity: 0;
+	pointer-events: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.modal-window:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-window>div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 2rem;
+  background: #fff;
+  color: #444;
+}
+
+.modal-window header {
+  font-weight: bold;
+}
+
+.modal-title{
+	font-family: parisine;
+}
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+  font-family: parisine;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}
+
+.header .icon {
+  display: none;
+}
+.mobileStations{
+	display: none;
+}
+.menuModal{
+	display: none;
+}

@@ -4,11 +4,15 @@
 	<title>Metronome</title>
 	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/styleMobile.css">
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"> 
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
 	<div id="background">
-		<header>
+		<header class="header" id="nav">
 			<ul>
 				<div id="menu">
 					<li><a href="#apropos">A PROPOS</a></li>
@@ -16,17 +20,18 @@
 					<li><a href="#aide">AIDE</a></li>
 				</div>
 
-				<li>
+				<li class="langue">
 					<a href="#"> LANGUE : FR. </a> 
 					<ul class="langues">
-						<li>FR.</li>
-						<li>ENG.</li>
-						<li>DE.</li>
-						<li>ES.</li>
-						<li>JP.</li>
-						<li>CHN.</li>
+						<li><a href="#">FR.</a></li>
+						<li><a href="#">ENG.</a></li>
+						<li><a href="#">DE.</a></li>
+						<li><a href="#">ES.</a></li>
+						<li><a href="#">JP.</a></li>
+						<li><a href="#">CHN.</a></li>
 					</ul>
 				</li>
+				<li class="icon"><a href="#mobileMenu">&#9776;</a></li>
 			</ul>
 		</header>
 		<div id="logonav">
@@ -34,13 +39,16 @@
 			<h1> VOYAGE DANS PARIS PAR LE METRONOME</h1><br>
 		</div>
 	</div>
-
-	<h4>Découvrez les secrets de la ville lumière cachés dans les profondeurs de son métro:</h4>
-	<h4>4 stations,</h4>
-	<h4>4 univers,</h4>
-	<h4>1 multitude d'histoires insolites...</h4>
-	<h4>...qui n'attendent qu'a être révélées au grand jour.</h4>
-	<h4 id="white">Cliquez sur une station et voyagez !</h4>
+	<div class="description">
+		<div class="descBox">
+			<h4>Découvrez les secrets de la ville lumière cachés dans les profondeurs de son métro:</h4>
+			<h4 class="bigger">4 stations,</h4>
+			<h4 class="bigger">4 univers,</h4>
+			<h4 class="bigger">1 multitude d'histoires insolites...</h4>
+			<h4>...qui n'attendent qu'a être révélées au grand jour.</h4>
+			<h4 id="white">Cliquez sur une station et voyagez !</h4>
+		</div>
+	</div>
 
 	<div class="theMap">
 		<img src="images/map/carte_vierge.png">
@@ -53,6 +61,99 @@
 		<div id="cite"><a href="pagesStations/station3.html"><img src="images/map/pointer_cite.png"></a></div>
 		<div id="maubert"><a href="pagesStations/station4.html"><img src="images/map/pointer_maubert.png"></a></div>
 	</div>
+
+	<div class="mobileStations">
+		<div class="invalidesM"></div>
+		<div class="chateletM"></div>
+		<div class="citeM"></div>
+		<div class="maubertM"></div>
+	</div>
+	<div id="apropos" class="modal-window">
+  		<div style="width: 70%;">
+		    <a href="#modal-close" title="Fermer" class="modal-close">X</a>
+		    <h1 class="modal-title">A propos</h1>
+		    <div>
+		    	<p>Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,</p>
+		    </div>
+	    </div>
+	</div>
+
+	<div id="credit" class="modal-window">
+  		<div style="width: 70%;">
+		    <a href="#modal-close" title="Fermer" class="modal-close">X</a>
+		    <h1 class="modal-title">Crédits</h1>
+		    <div>
+		    	<p>Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,</p>
+		    </div>
+	    </div>
+	</div>
+
+	<div id="aide" class="modal-window">
+  		<div style="width: 70%;">
+		    <a href="#modal-close" title="Fermer" class="modal-close">X</a>
+		    <h1 class="modal-title">Aide</h1>
+		    <div>
+		    	<p>Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,Waiting for text,</p>
+		    </div>
+	    </div>
+	</div>
+
+	<div id="mobileMenu" class="menuModal">
+  		<div>
+		    <a href="#modal-close" title="Fermer" class="modal-close">X</a>
+	    </div>
+	    <div class="mobileNav">
+	    	<div class="stationPart">
+	    		<a href="../index.html">
+	    			<div class="station">Accueil</div>
+	    			<div class="cercle"></div>
+	    		</a>
+	    	</div>
+	    	<div class="stationPart">
+	    		<a href="../index.html">
+	    			<div class="station">Invalides</div>
+	    			<div class="cercle"></div>
+	    		</a>
+	    	</div>
+	    	<div class="stationPart">
+	    		<a href="../index.html">
+	    			<div class="station">Chatelêt</div>
+	    			<div class="cercle"></div>
+	    		</a>
+	    	</div>
+	    	<div class="stationPart">
+	    		<a href="../index.html">
+	    			<div class="station">Cité</div>
+	    			<div class="cercle"></div>
+	    		</a>
+	    	</div>
+	    	<div class="stationPart">
+	    		<a href="../index.html">
+	    			<div class="station">Maubert-Mutualité</div>
+	    			<div class="cercle"></div>
+	    		</a>
+	    	</div>
+	    	<div class="stationPart">
+	    		<a href="../index.html">
+	    			<div class="station">A propos</div>
+	    			<div class="cercle"></div>
+	    		</a>
+	    	</div>
+	    	<div class="stationPart">
+	    		<a href="../index.html">
+	    			<div class="station">Crédits</div>
+	    			<div class="cercle"></div>
+	    		</a>
+	    	</div>
+	    	<div class="invalides1"></div>
+	    	<div class="invalides2"></div>
+	    	<div class="chatelet1"></div>
+	    	<div class="cite1"></div>
+	    	<div class="cite2"></div>
+		</div>
+	</div>
+
+
 
 </body>
 

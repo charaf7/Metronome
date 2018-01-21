@@ -1,0 +1,196 @@
+
+@media screen and (max-width: 768px) {
+  body{
+  	background-color: #E4E4E6;
+  }
+  #background{
+  	background-color: #E4E4E6;
+  	background-image: none; 
+  }
+  .header li:not(:last-child) {
+  	display: none;
+  }
+  .header #menu{
+  	display: none;
+  }
+  .header .icon {
+    float: right;
+    display: block;
+    margin-top: 1vh;
+  }
+  .header .icon a {
+  	  font-size:35px;
+  	  color: #bc4d99;
+  }
+  .icon::after{
+  	display: none;
+  }
+  .header ul{
+  	padding: 0;
+  }
+  #logonav{
+  	padding: 20px;
+  }
+  #logonav h1{
+  	text-align: left;
+  	font-size: 32px;
+  }
+  .description {
+  	position: relative;
+  	height: 35vh;
+  	margin-top: 15vh;
+  }
+  .description h4{
+  	font-weight: lighter;
+ 	font-size: 12px;
+	text-align: left;
+	color: black;
+  }
+  .descBox{
+  	width: 50%;
+  	position: absolute;
+  	left: 40vw;
+  	top: 4vh;
+  }
+  .descBox #white{
+  	display: none;
+  }
+  h4.bigger{
+  	font-size: 13px;
+  }
+  .theMap{
+  	display: none;
+  }
+  .mobileStations{
+  	display: block;
+  	width: 100vw;
+  	height: 30vh;
+  }
+  .invalidesM{
+  	width: 50vw;
+  	height: 15vh;
+  	float: left;
+  }
+  .chateletM{
+  	width: 50vw;
+  	height: 15vh;
+  	float: left;
+  }
+  .citeM{
+  	width: 50vw;
+  	height: 15vh;
+  	float: left;
+  }
+  .maubertM{
+  	width: 50vw;
+  	height: 15vh;
+  	float: left;
+  }
+
+  .menuModal {
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.15);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	opacity: 0;
+	pointer-events: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 500ms ease-in-out;
+	overflow: scroll;
+	}
+
+  .menuModal:target {
+	opacity: 1;
+	pointer-events: auto;
+  }
+  .menuModal>div {
+	width: 50%;
+	position: relative;
+    padding: 2rem;
+	background: #fff;
+	color: #444;
+  }
+  .modal-close {
+	  color: #FBCA2F;
+	  line-height: 50px;
+	  font-size: 27px;
+	  position: absolute;
+	  left: 0;
+	  text-align: center;
+	  top: 0;
+	  width: 70px;
+	  text-decoration: none;
+	  font-family: parisine;
+  }
+  .modal-close:hover {
+  	  color: #bc4d99;
+  }
+  .mobileNav{
+  		width: 50vh;
+  		font-family: parisine;
+  		font-weight: lighter;
+  }
+  .mobileNav .stationPart{
+  		height: 20px;
+		margin-bottom: 60px;
+  }
+  .mobileNav .stationPart .station{
+  		width: 70%;
+  		float : left;
+  		text-align: left;
+  }
+  .mobileNav .stationPart .cercle{
+  		width: 20px;
+  		height: 20px;
+  		float: left;
+  		border-radius: 50%;
+  		border : 2px black solid;
+  		position: absolute;
+		right: 55px;
+  }
+  .invalides1{
+  		position: absolute;
+  		top: 136px;
+		right: 64px;
+  		background-color: #C7A4CE;
+  		width: 7px;
+  		height: 30px;
+
+  }
+  .invalides2{
+  		position: absolute;
+  		top: 162px;
+		right: 64px;
+  		background-color: #F1C811;
+  		width: 7px;
+  		height: 30px;
+  }
+  .chatelet1{
+  		position: absolute;
+  		top: 216px;
+		right: 64px;
+  		background-color: #BB4B9D;
+  		width: 7px;
+  		height: 56px;
+  }
+  .cite1{
+  		position: absolute;
+  		top: 296px;
+		right: 64px;
+  		background-color: #BB4B9D;
+  		width: 7px;
+  		height: 30px;
+  }
+  .cite2{
+  		position: absolute;
+  		top: 322px;
+		right: 64px;
+  		background-color: #F1C811;
+  		width: 7px;
+  		height: 30px;
+  }
+}
