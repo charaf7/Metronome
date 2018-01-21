@@ -88,6 +88,7 @@
   }
 
   .menuModal {
+  	display: block;
 	position: fixed;
 	background-color: rgba(255, 255, 255, 0.15);
 	top: 0;
