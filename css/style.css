@@ -258,6 +258,9 @@ li::after{
   font-weight: bold;
 }
 
+.backgroundMobile{
+	display: none;
+}
 .modal-title{
 	font-family: parisine;
 }

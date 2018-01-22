@@ -2,10 +2,11 @@
 @media screen and (max-width: 768px) {
   body{
   	background-color: #E4E4E6;
+  	text-align: left;
   }
   #background{
-  	background-color: #E4E4E6;
-  	background-image: none; 
+  	background-image: url("../images/backgrounds/bg_home_mobile.jpg");
+  	background-position: 0 0;
   }
   .header li:not(:last-child) {
   	display: none;
@@ -20,7 +21,7 @@
   }
   .header .icon a {
   	  font-size:35px;
-  	  color: #bc4d99;
+  	  color: #F7CA23;
   }
   .icon::after{
   	display: none;
@@ -30,6 +31,9 @@
   }
   #logonav{
   	padding: 20px;
+  	padding-top: 0px;
+  	height: 10vh;
+  	margin-bottom: 0;
   }
   #logonav h1{
   	text-align: left;
@@ -37,20 +41,27 @@
   }
   .description {
   	position: relative;
-  	height: 35vh;
-  	margin-top: 15vh;
+  	height: 38vh;
+  	background-image: url("../images/backgrounds/bg_home_mobile.jpg");
+  	background-position: 0 -166px;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+  }
+  .description img{
+  	width: 100%;
   }
   .description h4{
   	font-weight: lighter;
  	font-size: 12px;
-	text-align: left;
-	color: black;
   }
   .descBox{
+  	text-align: center;
+  	color: #f7ca2a;
   	width: 50%;
   	position: absolute;
-  	left: 40vw;
-  	top: 4vh;
+  	left: 42vw;
+  	top: 9vh;
   }
   .descBox #white{
   	display: none;
@@ -64,7 +75,13 @@
   .mobileStations{
   	display: block;
   	width: 100vw;
-  	height: 30vh;
+  	height: 33vh;
+  }
+  .backgroundMobile{
+  	display: block;
+  }
+  .mobileStations img{
+  	width: 100%;
   }
   .invalidesM{
   	width: 50vw;
@@ -112,8 +129,8 @@
 	width: 50%;
 	position: relative;
     padding: 2rem;
-	background: #fff;
-	color: #444;
+	background-color: #141414;
+	color: #fff;
   }
   .modal-close {
 	  color: #FBCA2F;
@@ -143,15 +160,48 @@
   		width: 70%;
   		float : left;
   		text-align: left;
+  		color: #fff
   }
   .mobileNav .stationPart .cercle{
   		width: 20px;
   		height: 20px;
   		float: left;
   		border-radius: 50%;
-  		border : 2px black solid;
+  		border : 2px white solid;
   		position: absolute;
 		right: 55px;
+  }
+  .langue{
+  	text-align: left;
+  	margin-bottom: 60px;
+  }
+  .langue a {
+    height: 45px;
+    display: initial;
+    width: 66%;
+    color: white;
+  }
+  .langue p{
+  	cursor: pointer;
+  	margin: 0;
+  }
+  .langues{
+  	position: absolute;
+	background-color: #f9f9f9;
+	padding: 12px 16px;
+	z-index: 1;
+	left: 22px;
+	top: 20px;
+	width: 77px;
+	display: none;
+	min-width: 0;
+	opacity: 1;
+  }
+  .langues a {
+  	color : #000;
+  }
+  .langue:hover .langues{
+    display: none;
   }
   .invalides1{
   		position: absolute;

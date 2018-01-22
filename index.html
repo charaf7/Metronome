@@ -6,7 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/styleMobile.css">
 	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"> 
-	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/fontawesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
@@ -21,7 +22,7 @@
 				</div>
 
 				<li class="langue">
-					<a href="#"> LANGUE : FR. </a> 
+					<a href="#"> LANGUE : FR <img src="images/down.png"></a> 
 					<ul class="langues">
 						<li><a href="#">FR.</a></li>
 						<li><a href="#">ENG.</a></li>
@@ -40,6 +41,7 @@
 		</div>
 	</div>
 	<div class="description">
+		<img class="backgroundMobile" src="images/backgrounds/bg_home_mobileC.jpg">
 		<div class="descBox">
 			<h4>Découvrez les secrets de la ville lumière cachés dans les profondeurs de son métro:</h4>
 			<h4 class="bigger">4 stations,</h4>
@@ -63,10 +65,10 @@
 	</div>
 
 	<div class="mobileStations">
-		<div class="invalidesM"></div>
-		<div class="chateletM"></div>
-		<div class="citeM"></div>
-		<div class="maubertM"></div>
+		<div class="invalidesM"><a href="pagesStations/station1.html"><img src="images/backgrounds/button_invalides_home.jpg"></a></div>
+		<div class="chateletM"><a href="pagesStations/station2.html"><img src="images/backgrounds/button_chatelet_home.jpg"></a></div>
+		<div class="citeM"><a href="pagesStations/station2.html"><img src="images/backgrounds/button_cite_home.jpg"></a></div>
+		<div class="maubertM"><a href="pagesStations/station2.html"><img src="images/backgrounds/button_maubert_home.jpg"></a></div>
 	</div>
 	<div id="apropos" class="modal-window">
   		<div style="width: 70%;">
@@ -103,10 +105,21 @@
 		    <a href="#modal-close" title="Fermer" class="modal-close">X</a>
 	    </div>
 	    <div class="mobileNav">
+	    		<div class="langue" id="mobileLangue">
+					<p style="margin : 0"> LANGUE : FR <img src="images/down.png"></p> 
+					<ul class="langues" id="mobileLangues">
+						<li><a href="#">FR.</a></li>
+						<li><a href="#">ENG.</a></li>
+						<li><a href="#">DE.</a></li>
+						<li><a href="#">ES.</a></li>
+						<li><a href="#">JP.</a></li>
+						<li><a href="#">CHN.</a></li>
+					</ul>
+				</div>
 	    	<div class="stationPart">
 	    		<a href="../index.html">
 	    			<div class="station">Accueil</div>
-	    			<div class="cercle"></div>
+	    			<div class="cercle" style="background-color: white"></div>
 	    		</a>
 	    	</div>
 	    	<div class="stationPart">
@@ -142,6 +155,12 @@
 	    	<div class="stationPart">
 	    		<a href="../index.html">
 	    			<div class="station">Crédits</div>
+	    			<div class="cercle"></div>
+	    		</a>
+	    	</div>
+	    	<div class="stationPart">
+	    		<a href="../index.html">
+	    			<div class="station">Aide</div>
 	    			<div class="cercle"></div>
 	    		</a>
 	    	</div>
@@ -190,6 +209,18 @@
     }
     document.getElementById("maubertT").onmouseout = function() {
     	maubert.style.display = "none";
+	}
+
+	langue = document.getElementById("mobileLangue");
+	langues = document.getElementById("mobileLangues");
+	langues.style.display ="none";
+	langue.onclick = function(){
+		if(langues.style.display == "none"){
+			langues.style.display ="block";
+		}
+		else{
+			langues.style.display ="none";
+		}
 	}
 
 </script>
