@@ -144,6 +144,18 @@
 	  text-decoration: none;
 	  font-family: parisine;
   }
+  .modal-window > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 2rem;
+    background: #141414;
+    color: #fff;
+  }
+  .modal-window h1{
+    text-transform: uppercase;
+    text-align: center;
+  }
   .modal-close:hover {
   	  color: #bc4d99;
   }
