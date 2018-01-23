@@ -17,7 +17,9 @@ html{
     /* background-image:url(../images/backgrounds/background_chatelet.jpg);
     background-size: 100% 100%; */
      background-image: url("../images/backgrounds/background_chatelet.jpg");
-    height: 100%;
+    background-size: 100% 98%;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 body{
@@ -48,10 +50,13 @@ body{
 
 header{
      background-color: transparent;
-    height: 10vh;
+    height: 15vh;
 
 }
 
+#station{
+	height: 65vh;
+}
 ul{
     /*cacher puce */
     margin: 0;
@@ -126,16 +131,16 @@ li::after{
     width:70px;
     height: 70px;
     left: 20px;
-    top : 105px;
+    top : 95px;
     
 }
 
 #video img{
     position: absolute;
-    width: 465px;
-    height: 287px;
+    width: 430px;
+    height: 254px;
     left: 60px;
-    top: 193px;
+    top: 175px;
 }
 
 #baseline{
@@ -144,25 +149,79 @@ li::after{
     font-size: 20px;
     color : #ffcb26;
     left: 110px;
-    top : 115px;
+    top : 100px;
 }
 
 
-#drakkar img{
+#drakkar{
     position: absolute;
-    left: 969px;
-    top : 210px;
+    left: 1080px;
+    top : 290px;
+    width :200px;
+    height: auto;
 }
 
 #drakkar-hover{
     position: absolute;
-    top: 236px;
-    left: 1000px;
+    left: 1090px;
+    top : 300px;
+    width :190px;
+    height: auto;
     display: none;
 }
 
+#barreau{
+    position: absolute;
+    left: 670px;
+    top : 410px;
+    width : 120px;
+    height: auto;
+}
 
-#timeline{
-    background-color: wheat;
+#barreau-hover{
+    position: absolute;
+    top: 410px;
+    left: 670px;
+    display: none;
+    width : 130px;
+    height: auto;
+}
 
+#cadavre{
+    position: absolute;
+    left: 100px;
+    top : 490px;
+    width: 230px;
+    height: auto;
+   
+}
+
+#cadavre-hover{
+    position: absolute;
+    top: 485px;
+    left: 100px;
+    display: none;
+    width: 240px;
+    height: auto;
+}
+
+#prostitue{
+    position: absolute;
+    top: 350px;
+    left: 505px;
+    width: 80px;
+    height: auto;
+
+    
+}
+
+#prostitue-hover{
+    position: absolute;
+    top: 350px;
+    left: 505px;
+    width: 85px;
+    height: auto;
+    display: none;
+
+    
 }

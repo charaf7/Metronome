@@ -4,14 +4,9 @@
   src: url('../lib/fonts/parisine_regular.ttf') format('truetype'); 
 }
 
-header{
-	height: 15vh;
-}
-#station{
-	height: 65vh;
-}
+
 #timeline{
-	height: 20vh;
+	height: 20.4vh;
 	background-color: #141414;
 	width: 100%;
 }

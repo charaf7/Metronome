@@ -3,14 +3,15 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" type="text/css" href="../css/styleStation.css" />
+         <link rel="stylesheet" type="text/css" href="../css/timeline.css" />
         <title> Station Chatetet PROVISOIRE </title>
     </head>
     <body>
         
         <div id ="decor">
-           <!-- <div id="fond">
+           <div id="fond">
                 <img src="../images/backgrounds/background_chatelet.jpg" alt="vous êtes à la station Chatelet" />
-            </div> -->
+            </div> 
             
             <div id="logo">
                 <img src="../images/logo/logo_300x300.png" />
@@ -48,17 +49,44 @@
 
             <!-- station sans la timeline -->
             <div id = "station">
-                <div id="drakkar"><img src="../images/anecdotes/drakkar.svg"/>
-                </div>
-                <img id="drakkar-hover" src="../images/anecdotes/drakkar_hover.svg"/>
-
+                <img id="drakkar" src="../images/anecdotes/drakkar-cropped.png"/>
+                <img id="drakkar-hover" src="../images/anecdotes/drakkar_hover-cropped.png"/>
+                
+                <img id="barreau" src="../images/anecdotes/barreaux.png" />
+                <img id="barreau-hover" src="../images/anecdotes/barreaux_hover.png" />
+                
+                <img id="cadavre" src="../images/anecdotes/cadavre.png" />
+                <img id="cadavre-hover" src="../images/anecdotes/cadavre_hover.png" />
+                
+                <img id="prostitue" src="../images/anecdotes/prostitue.png" />
+                 <img id="prostitue-hover" src="../images/anecdotes/prostitue_hover.png" />
+                
                   <!-- aller vers la map interactive-->
                 <div id = "map">
                 </div>
             </div>
 
             <!-- Timeline de navigation -->
-            <div id = "timeline">
+                 <div id = "timeline">
+                <div class="stations">
+                    <span class="station" id="invalides"><a href="station1.html">Invalides</a></span>
+                    <span class="station" id="chatelet"><a href="station1.html">Châtelet</a></span>
+                    <span class="station" id="cite"><a href="station1.html">Cité</a></span>
+                    <span class="station" id="maubert"><a href="station1.html">Maubert-Mutualité</a></span>
+                </div>
+                <div class="stationsDots">
+                    <a href="station1.html"><div class="invalides"></div></a>
+                    <a href="station2.html"><div class="chatelet"></div></a>
+                    <a href="station3.html"><div class="cite"></div></a>
+                    <a href="station4.html"><div class="maubert"></div></a>
+                </div>
+                <div class="lines">
+                    <div id="invalides1"></div>
+                    <div id="invalides2"></div>
+                    <div id="chatelet"></div>
+                    <div id="cite1"></div>
+                    <div id="cite2"></div>
+                </div>
             </div>
         </div>
         <script src="../jquery/jquery-3.2.1.min.js"></script>
