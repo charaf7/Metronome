@@ -1,15 +1,28 @@
+@font-face {
+  font-family: 'paris';
+  src: url('../lib/fonts/Quick Toy.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'parisine';
+  src: url('../lib/fonts/ParisineSombreRegular.ttf') format('truetype'); 
+}
+
+
+
 html{
     margin: 0;
     /*ne pas laisser un fond blanc si l'image de fond ne charge pas */
     background-color: #54585A;
     /* background-image:url(../images/backgrounds/background_chatelet.jpg);
     background-size: 100% 100%; */
+     background-image: url("../images/backgrounds/background_chatelet.jpg");
+    height: 100%;
 }
 
 body{
     /*enlever les marges automatiques */
     margin: 0;
-    
 }
 
 /*#fond img{
@@ -35,19 +48,46 @@ body{
 
 header{
      background-color: transparent;
+    height: 10vh;
 
 }
 
 ul{
     /*cacher puce */
     margin: 0;
-    padding-top: 3vh;
      list-style-type: none;
     display: flex;
     justify-content: space-between;
-    font-weight: bold;
-    font-size: 20;
+    font-family: parisine;
+
     
+}
+
+li {
+    margin-top: 3vh;
+	list-style-type: none;
+	display: block;
+	flex: 0.1 1 auto;
+	height: 0;
+}
+
+li{
+	position: relative;
+}
+
+li:hover::after{
+ 	width: 60px;
+ 	transition: width 0.5s;
+ }
+
+li::after{
+ 	content: "";
+	position: absolute;
+	top: 25px;
+	left: 0;
+	height: 3px;
+	width: 0;
+	background: black;
 }
 
 #menu{
@@ -60,13 +100,6 @@ ul{
 #menu a{
     color: black;
     text-decoration: none;
-}
-
-#menu li{
-    height: 0;
-}
-#menu li:hover {
-    text-decoration: underline;
 }
 
 
@@ -89,12 +122,47 @@ ul{
 }*/
 
 #logo img{
-    width: 5%;
-    margin-left: 1%;
-    margin-top: 1%;
+    position: absolute;
+    width:70px;
+    height: 70px;
+    left: 20px;
+    top : 105px;
+    
 }
+
+#video img{
+    position: absolute;
+    width: 465px;
+    height: 287px;
+    left: 60px;
+    top: 193px;
+}
+
+#baseline{
+    position: absolute;
+    font-family: paris;
+    font-size: 20px;
+    color : #ffcb26;
+    left: 110px;
+    top : 115px;
+}
+
+
+#drakkar img{
+    position: absolute;
+    left: 969px;
+    top : 210px;
+}
+
+#drakkar-hover{
+    position: absolute;
+    top: 236px;
+    left: 1000px;
+    display: none;
+}
+
+
 #timeline{
     background-color: wheat;
- 
 
 }
