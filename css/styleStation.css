@@ -16,15 +16,16 @@ html{
     background-color: #54585A;
     /* background-image:url(../images/backgrounds/background_chatelet.jpg);
     background-size: 100% 100%; */
-     background-image: url("../images/backgrounds/background_chatelet.jpg");
+     /*background-image: url("../images/backgrounds/background_chatelet.jpg");
     background-size: 100% 98%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     width: 100%;
 }
 
 body{
     /*enlever les marges automatiques */
     margin: 0;
+    position: relative;
 }
 
 /*#fond img{
@@ -56,6 +57,13 @@ header{
 
 #station{
 	height: 65vh;
+    position: relative;
+    overflow: hidden;
+}
+ #background{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
 }
 ul{
     /*cacher puce */
@@ -128,88 +136,90 @@ li::after{
 
 #logo img{
     position: absolute;
-    width:70px;
-    height: 70px;
-    left: 20px;
-    top : 95px;
+    width:6%;
+    height: auto;
+    left: 1%;
+    bottom : 55.5vh;
     
 }
 
-#video img{
+#affiche{
     position: absolute;
-    width: 430px;
-    height: 254px;
-    left: 60px;
-    top: 175px;
+    width: 35%;
+    height: auto;
+    left: 3%;
+   bottom: 17vh;
 }
 
 #baseline{
     position: absolute;
     font-family: paris;
-    font-size: 20px;
+    font-size: 130%;
     color : #ffcb26;
-    left: 110px;
-    top : 100px;
+    left: 8%;
+    bottom : 55.5vh;
+    
 }
 
 
 #drakkar{
     position: absolute;
-    left: 1080px;
-    top : 290px;
-    width :200px;
+    right: 0;
+    bottom : 3vh;
+    width :18%;
     height: auto;
 }
 
 #drakkar-hover{
     position: absolute;
-    left: 1090px;
-    top : 300px;
-    width :190px;
+    right: 0;
+    bottom : 3vh;
+    width :17%;
     height: auto;
     display: none;
 }
 
 #barreau{
     position: absolute;
-    left: 670px;
-    top : 410px;
-    width : 120px;
+    left: 53%;
+    bottom : 8vh;
+    width : 9%;
     height: auto;
 }
 
 #barreau-hover{
     position: absolute;
-    top: 410px;
-    left: 670px;
-    display: none;
-    width : 130px;
+    left: 53%;
+    bottom : 8vh;
+    width : 10%;
     height: auto;
+    display: none;
 }
+
 
 #cadavre{
     position: absolute;
-    left: 100px;
-    top : 490px;
-    width: 230px;
+    left: 6%;
+    bottom : 3vh;
+    width: 20%;
     height: auto;
    
 }
 
 #cadavre-hover{
     position: absolute;
-    top: 485px;
-    left: 100px;
-    display: none;
-    width: 240px;
+    left: 6%;
+    bottom : 2vh;
+    width: 21%;
     height: auto;
+    display: none;
 }
 
 #prostitue{
     position: absolute;
-    top: 350px;
-    left: 505px;
-    width: 80px;
+    left: 39%;
+    bottom : 4vh;
+    width: 7%;
     height: auto;
 
     
@@ -217,11 +227,36 @@ li::after{
 
 #prostitue-hover{
     position: absolute;
-    top: 350px;
-    left: 505px;
-    width: 85px;
-    height: auto;
+    left: 39%;
+    bottom : 4vh;
+    width: 7.3%;
     display: none;
+}
 
-    
+
+#nav-gauche{
+    position: absolute;
+    background-color: white;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    top: 40vh;
+    display: none;
+}
+
+#chevalier{
+    position: absolute;
+    left: 58%;
+    bottom : 47vh;
+    width: 12%;
+    height: auto;
+}
+
+#chevalier-hover{
+    position: absolute;
+    left: 58%;
+    bottom : 47vh;
+    width: 13%;
+    height: auto;
+     display: none;
 }

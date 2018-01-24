@@ -96,6 +96,64 @@ $(document).ready(function()
     );
     
     
+    $( "#chevalier" ).hover(
+        function() {
+      
+            $( "#chevalier-hover" ).css('display', 'block');
+        }, function() {
+      
+            $( "#chevalier-hover" ).css('display', 'none');
+    }
+    );
+    
+      $( "#chevalier-hover" ).hover(
+        function() {
+      
+            $( "#chevalier-hover" ).css('display', 'block');
+             $( "#chevalier" ).css('display', 'none');
+            
+        }, function() {
+      
+            $( "#chevalier-hover" ).css('display', 'none');
+             $( "#chevalier" ).css('display', 'block');
+    }
+    );
+     /*-----------------------------------------------------------------------------*/
+    
+     $( "#barreau-hover" ).click(
+        function() {
+      
+            $( "#video").css('display', 'none');
+             
+        });
+    
+     /*-----------------------------------------------------------------------------*/
+    
+     $( "#cadavre-hover" ).click(
+        function() {
+      
+            $( "#video").css('display', 'none');
+             
+        });
+    
+    /*-----------------------------------------------------------------------------*/
+    
+     $( "#drakkar-hover" ).click(
+        function() {
+      
+            $( "#video").css('display', 'none');
+             
+        });
+    
+    /*-----------------------------------------------------------------------------*/
+    
+     $( "#prostitue-hover" ).click(
+        function() {
+      
+            $( "#video").css('display', 'none');
+             
+        });
+    
     
 });
       
