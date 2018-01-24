@@ -7,23 +7,8 @@
         <title> Station Chatetet PROVISOIRE </title>
     </head>
     <body>
-        
-        <div id ="decor">
-           <div id="fond">
-                <img src="../images/backgrounds/background_chatelet.jpg" alt="vous êtes à la station Chatelet" />
-            </div> 
-            
-            <div id="logo">
-                <img src="../images/logo/logo_300x300.png" />
-                <div id="baseline">Voyage dans <br /> Paris par <br />le Métronome</div>
-            </div>
-            
-             <!-- la vidéo des anecdotes -->
-            <div id ="video">
-               <img src="../images/anecdotes/affiche_metronome_cropped.png" alt="" />
-            </div>
-            
-        </div>
+        <img id ="background" src="../images/backgrounds/background_chatelet.jpg" alt="vous êtes à la station Chatelet" />
+    
         
         <div id="reste">
             
@@ -49,6 +34,11 @@
 
             <!-- station sans la timeline -->
             <div id = "station">
+                
+                <div id="logo">
+                    <img src="../images/logo/logo_300x300.png" />
+                    <div id="baseline">Voyage dans <br /> Paris par <br />le Métronome</div>
+                </div>
                 <img id="drakkar" src="../images/anecdotes/drakkar-cropped.png"/>
                 <img id="drakkar-hover" src="../images/anecdotes/drakkar_hover-cropped.png"/>
                 
@@ -61,35 +51,56 @@
                 <img id="prostitue" src="../images/anecdotes/prostitue.png" />
                  <img id="prostitue-hover" src="../images/anecdotes/prostitue_hover.png" />
                 
+                <img id="chevalier" src="../images/anecdotes/chevalier-geant.png" />
+                <img id="chevalier-hover" src ="../images/anecdotes/chevalier-geant_hover.png" />
+                
+                <iframe  id ="video_drakkar" src="https://www.youtube.com/embed/kDehTEEoFnE" frameborder="0" allowfullscreen></iframe>
+                <iframe  id ="video_barreau" src="https://www.youtube.com/embed/LKFuXETZUsI" frameborder="0" allowfullscreen></iframe>
+                <iframe  id ="video_cadavre" src="https://www.youtube.com/embed/KYz2wyBy3kc" frameborder="0" allowfullscreen></iframe>
+                <iframe  id ="video_prostitue" src="https://www.youtube.com/embed/ViKC6MGYbUo" frameborder="0" allowfullscreen></iframe>
+                <iframe  id ="video_chevalier" src="https://www.youtube.com/embed/bY73vFGhSVk" frameborder="0" allowfullscreen></iframe>
+                
                   <!-- aller vers la map interactive-->
                 <div id = "map">
                 </div>
+            
             </div>
-
+            
+            
+            <div id="nav-gauche">
+            
+            
+            </div>
+            
+            <div id="nav-droite">
+            
+            
+            </div>
             <!-- Timeline de navigation -->
                  <div id = "timeline">
-                <div class="stations">
-                    <span class="station" id="invalides"><a href="station1.html">Invalides</a></span>
-                    <span class="station" id="chatelet"><a href="station1.html">Châtelet</a></span>
-                    <span class="station" id="cite"><a href="station1.html">Cité</a></span>
-                    <span class="station" id="maubert"><a href="station1.html">Maubert-Mutualité</a></span>
+                    <div class="stations">
+                        <span class="station" id="invalides"><a href="station1.html">Invalides</a></span>
+                        <span class="station" id="chatelet"><a href="station1.html">Châtelet</a></span>
+                        <span class="station" id="cite"><a href="station1.html">Cité</a></span>
+                        <span class="station" id="maubert"><a href="station1.html">Maubert-Mutualité</a></span>
+                    </div>
+                    <div class="stationsDots">
+                        <a href="station1.html"><div class="invalides"></div></a>
+                        <a href="station2.html"><div class="chatelet"></div></a>
+                        <a href="station3.html"><div class="cite"></div></a>
+                        <a href="station4.html"><div class="maubert"></div></a>
+                    </div>
+                    <div class="lines">
+                        <div id="invalides1"></div>
+                        <div id="invalides2"></div>
+                        <div id="chatelet"></div>
+                        <div id="cite1"></div>
+                        <div id="cite2"></div>
+                    </div>
                 </div>
-                <div class="stationsDots">
-                    <a href="station1.html"><div class="invalides"></div></a>
-                    <a href="station2.html"><div class="chatelet"></div></a>
-                    <a href="station3.html"><div class="cite"></div></a>
-                    <a href="station4.html"><div class="maubert"></div></a>
-                </div>
-                <div class="lines">
-                    <div id="invalides1"></div>
-                    <div id="invalides2"></div>
-                    <div id="chatelet"></div>
-                    <div id="cite1"></div>
-                    <div id="cite2"></div>
-                </div>
-            </div>
         </div>
         <script src="../jquery/jquery-3.2.1.min.js"></script>
+        
         <script src="../javaScript/chatelet.js"></script>
         
     </body>

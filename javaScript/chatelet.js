@@ -96,6 +96,201 @@ $(document).ready(function()
     );
     
     
+    $( "#chevalier" ).hover(
+        function() {
+      
+            $( "#chevalier-hover" ).css('display', 'block');
+        }, function() {
+      
+            $( "#chevalier-hover" ).css('display', 'none');
+    }
+    );
+    
+      $( "#chevalier-hover" ).hover(
+        function() {
+      
+            $( "#chevalier-hover" ).css('display', 'block');
+             $( "#chevalier" ).css('display', 'none');
+            
+        }, function() {
+      
+            $( "#chevalier-hover" ).css('display', 'none');
+             $( "#chevalier" ).css('display', 'block');
+    }
+    );
+     /*-----------------------------------------------------------------------------*/
+    
+     $( "#barreau-hover" ).click(
+        function() {
+      
+            $( "#video_barreau" ).css('display', 'block');
+            
+            $( "#video_drakkar" ).css('display', 'none');
+            $( "#video_cadavre" ).css('display', 'none');
+            $( "#video_prostitue" ).css('display', 'none');
+            $( "#video_chevalier" ).css('display', 'none');
+            
+            var video = $("#video_barreau").attr("src");
+            $("#video_barreau").attr("src","");
+            $("#video_barreau").attr("src",video);
+            
+             var video = $("#video_drakkar").attr("src");
+            $("#video_drakkar").attr("src","");
+            $("#video_drakkar").attr("src",video);
+            
+             var video = $("#video_cadavre").attr("src");
+            $("#video_cadavre").attr("src","");
+            $("#video_cadavre").attr("src",video);
+            
+             var video = $("#video_prostitue").attr("src");
+            $("#video_prostitue").attr("src","");
+            $("#video_prostitue").attr("src",video);
+            
+             var video = $("#video_chevalier").attr("src");
+            $("#video_chevalier").attr("src","");
+            $("#video_chevalier").attr("src",video);
+            
+             
+        });
+    
+     /*-----------------------------------------------------------------------------*/
+    
+     $( "#cadavre-hover" ).click(
+        function() {
+            $( "#video_cadavre" ).css('display', 'block');
+            
+            $( "#video_drakkar" ).css('display', 'none');
+            $( "#video_prostitue" ).css('display', 'none');
+            $( "#video_chevalier" ).css('display', 'none');
+            $( "#video_barreau" ).css('display', 'none');
+             
+            
+            var video = $("#video_barreau").attr("src");
+            $("#video_barreau").attr("src","");
+            $("#video_barreau").attr("src",video);
+            
+             var video = $("#video_drakkar").attr("src");
+            $("#video_drakkar").attr("src","");
+            $("#video_drakkar").attr("src",video);
+            
+             var video = $("#video_cadavre").attr("src");
+            $("#video_cadavre").attr("src","");
+            $("#video_cadavre").attr("src",video);
+            
+             var video = $("#video_prostitue").attr("src");
+            $("#video_prostitue").attr("src","");
+            $("#video_prostitue").attr("src",video);
+            
+             var video = $("#video_chevalier").attr("src");
+            $("#video_chevalier").attr("src","");
+            $("#video_chevalier").attr("src",video);
+            
+        });
+    
+    /*-----------------------------------------------------------------------------*/
+    
+     $( "#drakkar-hover" ).click(
+        function() {
+      
+            $( "#video_drakkar" ).css('display', 'block');
+            
+            $( "#video_cadavre" ).css('display', 'none');
+            $( "#video_prostitue" ).css('display', 'none');
+            $( "#video_chevalier" ).css('display', 'none');
+            $( "#video_barreau" ).css('display', 'none');
+             
+             var video = $("#video_barreau").attr("src");
+            $("#video_barreau").attr("src","");
+            $("#video_barreau").attr("src",video);
+            
+             var video = $("#video_drakkar").attr("src");
+            $("#video_drakkar").attr("src","");
+            $("#video_drakkar").attr("src",video);
+            
+             var video = $("#video_cadavre").attr("src");
+            $("#video_cadavre").attr("src","");
+            $("#video_cadavre").attr("src",video);
+            
+             var video = $("#video_prostitue").attr("src");
+            $("#video_prostitue").attr("src","");
+            $("#video_prostitue").attr("src",video);
+            
+             var video = $("#video_chevalier").attr("src");
+            $("#video_chevalier").attr("src","");
+            $("#video_chevalier").attr("src",video);
+            
+            
+        });
+    
+    /*-----------------------------------------------------------------------------*/
+    
+     $( "#prostitue-hover" ).click(
+        function() {
+      
+          $( "#video_prostitue" ).css('display', 'block');
+            
+            $( "#video_drakkar" ).css('display', 'none');
+            $( "#video_cadavre" ).css('display', 'none');
+            $( "#video_barreau" ).css('display', 'none');
+            $( "#video_chevalier" ).css('display', 'none');
+            
+             var video = $("#video_barreau").attr("src");
+            $("#video_barreau").attr("src","");
+            $("#video_barreau").attr("src",video);
+            
+             var video = $("#video_drakkar").attr("src");
+            $("#video_drakkar").attr("src","");
+            $("#video_drakkar").attr("src",video);
+            
+             var video = $("#video_cadavre").attr("src");
+            $("#video_cadavre").attr("src","");
+            $("#video_cadavre").attr("src",video);
+            
+             var video = $("#video_prostitue").attr("src");
+            $("#video_prostitue").attr("src","");
+            $("#video_prostitue").attr("src",video);
+            
+             var video = $("#video_chevalier").attr("src");
+            $("#video_chevalier").attr("src","");
+            $("#video_chevalier").attr("src",video);
+            
+            
+             
+        });
+    /*-----------------------------------------------------------------------------*/
+    
+     $( "#chevalier-hover" ).click(
+        function() {
+      
+            $( "#video_chevalier" ).css('display', 'block');
+            
+            $( "#video_drakkar" ).css('display', 'none');
+            $( "#video_cadavre" ).css('display', 'none');
+            $( "#video_prostitue" ).css('display', 'none');
+            $( "#video_barreau" ).css('display', 'none');
+            
+             var video = $("#video_barreau").attr("src");
+            $("#video_barreau").attr("src","");
+            $("#video_barreau").attr("src",video);
+            
+             var video = $("#video_drakkar").attr("src");
+            $("#video_drakkar").attr("src","");
+            $("#video_drakkar").attr("src",video);
+            
+             var video = $("#video_cadavre").attr("src");
+            $("#video_cadavre").attr("src","");
+            $("#video_cadavre").attr("src",video);
+            
+             var video = $("#video_prostitue").attr("src");
+            $("#video_prostitue").attr("src","");
+            $("#video_prostitue").attr("src",video);
+            
+             var video = $("#video_chevalier").attr("src");
+            $("#video_chevalier").attr("src","");
+            $("#video_chevalier").attr("src",video);
+            
+            
+        });
     
 });
       
