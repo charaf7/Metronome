@@ -251,12 +251,15 @@ li::after{
 }
 
 .modal-window>div {
-  width: 400px;
+  width: 90%;
   position: relative;
-  margin: 10% auto;
+  margin: 2% auto;
   padding: 2rem;
-  background: #fff;
-  color: #444;
+  background: #141414;
+  color: #fff;
+  background-image: url("../images/backgrounds/popup_background.jpg");
+  background-size: cover;
+
 }
 
 .modal-window header {
@@ -270,7 +273,7 @@ li::after{
 	font-family: parisine;
 }
 .modal-close {
-  color: #aaa;
+  color: #ffcb26;
   line-height: 50px;
   font-size: 80%;
   position: absolute;
@@ -280,15 +283,17 @@ li::after{
   width: 70px;
   text-decoration: none;
   font-family: parisine;
+  font-size: 30px;
 }
 
 .modal-close:hover {
-  color: #000;
+  color: #aaa;
 }
 
 .modal-window h1 {
   font-size: 150%;
   margin: 0 0 15px;
+  text-transform: uppercase;
 }
 
 .header .icon {
@@ -299,4 +304,78 @@ li::after{
 }
 .menuModal{
 	display: none;
+}
+.modal-window .content img{
+      width: 10%;
+      text-align: center;
+      margin-top: 20px;
+}
+.modal-window .content{
+      text-align: center;
+      height: 74vh;
+      overflow: scroll;
+      overflow-x: auto;
+}
+.modal-window .content p{
+      text-align: left;
+      font-family: parisine;
+      line-height: 25px;
+      width: 70%;
+	  margin: 0 auto;
+	  margin-top: 10px;
+	  font-size: 14px;
+}
+.modal-window  h2{
+	font-size: 17px;
+	font-family: parisine;
+	font-weight: initial;
+	color: #ffcb26;
+}
+#pictures{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 85%;
+	margin: 0 auto;
+
+}
+#pictures .person{
+	width: 17%;
+	position: relative;
+	margin-left: 12px;
+	margin-bottom: 18px;
+}
+#pictures .person img{
+	width: 100%;
+}
+#pictures .person .hidden{
+	visibility: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#pictures .person:hover .hidden{
+	width: 100%;
+	visibility: visible;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#pictures .person .hidden img{
+	width: 100%;
+}
+.modal-window  h3{
+	font-size: 12px;
+	font-family: parisine;
+	font-weight: initial;
+	color: #ffcb26;
+	margin-bottom: 0;
+}
+.modal-window span{
+	font-size: 11px;
+	font-family: parisine;
+	font-weight: initial;
+	color: #fff;
+	display: block;
+	text-align: center;
 }
