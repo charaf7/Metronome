@@ -48,73 +48,73 @@ $(document).ready(function()
     }
     );
     
-    $( "#cadavre" ).hover(
+    $( "#diable" ).hover(
         function() {
       
-            $( "#cadavre-hover" ).css('display', 'block');
+            $( "#diable-hover" ).css('display', 'block');
         }, function() {
       
-            $( "#cadavre-hover" ).css('display', 'none');
+            $( "#diable-hover" ).css('display', 'none');
     }
     );
     
-      $( "#cadavre-hover" ).hover(
+      $( "#diable-hover" ).hover(
         function() {
       
-            $( "#cadavre-hover" ).css('display', 'block');
-             $( "#cadavre" ).css('display', 'none');
+            $( "#diable-hover" ).css('display', 'block');
+             $( "#diable" ).css('display', 'none');
             
         }, function() {
       
-            $( "#cadavre-hover" ).css('display', 'none');
-             $( "#cadavre" ).css('display', 'block');
+            $( "#diable-hover" ).css('display', 'none');
+             $( "#diable" ).css('display', 'block');
     }
     );
     
-     $( "#prostitue" ).hover(
+     $( "#culotte" ).hover(
         function() {
       
-            $( "#prostitue-hover" ).css('display', 'block');
+            $( "#culotte-hover" ).css('display', 'block');
         }, function() {
       
-            $( "#prostitue-hover" ).css('display', 'none');
+            $( "#culotte-hover" ).css('display', 'none');
     }
     );
     
-      $( "#prostitue-hover" ).hover(
+      $( "#culotte-hover" ).hover(
         function() {
       
-            $( "#prostitue-hover" ).css('display', 'block');
-             $( "#prostitue" ).css('display', 'none');
+            $( "#culotte-hover" ).css('display', 'block');
+             $( "#culotte" ).css('display', 'none');
             
         }, function() {
       
-            $( "#prostitue-hover" ).css('display', 'none');
-             $( "#prostitue" ).css('display', 'block');
+            $( "#culotte-hover" ).css('display', 'none');
+             $( "#culotte" ).css('display', 'block');
     }
     );
     
     
-    $( "#chevalier" ).hover(
+    $( "#plateau" ).hover(
         function() {
       
-            $( "#chevalier-hover" ).css('display', 'block');
+            $( "#plateau-hover" ).css('display', 'block');
         }, function() {
       
-            $( "#chevalier-hover" ).css('display', 'none');
+            $( "#plateau-hover" ).css('display', 'none');
     }
     );
     
-      $( "#chevalier-hover" ).hover(
+      $( "#plateau-hover" ).hover(
         function() {
       
-            $( "#chevalier-hover" ).css('display', 'block');
-             $( "#chevalier" ).css('display', 'none');
+            $( "#plateau-hover" ).css('display', 'block');
+             $( "#plateau" ).css('display', 'none');
             
         }, function() {
       
-            $( "#chevalier-hover" ).css('display', 'none');
-             $( "#chevalier" ).css('display', 'block');
+            $( "#plateau-hover" ).css('display', 'none');
+             $( "#plateau" ).css('display', 'block');
     }
     );
      /*-----------------------------------------------------------------------------*/

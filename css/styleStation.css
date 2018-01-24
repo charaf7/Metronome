@@ -416,9 +416,71 @@ li::after{
     position: absolute;
     left: 32%;
     bottom : 3vh;
-    width: 12.5%;
+    width: 12.2%;
     height: auto;
     border-radius: 10%;
+    display: none;
+    
+}
+
+#diable{
+    position: absolute;
+    right: 0;
+    bottom : 22vh;
+    width: 16%;
+    height: auto;
+    
+}
+
+#diable-hover{
+    position: absolute;
+    right: 0;
+    bottom : 22vh;
+    width: 16.2%;
+    height: auto;
+    display: none;
+    
+}
+
+
+#culotte{
+    position: absolute;
+    left: 52%;
+    bottom : 9vh;
+    width: 8%;
+    height: auto;
+    border-radius: 10%;
+    
+}
+
+#culotte-hover{
+
+    position: absolute;
+    left: 52%;
+    bottom : 9vh;
+    width: 8.2%;
+    height: auto;
+    display: none;
+    
+}
+
+#plateau{
+    position: absolute;
+    left: 12%;
+    bottom : 3vh;
+    width: 10%;
+    height: auto;
+    border-radius: 10%;
+    
+}
+
+#plateau-hover{
+
+    position: absolute;
+    left: 12%;
+    bottom : 3vh;
+    width: 10.5%;
+    height: auto;
     display: none;
     
 }
