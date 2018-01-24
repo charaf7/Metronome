@@ -84,6 +84,7 @@
 	border : 2px #141414 solid;
 	z-index: 999;
 }
+
 #timeline .stationsDots .cite{
 	position: absolute;
 	background-color: #fff;
@@ -105,6 +106,18 @@
 	left: 79%;
 	border : 2px #141414 solid;
 	z-index: 999;
+}
+#timeline .stationsDots .chatelet:hover{
+	background-color: #BD4D99 !important;
+}
+#timeline .stationsDots .maubert:hover{
+	background-color: #F0C736 !important;
+}
+#timeline .stationsDots .invalides:hover{
+	background-color: #BEA0C2 !important;
+}
+#timeline .stationsDots .cite:hover{
+	background-color: #BD4D99 !important;
 }
 #timeline .lines{
 	position: relative;
