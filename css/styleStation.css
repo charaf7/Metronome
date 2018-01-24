@@ -166,7 +166,7 @@ li::after{
     position: absolute;
     right: 0;
     bottom : 3vh;
-    width :18%;
+    width :16%;
     height: auto;
 }
 
@@ -174,7 +174,7 @@ li::after{
     position: absolute;
     right: 0;
     bottom : 3vh;
-    width :17%;
+    width :15%;
     height: auto;
     display: none;
 }
@@ -246,7 +246,7 @@ li::after{
 
 #chevalier{
     position: absolute;
-    left: 58%;
+    left: 45%;
     bottom : 47vh;
     width: 12%;
     height: auto;
@@ -254,7 +254,7 @@ li::after{
 
 #chevalier-hover{
     position: absolute;
-    left: 58%;
+    left: 45%;
     bottom : 47vh;
     width: 13%;
     height: auto;
@@ -304,4 +304,121 @@ li::after{
     bottom: 18vh;
     left: 7.4%;
     display: none;
+}
+
+#texte_drakkar{
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 65%;
+    bottom: 21vh;
+    color: white;
+   background-color: transparent;
+    font-family: parisine;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
+    
+}
+
+#texte_barreau{
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 65%;
+    bottom: 21vh;
+    color: white;
+   background-color: transparent;
+    font-family: parisine;
+    overflow-y: scroll;
+    overflow-x: hidden;
+     display: none;
+    
+}
+
+#texte_cadavre{
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 65%;
+    bottom: 21vh;
+    color: white;
+   background-color: transparent;
+    font-family: parisine;
+    overflow-y: scroll;
+    overflow-x: hidden;
+     display: none;
+    
+}
+
+#texte_prostitue{
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 65%;
+    bottom: 21vh;
+    color: white;
+   background-color: transparent;
+    font-family: parisine;
+    overflow-y: scroll;
+    overflow-x: hidden;
+     display: none;
+}
+
+#texte_chevalier{
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 65%;
+    bottom: 21vh;
+    color: white;
+   background-color: transparent;
+    font-family: parisine;
+    overflow-y: scroll;
+    overflow-x: hidden;
+     display: none;
+    
+}
+
+
+#robert{
+    position: absolute;
+    left: 32%;
+    bottom : 51vh;
+    width: 8%;
+    height: auto;
+    border-radius: 10%;
+    
+}
+
+#robert-hover{
+    position: absolute;
+    left: 32%;
+    bottom : 51vh;
+    width: 8.5%;
+    height: auto;
+    border-radius: 10%;
+    display: none;
+    
+}
+
+#romain{
+    position: absolute;
+    left: 32%;
+    bottom : 3vh;
+    width: 12%;
+    height: auto;
+    border-radius: 10%;
+    
+}
+
+#romain-hover{
+    position: absolute;
+    left: 32%;
+    bottom : 3vh;
+    width: 12.5%;
+    height: auto;
+    border-radius: 10%;
+    display: none;
+    
 }

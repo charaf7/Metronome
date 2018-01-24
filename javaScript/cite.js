@@ -1,51 +1,50 @@
 $(document).ready(function()
 {
  
-    
-    $( "#drakkar" ).hover(
+    $( "#robert" ).hover(
         function() {
       
-            $( "#drakkar-hover" ).css('display', 'block');
+            $( "#robert-hover" ).css('display', 'block');
         }, function() {
       
-            $( "#drakkar-hover" ).css('display', 'none');
+            $( "#robert-hover" ).css('display', 'none');
     }
     );
     
-      $( "#drakkar-hover" ).hover(
+      $( "#robert-hover" ).hover(
         function() {
       
-            $( "#drakkar-hover" ).css('display', 'block');
-             $( "#drakkar" ).css('display', 'none');
+            $( "#robert-hover" ).css('display', 'block');
+             $( "#robert" ).css('display', 'none');
             
         }, function() {
       
-            $( "#drakkar-hover" ).css('display', 'none');
-             $( "#drakkar" ).css('display', 'block');
+            $( "#robert-hover" ).css('display', 'none');
+             $( "#robert" ).css('display', 'block');
     }
     );
     
     
-    $( "#barreau" ).hover(
+    $( "#romain" ).hover(
         function() {
       
-            $( "#barreau-hover" ).css('display', 'block');
+            $( "#romain-hover" ).css('display', 'block');
         }, function() {
       
-            $( "#barreau-hover" ).css('display', 'none');
+            $( "#romain-hover" ).css('display', 'none');
     }
     );
     
-      $( "#barreau-hover" ).hover(
+      $( "#romain-hover" ).hover(
         function() {
       
-            $( "#barreau-hover" ).css('display', 'block');
-             $( "#barreau" ).css('display', 'none');
+            $( "#romain-hover" ).css('display', 'block');
+             $( "#romain" ).css('display', 'none');
             
         }, function() {
       
-            $( "#barreau-hover" ).css('display', 'none');
-             $( "#barreau" ).css('display', 'block');
+            $( "#romain-hover" ).css('display', 'none');
+             $( "#romain" ).css('display', 'block');
     }
     );
     
