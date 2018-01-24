@@ -379,3 +379,20 @@ li::after{
 	display: block;
 	text-align: center;
 }
+#sources p{
+	text-align: center;
+}
+.aide p{
+	width: 100% !important;
+}
+.aide h2{
+	margin-bottom: 40px;
+}
+.aide h3{
+	font-size: 15px;
+	text-align: left;
+}
+.aide section {
+	width: 70%;
+	margin: 0 auto;
+}

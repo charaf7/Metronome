@@ -276,4 +276,37 @@
       font-size: 14px;
       width: 95%;
   }
+  #pictures{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 85%;
+  margin: 0 auto;
+
+}
+#pictures .person{
+  width: 80%;
+  position: relative;
+  margin-left: 12px;
+  margin-bottom: 18px;
+}
+#pictures .person img{
+  width: 100%;
+}
+#pictures .person .hidden{
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#pictures .person:hover .hidden{
+  width: 100%;
+  visibility: visible;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#pictures .person .hidden img{
+  width: 100%;
+}
 }
