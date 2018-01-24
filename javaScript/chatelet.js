@@ -123,7 +123,7 @@ $(document).ready(function()
      $( "#barreau-hover" ).click(
         function() {
       
-            $( "#video").css('display', 'none');
+            
              
         });
     
@@ -132,7 +132,7 @@ $(document).ready(function()
      $( "#cadavre-hover" ).click(
         function() {
       
-            $( "#video").css('display', 'none');
+            
              
         });
     
@@ -141,7 +141,7 @@ $(document).ready(function()
      $( "#drakkar-hover" ).click(
         function() {
       
-            $( "#video").css('display', 'none');
+            
              
         });
     
@@ -150,10 +150,17 @@ $(document).ready(function()
      $( "#prostitue-hover" ).click(
         function() {
       
-            $( "#video").css('display', 'none');
+          
              
         });
+    /*-----------------------------------------------------------------------------*/
     
+     $( "#chevalier-hover" ).click(
+        function() {
+      
+          
+             
+        });
     
 });
       
