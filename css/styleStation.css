@@ -260,3 +260,48 @@ li::after{
     height: auto;
      display: none;
 }
+
+#video_drakkar{
+    position: absolute;
+    width: 31%;
+    height: 55%;
+    bottom: 18vh;
+    left: 7.4%;
+    display: none;
+}
+
+#video_barreau{
+    position: absolute;
+    width: 31%;
+    height: 55%;
+    bottom: 18vh;
+    left: 7.4%;
+    display: none;
+}
+
+#video_cadavre{
+    position: absolute;
+    width: 31%;
+    height: 55%;
+    bottom: 18vh;
+    left: 7.4%;
+    display: none;
+}
+
+#video_prostitue{
+    position: absolute;
+    width: 31%;
+    height: 55%;
+    bottom: 18vh;
+    left: 7.4%;
+    display: none;
+}
+
+#video_chevalier{
+    position: absolute;
+    width: 31%;
+    height: 55%;
+    bottom: 18vh;
+    left: 7.4%;
+    display: none;
+}
