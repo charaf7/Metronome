@@ -163,3 +163,41 @@
 	top: 13.1vh;
 	left: 68%;
 }
+#timeline #next{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 100px;	
+}
+#timeline #next img{
+	width: 18%;
+}
+#timeline #back{
+	position: absolute;
+	left: 5%;
+	top: 50%;
+	width: 100px;	
+}
+#timeline #back img{
+	width: 18%;	
+}
+#timeline #next-hover{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	opacity: 0.7;
+	border-radius: 50%;
+}
+#timeline #back-hover{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	opacity: 0.7;
+	border-radius: 50%;
+}
