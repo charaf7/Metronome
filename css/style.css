@@ -135,6 +135,9 @@ li::after{
 .langue:hover .langues{
     display: block;
 }
+.header .icon {
+  display: none;
+}
 #logonav{
 	height: 12vh;
 	display: flex;
@@ -296,9 +299,6 @@ li::after{
   text-transform: uppercase;
 }
 
-.header .icon {
-  display: none;
-}
 .mobileStations{
 	display: none;
 }

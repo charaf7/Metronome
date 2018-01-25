@@ -1,0 +1,169 @@
+
+.modal-window {
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.15);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	opacity: 0;
+	pointer-events: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.modal-window:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-window>div {
+  width: 90%;
+  position: relative;
+  margin: 2% auto;
+  padding: 2rem;
+  background: #141414;
+  color: #fff;
+  background-image: url("../images/backgrounds/popup_background.jpg");
+  background-size: cover;
+
+}
+
+.modal-window header {
+  font-weight: bold;
+}
+
+.backgroundMobile{
+	display: none;
+}
+.modal-title{
+	font-family: parisine;
+}
+.modal-close {
+  color: #ffcb26;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+  font-family: parisine;
+  font-size: 30px;
+}
+
+.modal-close:hover {
+  color: #aaa;
+}
+
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+  text-transform: uppercase;
+  color : #ffcb26;
+  text-align: center;
+}
+
+.mobileStations{
+	display: none;
+}
+.menuModal{
+	display: none;
+}
+.modal-window .content img{
+      width: 10%;
+      text-align: center;
+      margin-top: 20px;
+}
+.modal-window .content{
+      text-align: center;
+      height: 74vh;
+      overflow: scroll;
+      overflow-x: auto;
+}
+.modal-window .content p{
+      text-align: left;
+      font-family: parisine;
+      line-height: 25px;
+      width: 70%;
+	  margin: 0 auto;
+	  margin-top: 10px;
+	  font-size: 14px;
+}
+.modal-window  h2{
+	font-size: 17px;
+	font-family: parisine;
+	font-weight: initial;
+	color: #ffcb26;
+}
+#pictures{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 85%;
+	margin: 0 auto;
+
+}
+#pictures .person{
+	width: 17%;
+	position: relative;
+	margin-left: 12px;
+	margin-bottom: 18px;
+}
+#pictures .person img{
+	width: 100%;
+}
+#pictures .person .hidden{
+	visibility: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#pictures .person:hover .hidden{
+	width: 100%;
+	visibility: visible;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#pictures .person .hidden img{
+	width: 100%;
+}
+.modal-window  h3{
+	font-size: 12px;
+	font-family: parisine;
+	font-weight: initial;
+	color: #ffcb26;
+	margin-bottom: 0;
+}
+.modal-window span{
+	font-size: 11px;
+	font-family: parisine;
+	font-weight: initial;
+	color: #fff;
+	display: block;
+	text-align: center;
+}
+#sources p{
+	text-align: center;
+}
+.aide p{
+	width: 100% !important;
+}
+.aide h2{
+	margin-bottom: 40px;
+}
+.aide h3{
+	font-size: 15px;
+	text-align: left;
+}
+.aide section {
+	width: 70%;
+	margin: 0 auto;
+}
+.modal-window h4 {
+	color: #ffcb26;
+}

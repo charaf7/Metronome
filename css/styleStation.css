@@ -5,9 +5,8 @@
 
 @font-face {
   font-family: 'parisine';
-  src: url('../lib/fonts/ParisineSombreRegular.ttf') format('truetype'); 
+  src: url('../lib/fonts/parisine_regular.ttf') format('truetype'); 
 }
-
 
 
 html{
@@ -26,6 +25,7 @@ body{
     /*enlever les marges automatiques */
     margin: 0;
     position: relative;
+    z-index: 2;
 }
 
 /*#fond img{
@@ -43,11 +43,6 @@ body{
     height: 100%;
 }
 
-#reste{
-    position: relative;
-    z-index: 2;
-    
-}
 
 header{
      background-color: transparent;
@@ -114,13 +109,6 @@ li::after{
     color: black;
     text-decoration: none;
 }
-
-
-.langue{
-    /* à l'origine, les langues sont cachées */
-    visibility: hidden;
-}
-
 
 #station{
     height: 64.6vh;

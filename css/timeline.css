@@ -1,14 +1,9 @@
 
-@font-face {
-  font-family: 'parisine';
-  src: url('../lib/fonts/parisine_regular.ttf') format('truetype'); 
-}
-
-
 #timeline{
 	height: 20.4vh;
 	background-color: #141414;
 	width: 100%;
+	position: relative;
 }
 #timeline .stations{
 	position: relative;
