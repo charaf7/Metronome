@@ -12,14 +12,11 @@
         <link rel="stylesheet" type="text/css" href="../css/styleMobile.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <script src="../jquery/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="../javascript/mobileLanguages.js"></script>
-        <script src="../javaScript/load.js"></script>
-        <script src="../javaScript/chatelet.js"></script>
     </head>
     <body>
-        <img id ="background" src="../images/backgrounds/background_chatelet.jpg" alt="vous êtes à la station Chatelet" />
-                   <!--<header class="header" id="nav">
+        <img id ="background" src="../images/backgrounds/background_chatelet.jpg" alt="vous êtes à la station Chatelet/Vous vous trouvez dans la station de métro Invalides et sur le quai d'en face il y a :" />
+                <!--
+            <header>
                 <ul>
                     <div id="menu">
                         <li><a href="../index.html">ACCUEIL</a></li>
@@ -60,11 +57,8 @@
                 <li class="icon"><a href="#mobileMenu">&#9776;</a></li>
             </ul>
         </header>
-
-
-        <!-- station sans la timeline -->
+         <!-- station sans la timeline -->
         <div id = "station">
-            
             <div id="logo">
                 <img src="../images/logo/logo_300x300.png" />
                 <div id="baseline">Voyage dans <br /> Paris par <br />le Métronome</div>
@@ -174,7 +168,7 @@
             </div>
             <iframe  id ="video_chevalier" src="https://www.youtube.com/embed/bY73vFGhSVk" frameborder="0" allowfullscreen></iframe>
              <div id="texte_chevalier">
-            <p>CHEVALIER xtetextetexteteextetexte<br />
+                <p>CHEVALIER xtetextetexteteextetexte<br />
                 textetextetextetextetexttextetete<br />
                 textetextetetextetetextetexte<br />
                 textetextetetextetextetextetext<br />
@@ -197,44 +191,49 @@
               <!-- aller vers la map interactive-->
             <div id = "map">
             </div>
-        
-        </div>
-        
-        
-        <div id="nav-gauche">
+    
+    </div>
         
         
-        </div>
+    <div id="nav-gauche">
+    
+    
+    </div>
+    
+    <div id="nav-droite">
         
-        <div id="nav-droite">
         
-        
-        </div>
+    </div>
         <!-- Timeline de navigation -->
-        <div id = "timeline">
-            <div class="stations">
-                <span class="station" id="invalides"><a href="station1.html">Invalides</a></span>
-                <span class="station" id="chatelet"><a href="station1.html">Châtelet</a></span>
-                <span class="station" id="cite"><a href="station2.html">Cité</a></span>
-                <span class="station" id="maubert"><a href="station1.html">Maubert-Mutualité</a></span>
-            </div>
-            <div class="stationsDots">
-                <a href="station1.html"><div class="invalides"></div></a>
-                <a href="station1.html"><div class="chatelet" style="background-color: #F0C736;"></div></a>
-                <a href="station2.html"><div class="cite"></div></a>
-                <a href="station4.html"><div class="maubert"></div></a>
-            </div>
-            <div class="lines">
-                <div id="invalides1"></div>
-                <div id="invalides2"></div>
-                <div id="chatelet"></div>
-                <div id="cite1"></div>
-                <div id="cite2"></div>
-            </div>
+    <div id = "timeline">
+        <div class="stations">
+            <span class="station" id="invalides"><a href="station1.html">Invalides</a></span>
+            <span class="station" id="chatelet"><a href="station1.html">Châtelet</a></span>
+            <span class="station" id="cite"><a href="station2.html">Cité</a></span>
+            <span class="station" id="maubert"><a href="station1.html">Maubert-Mutualité</a></span>
         </div>
-        <div id="apropos" class="modal-window"></div>
-        <div id="credit" class="modal-window"></div>
-        <div id="aide" class="modal-window"></div>
-        <div id="mobileMenu" class="menuModal"></div>        
+        <div class="stationsDots">
+            <a href="station1.html"><div class="invalides"></div></a>
+            <a href="station1.html"><div class="chatelet" style="background-color: #F0C736;"></div></a>
+            <a href="station2.html"><div class="cite"></div></a>
+            <a href="station4.html"><div class="maubert"></div></a>
+        </div>
+        <div class="lines">
+            <div id="invalides1"></div>
+            <div id="invalides2"></div>
+            <div id="chatelet"></div>
+            <div id="cite1"></div>
+            <div id="cite2"></div>
+        </div>
+    </div>
+    <div id="apropos" class="modal-window"></div>
+    <div id="credit" class="modal-window"></div>
+    <div id="aide" class="modal-window"></div>
+    <div id="mobileMenu" class="menuModal"></div>
+
+    <script src="../jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../javascript/mobileLanguages.js"></script>
+    <script src="../javaScript/load.js"></script>
+    <script src="../javaScript/chatelet.js"></script>        
     </body>
 </html>
