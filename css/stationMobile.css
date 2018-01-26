@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+	body{
+		background-color: #141414;
+		overflow-x: hidden;
+	}
+	#background{
+		width: auto;
+		left: -85%;
+		opacity: 0.5;
+	}
+	#station{
+		height: 85vh;
+		overflow: scroll;
+	}
+	#logo img {
+    position: absolute;
+    width: 16%;
+    height: auto;
+    left: 23%;
+    top: 3vh;
+	}
+	#baseline {
+	    position: absolute;
+	    font-family: paris;
+	    font-size: 108%;
+	    color: #ffcb26;
+	    left: 43%;
+	    top: 3vh;
+	}
+	#timeline{
+		display: none;
+	}
+
+	.anecdoteVideo{
+		position: initial;
+	    width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	    margin-top: 20px;
+	    margin-bottom:  10px;
+	    height: auto;
+	}
+	.anecdoteText{
+		position: initial;
+	    width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	    margin-bottom: 20px;
+	}
+	.illustration{
+		display: none;
+	}
+	
+}

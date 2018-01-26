@@ -73,6 +73,10 @@ header li::after{
 .langues li a{
 	display: initial;
 }
+.langues a{
+  text-align: center !important;
+  width: 100% !important;
+}
 .langues li:hover::after {
 	width: 40px;
 }

@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="../css/header.css" />
         <link rel="stylesheet" type="text/css" href="../css/modal.css" />
         <link rel="stylesheet" type="text/css" href="../css/styleMobile.css" />
+        <link rel="stylesheet" type="text/css" href="../css/stationMobile.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
     </head>
@@ -39,29 +40,30 @@
                 <li class="icon"><a href="#mobileMenu">&#9776;</a></li>
             </ul>
         </header>
-         <!-- station sans la timeline -->
-        <div id = "station">
-            <div id="logo">
+        <div id="logo">
                 <img src="../images/logo/logo_300x300.png" />
                 <div id="baseline">Voyage dans <br /> Paris par <br />le Métronome</div>
-            </div>
-            <img id="drakkar" src="../images/anecdotes/drakkar-cropped.png"/>
+        </div>
+         <!-- station sans la timeline -->
+        <div id = "station">
+            
+            <img class="illustration" id="drakkar" src="../images/anecdotes/drakkar-cropped.png"/>
             <img id="drakkar-hover" src="../images/anecdotes/drakkar_hover-cropped.png"/>
             
-            <img id="barreau" src="../images/anecdotes/barreaux.png" />
+            <img class="illustration" id="barreau" src="../images/anecdotes/barreaux.png" />
             <img id="barreau-hover" src="../images/anecdotes/barreaux_hover.png" />
             
-            <img id="cadavre" src="../images/anecdotes/cadavre.png" />
+            <img class="illustration" id="cadavre" src="../images/anecdotes/cadavre.png" />
             <img id="cadavre-hover" src="../images/anecdotes/cadavre_hover.png" />
             
-            <img id="prostitue" src="../images/anecdotes/prostitue.png" />
+            <img class="illustration" id="prostitue" src="../images/anecdotes/prostitue.png" />
              <img id="prostitue-hover" src="../images/anecdotes/prostitue_hover.png" />
             
-            <img id="chevalier" src="../images/anecdotes/chevalier-geant.png" />
+            <img class="illustration" id="chevalier" src="../images/anecdotes/chevalier-geant.png" />
             <img id="chevalier-hover" src ="../images/anecdotes/chevalier-geant_hover.png" />
             
-            <iframe  id ="video_drakkar" src="https://www.youtube.com/embed/kDehTEEoFnE" frameborder="0" allowfullscreen></iframe>
-            <div id="texte_drakkar">
+            <iframe class="anecdoteVideo" id ="video_drakkar" src="https://www.youtube.com/embed/kDehTEEoFnE" frameborder="0" allowfullscreen></iframe>
+            <div id="texte_drakkar" class="anecdoteText">
             <p>DRAKKAR tetextetextetexttextetexte<br />
                 textetextetextetextetexttextetete<br />
                 textetextetetextetetextetexte<br />
@@ -82,8 +84,8 @@
                 textetextetexte<br /><br />
                 </p>
             </div>
-            <iframe  id ="video_barreau" src="https://www.youtube.com/embed/LKFuXETZUsI" frameborder="0" allowfullscreen></iframe>
-             <div id="texte_barreau">
+            <iframe  class="anecdoteVideo" id ="video_barreau" src="https://www.youtube.com/embed/LKFuXETZUsI" frameborder="0" allowfullscreen></iframe>
+             <div id="texte_barreau" class="anecdoteText">
             <p>BARREAU extetextetextetexttextetexte<br />
                 textetextetextetextetexttextetete<br />
                 textetextetetextetetextetexte<br />
@@ -104,8 +106,8 @@
                 textetextetexte<br /><br />
                 </p>
             </div>
-            <iframe  id ="video_cadavre" src="https://www.youtube.com/embed/KYz2wyBy3kc" frameborder="0" allowfullscreen></iframe>
-             <div id="texte_cadavre">
+            <iframe class="anecdoteVideo" id ="video_cadavre" src="https://www.youtube.com/embed/KYz2wyBy3kc" frameborder="0" allowfullscreen></iframe>
+             <div id="texte_cadavre" class="anecdoteText">
             <p>CADAVRE textetextetexteteextetexte<br />
                 textetextetextetextetexttextetete<br />
                 textetextetetextetetextetexte<br />
@@ -126,8 +128,8 @@
                 textetextetexte<br /><br />
                 </p>
             </div>
-            <iframe  id ="video_prostitue" src="https://www.youtube.com/embed/ViKC6MGYbUo" frameborder="0" allowfullscreen></iframe>
-             <div id="texte_prostitue">
+            <iframe class="anecdoteVideo" id ="video_prostitue" src="https://www.youtube.com/embed/ViKC6MGYbUo" frameborder="0" allowfullscreen></iframe>
+             <div id="texte_prostitue" class="anecdoteText">
             <p>PROSTITUE teetextetexteteextetexte<br />
                 textetextetextetextetexttextetete<br />
                 textetextetetextetetextetexte<br />
@@ -148,8 +150,8 @@
                 textetextetexte<br /><br />
                 </p>
             </div>
-            <iframe  id ="video_chevalier" src="https://www.youtube.com/embed/bY73vFGhSVk" frameborder="0" allowfullscreen></iframe>
-             <div id="texte_chevalier">
+            <iframe class="anecdoteVideo" id ="video_chevalier" src="https://www.youtube.com/embed/bY73vFGhSVk" frameborder="0" allowfullscreen></iframe>
+             <div id="texte_chevalier" class="anecdoteText">
                 <p>CHEVALIER xtetextetexteteextetexte<br />
                 textetextetextetextetexttextetete<br />
                 textetextetetextetetextetexte<br />

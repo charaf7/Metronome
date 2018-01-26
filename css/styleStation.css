@@ -126,7 +126,7 @@ li::after{
     width:6%;
     height: auto;
     left: 1%;
-    bottom : 55.5vh;
+    top: 11vh;
     
 }
 
@@ -144,7 +144,7 @@ li::after{
     font-size: 130%;
     color : #ffcb26;
     left: 8%;
-    bottom : 55.5vh;
+    top: 13vh;
     
 }
 
@@ -247,8 +247,29 @@ li::after{
     height: auto;
      display: none;
 }
+.anecdoteVideo{
+    position: absolute;
+    width: 31%;
+    height: 55%;
+    bottom: 18vh;
+    left: 7.4%;
+    display: none;
+}
+.anecdoteText{
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 65%;
+    bottom: 21vh;
+    color: white;
+    background-color: transparent;
+    font-family: parisine;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
+}
 
-#video_drakkar{
+/*#video_drakkar{
     position: absolute;
     width: 31%;
     height: 55%;
@@ -366,7 +387,7 @@ li::after{
      display: none;
     
 }
-
+*/
 
 #robert{
     position: absolute;
