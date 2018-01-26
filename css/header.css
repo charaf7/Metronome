@@ -103,6 +103,7 @@ header .icon {
     float: right;
     display: block;
     margin-top: 1vh;
+    margin-left: 10px;
   }
   header .icon a {
   	  font-size:35px;
