@@ -12,14 +12,14 @@
 		height: 85vh;
 		overflow: scroll;
 	}
-	#logo img {
+	#logoChatelet img {
     position: absolute;
     width: 16%;
     height: auto;
     left: 23%;
     top: 3vh;
 	}
-	#baseline {
+	#baselineChatelet {
 	    position: absolute;
 	    font-family: paris;
 	    font-size: 108%;
@@ -31,7 +31,7 @@
 		display: none;
 	}
 
-	.anecdoteVideo{
+	.anecdoteVideoChatelet{
 		position: initial;
 	    width: 80%;
 	    margin: 0 auto;
@@ -40,7 +40,7 @@
 	    margin-bottom:  10px;
 	    height: auto;
 	}
-	.anecdoteText{
+	.anecdoteTextChatelet{
 		position: initial;
 	    width: 80%;
 	    margin: 0 auto;

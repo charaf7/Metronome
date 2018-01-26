@@ -119,209 +119,208 @@ $(document).ready(function()
     );
      /*-----------------------------------------------------------------------------*/
     
-     $( "#barreau-hover" ).click(
+     $( "#robert-hover" ).click(
         function() {
       
-            $( "#video_barreau" ).css('display', 'block');
+            $( "#video_robert" ).css('display', 'block');
             
-            $( "#video_drakkar" ).css('display', 'none');
-            $( "#video_cadavre" ).css('display', 'none');
-            $( "#video_prostitue" ).css('display', 'none');
-            $( "#video_chevalier" ).css('display', 'none');
+            $( "#video_romain" ).css('display', 'none');
+            $( "#video_diable" ).css('display', 'none');
+            $( "#video_plateau" ).css('display', 'none');
+            $( "#video_culotte" ).css('display', 'none');
             
-            $( "#texte_barreau" ).css('display', 'block');
+            $( "#texte_robert" ).css('display', 'block');
             
-            $( "#texte_drakkar" ).css('display', 'none');
-            $( "#texte_cadavre" ).css('display', 'none');
-            $( "#texte_prostitue" ).css('display', 'none');
-            $( "#texte_chevalier" ).css('display', 'none');
+            $( "#texte_romain" ).css('display', 'none');
+            $( "#texte_diable" ).css('display', 'none');
+            $( "#texte_plateau" ).css('display', 'none');
+            $( "#texte_culotte" ).css('display', 'none');
             
-            var video = $("#video_barreau").attr("src");
-            $("#video_barreau").attr("src","");
-            $("#video_barreau").attr("src",video);
+            var video = $("#video_robert").attr("src");
+            $("#video_robert").attr("src","");
+            $("#video_robert").attr("src",video);
             
-             var video = $("#video_drakkar").attr("src");
-            $("#video_drakkar").attr("src","");
-            $("#video_drakkar").attr("src",video);
+             var video = $("#video_romain").attr("src");
+            $("#video_romain").attr("src","");
+            $("#video_romain").attr("src",video);
             
-             var video = $("#video_cadavre").attr("src");
-            $("#video_cadavre").attr("src","");
-            $("#video_cadavre").attr("src",video);
+             var video = $("#video_diable").attr("src");
+            $("#video_diable").attr("src","");
+            $("#video_diable").attr("src",video);
             
-             var video = $("#video_prostitue").attr("src");
-            $("#video_prostitue").attr("src","");
-            $("#video_prostitue").attr("src",video);
+             var video = $("#video_plateau").attr("src");
+            $("#video_plateau").attr("src","");
+            $("#video_plateau").attr("src",video);
             
-             var video = $("#video_chevalier").attr("src");
-            $("#video_chevalier").attr("src","");
-            $("#video_chevalier").attr("src",video);
+             var video = $("#video_culotte").attr("src");
+            $("#video_culotte").attr("src","");
+            $("#video_culotte").attr("src",video);
             
              
         });
     
      /*-----------------------------------------------------------------------------*/
     
-     $( "#cadavre-hover" ).click(
+     $( "#romain-hover" ).click(
         function() {
-            $( "#video_cadavre" ).css('display', 'block');
+            $( "#video_romain" ).css('display', 'block');
             
-            $( "#video_drakkar" ).css('display', 'none');
-            $( "#video_prostitue" ).css('display', 'none');
-            $( "#video_chevalier" ).css('display', 'none');
-            $( "#video_barreau" ).css('display', 'none');
+            $( "#video_robert" ).css('display', 'none');
+            $( "#video_diable" ).css('display', 'none');
+            $( "#video_plateau" ).css('display', 'none');
+            $( "#video_culotte" ).css('display', 'none');
             
-            $( "#texte_cadavre" ).css('display', 'block');
+            $( "#texte_romain" ).css('display', 'block');
             
-            $( "#texte_drakkar" ).css('display', 'none');
-            $( "#texte_prostitue" ).css('display', 'none');
-            $( "#texte_chevalier" ).css('display', 'none');
-            $( "#texte_barreau" ).css('display', 'none');
+            $( "#texte_robert" ).css('display', 'none');
+            $( "#texte_diable" ).css('display', 'none');
+            $( "#texte_plateau" ).css('display', 'none');
+            $( "#texte_culotte" ).css('display', 'none');
              
             
-            var video = $("#video_barreau").attr("src");
-            $("#video_barreau").attr("src","");
-            $("#video_barreau").attr("src",video);
+            var video = $("#video_robert").attr("src");
+            $("#video_robert").attr("src","");
+            $("#video_robert").attr("src",video);
             
-             var video = $("#video_drakkar").attr("src");
-            $("#video_drakkar").attr("src","");
-            $("#video_drakkar").attr("src",video);
+             var video = $("#video_romain").attr("src");
+            $("#video_romain").attr("src","");
+            $("#video_romain").attr("src",video);
             
-             var video = $("#video_cadavre").attr("src");
-            $("#video_cadavre").attr("src","");
-            $("#video_cadavre").attr("src",video);
+             var video = $("#video_diable").attr("src");
+            $("#video_diable").attr("src","");
+            $("#video_diable").attr("src",video);
             
-             var video = $("#video_prostitue").attr("src");
-            $("#video_prostitue").attr("src","");
-            $("#video_prostitue").attr("src",video);
+             var video = $("#video_plateau").attr("src");
+            $("#video_plateau").attr("src","");
+            $("#video_plateau").attr("src",video);
             
-             var video = $("#video_chevalier").attr("src");
-            $("#video_chevalier").attr("src","");
-            $("#video_chevalier").attr("src",video);
+             var video = $("#video_culotte").attr("src");
+            $("#video_culotte").attr("src","");
+            $("#video_culotte").attr("src",video);
             
         });
     
     /*-----------------------------------------------------------------------------*/
     
-     $( "#drakkar-hover" ).click(
+     $( "#diable-hover" ).click(
         function() {
       
-            $( "#video_drakkar" ).css('display', 'block');
+            $( "#video_diable" ).css('display', 'block');
             
-            $( "#video_cadavre" ).css('display', 'none');
-            $( "#video_prostitue" ).css('display', 'none');
-            $( "#video_chevalier" ).css('display', 'none');
-            $( "#video_barreau" ).css('display', 'none');
+            $( "#video_robert" ).css('display', 'none');
+            $( "#video_romain" ).css('display', 'none');
+            $( "#video_plateau" ).css('display', 'none');
+            $( "#video_culotte" ).css('display', 'none');
             
-             $( "#texte_drakkar" ).css('display', 'block');
+             $( "#texte_diable" ).css('display', 'block');
             
-            $( "#texte_cadavre" ).css('display', 'none');
-            $( "#texte_prostitue" ).css('display', 'none');
-            $( "#texte_chevalier" ).css('display', 'none');
-            $( "#texte_barreau" ).css('display', 'none');
+            $( "#texte_robert" ).css('display', 'none');
+            $( "#texte_romain" ).css('display', 'none');
+            $( "#texte_plateau" ).css('display', 'none');
+            $( "#texte_culotte" ).css('display', 'none');
              
-             var video = $("#video_barreau").attr("src");
-            $("#video_barreau").attr("src","");
-            $("#video_barreau").attr("src",video);
+            var video = $("#video_robert").attr("src");
+            $("#video_robert").attr("src","");
+            $("#video_robert").attr("src",video);
             
-             var video = $("#video_drakkar").attr("src");
-            $("#video_drakkar").attr("src","");
-            $("#video_drakkar").attr("src",video);
+             var video = $("#video_romain").attr("src");
+            $("#video_romain").attr("src","");
+            $("#video_romain").attr("src",video);
             
-             var video = $("#video_cadavre").attr("src");
-            $("#video_cadavre").attr("src","");
-            $("#video_cadavre").attr("src",video);
+             var video = $("#video_diable").attr("src");
+            $("#video_diable").attr("src","");
+            $("#video_diable").attr("src",video);
             
-             var video = $("#video_prostitue").attr("src");
-            $("#video_prostitue").attr("src","");
-            $("#video_prostitue").attr("src",video);
+             var video = $("#video_plateau").attr("src");
+            $("#video_plateau").attr("src","");
+            $("#video_plateau").attr("src",video);
             
-             var video = $("#video_chevalier").attr("src");
-            $("#video_chevalier").attr("src","");
-            $("#video_chevalier").attr("src",video);
+             var video = $("#video_culotte").attr("src");
+            $("#video_culotte").attr("src","");
+            $("#video_culotte").attr("src",video);
             
             
         });
     
     /*-----------------------------------------------------------------------------*/
     
-     $( "#prostitue-hover" ).click(
+     $( "#plateau-hover" ).click(
         function() {
       
-          $( "#video_prostitue" ).css('display', 'block');
+          $( "#video_plateau" ).css('display', 'block');
             
-            $( "#video_drakkar" ).css('display', 'none');
-            $( "#video_cadavre" ).css('display', 'none');
-            $( "#video_barreau" ).css('display', 'none');
-            $( "#video_chevalier" ).css('display', 'none');
+            $( "#video_robert" ).css('display', 'none');
+            $( "#video_romain" ).css('display', 'none');
+            $( "#video_diable" ).css('display', 'none');
+            $( "#video_culotte" ).css('display', 'none');
             
-            $( "#texte_prostitue" ).css('display', 'block');
+            $( "#texte_plateau" ).css('display', 'block');
             
-            $( "#texte_drakkar" ).css('display', 'none');
-            $( "#texte_cadavre" ).css('display', 'none');
-            $( "#texte_barreau" ).css('display', 'none');
-            $( "#texte_chevalier" ).css('display', 'none');
+            $( "#texte_robert" ).css('display', 'none');
+            $( "#texte_romain" ).css('display', 'none');
+            $( "#texte_diable" ).css('display', 'none');
+            $( "#texte_culotte" ).css('display', 'none');
             
-             var video = $("#video_barreau").attr("src");
-            $("#video_barreau").attr("src","");
-            $("#video_barreau").attr("src",video);
+            var video = $("#video_robert").attr("src");
+            $("#video_robert").attr("src","");
+            $("#video_robert").attr("src",video);
             
-             var video = $("#video_drakkar").attr("src");
-            $("#video_drakkar").attr("src","");
-            $("#video_drakkar").attr("src",video);
+             var video = $("#video_romain").attr("src");
+            $("#video_romain").attr("src","");
+            $("#video_romain").attr("src",video);
             
-             var video = $("#video_cadavre").attr("src");
-            $("#video_cadavre").attr("src","");
-            $("#video_cadavre").attr("src",video);
+             var video = $("#video_diable").attr("src");
+            $("#video_diable").attr("src","");
+            $("#video_diable").attr("src",video);
             
-             var video = $("#video_prostitue").attr("src");
-            $("#video_prostitue").attr("src","");
-            $("#video_prostitue").attr("src",video);
+             var video = $("#video_plateau").attr("src");
+            $("#video_plateau").attr("src","");
+            $("#video_plateau").attr("src",video);
             
-             var video = $("#video_chevalier").attr("src");
-            $("#video_chevalier").attr("src","");
-            $("#video_chevalier").attr("src",video);
-            
+             var video = $("#video_culotte").attr("src");
+            $("#video_culotte").attr("src","");
+            $("#video_culotte").attr("src",video);
             
              
         });
     /*-----------------------------------------------------------------------------*/
     
-     $( "#chevalier-hover" ).click(
+     $( "#culotte-hover" ).click(
         function() {
       
-            $( "#video_chevalier" ).css('display', 'block');
+            $( "#video_culotte" ).css('display', 'block');
             
-            $( "#video_drakkar" ).css('display', 'none');
-            $( "#video_cadavre" ).css('display', 'none');
-            $( "#video_prostitue" ).css('display', 'none');
-            $( "#video_barreau" ).css('display', 'none');
+            $( "#video_robert" ).css('display', 'none');
+            $( "#video_romain" ).css('display', 'none');
+            $( "#video_diable" ).css('display', 'none');
+            $( "#video_plateau" ).css('display', 'none');
             
-            $( "#texte_chevalier" ).css('display', 'block');
+            $( "#texte_culotte" ).css('display', 'block');
             
-            $( "#texte_drakkar" ).css('display', 'none');
-            $( "#texte_cadavre" ).css('display', 'none');
-            $( "#texte_prostitue" ).css('display', 'none');
-            $( "#texte_barreau" ).css('display', 'none');
+            $( "#texte_robert" ).css('display', 'none');
+            $( "#texte_romain" ).css('display', 'none');
+            $( "#texte_diable" ).css('display', 'none');
+            $( "#texte_plateau" ).css('display', 'none');
             
-             var video = $("#video_barreau").attr("src");
-            $("#video_barreau").attr("src","");
-            $("#video_barreau").attr("src",video);
+            var video = $("#video_robert").attr("src");
+            $("#video_robert").attr("src","");
+            $("#video_robert").attr("src",video);
             
-             var video = $("#video_drakkar").attr("src");
-            $("#video_drakkar").attr("src","");
-            $("#video_drakkar").attr("src",video);
+             var video = $("#video_romain").attr("src");
+            $("#video_romain").attr("src","");
+            $("#video_romain").attr("src",video);
             
-             var video = $("#video_cadavre").attr("src");
-            $("#video_cadavre").attr("src","");
-            $("#video_cadavre").attr("src",video);
+             var video = $("#video_diable").attr("src");
+            $("#video_diable").attr("src","");
+            $("#video_diable").attr("src",video);
             
-             var video = $("#video_prostitue").attr("src");
-            $("#video_prostitue").attr("src","");
-            $("#video_prostitue").attr("src",video);
+             var video = $("#video_plateau").attr("src");
+            $("#video_plateau").attr("src","");
+            $("#video_plateau").attr("src",video);
             
-             var video = $("#video_chevalier").attr("src");
-            $("#video_chevalier").attr("src","");
-            $("#video_chevalier").attr("src",video);
+             var video = $("#video_culotte").attr("src");
+            $("#video_culotte").attr("src","");
+            $("#video_culotte").attr("src",video);
             
             
         });
