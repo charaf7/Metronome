@@ -121,7 +121,7 @@ li::after{
     height: 100%;
 }*/
 
-#logo img{
+#logoChatelet img{
     position: absolute;
     width:6%;
     height: auto;
@@ -130,15 +130,7 @@ li::after{
     
 }
 
-#affiche{
-    position: absolute;
-    width: 35%;
-    height: auto;
-    left: 3%;
-   bottom: 17vh;
-}
-
-#baseline{
+#baselineChatelet{
     position: absolute;
     font-family: paris;
     font-size: 130%;
@@ -148,6 +140,24 @@ li::after{
     
 }
 
+#logoCite img{
+    position: absolute;
+    width:6%;
+    height: auto;
+    left: 1%;
+    bottom: 60vh;
+    
+}
+
+#baselineCite{
+    position: absolute;
+    font-family: paris;
+    font-size: 130%;
+    color : #ffcb26;
+    left: 8%;
+    bottom: 60vh;
+    
+}
 
 #drakkar{
     position: absolute;
@@ -247,7 +257,7 @@ li::after{
     height: auto;
      display: none;
 }
-.anecdoteVideo{
+.anecdoteVideoChatelet{
     position: absolute;
     width: 31%;
     height: 55%;
@@ -255,7 +265,7 @@ li::after{
     left: 7.4%;
     display: none;
 }
-.anecdoteText{
+.anecdoteTextChatelet{
     position: absolute;
     width: 20%;
     height: 49%;
@@ -269,125 +279,30 @@ li::after{
     display: none;
 }
 
-/*#video_drakkar{
+
+.anecdoteVideoCite{
     position: absolute;
-    width: 31%;
-    height: 55%;
+    width: 27%;
+    height: 56%;
     bottom: 18vh;
-    left: 7.4%;
+    left: 3.6%;
     display: none;
 }
-
-#video_barreau{
+.anecdoteTextCite{
     position: absolute;
-    width: 31%;
-    height: 55%;
-    bottom: 18vh;
-    left: 7.4%;
-    display: none;
-}
-
-#video_cadavre{
-    position: absolute;
-    width: 31%;
-    height: 55%;
-    bottom: 18vh;
-    left: 7.4%;
-    display: none;
-}
-
-#video_prostitue{
-    position: absolute;
-    width: 31%;
-    height: 55%;
-    bottom: 18vh;
-    left: 7.4%;
-    display: none;
-}
-
-#video_chevalier{
-    position: absolute;
-    width: 31%;
-    height: 55%;
-    bottom: 18vh;
-    left: 7.4%;
-    display: none;
-}
-
-#texte_drakkar{
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 65%;
-    bottom: 21vh;
+    width: 19%;
+    height: 50%;
+    left: 69%;
+    bottom: 20vh;
     color: white;
-   background-color: transparent;
+    background-color: transparent;
     font-family: parisine;
     overflow-y: scroll;
     overflow-x: hidden;
     display: none;
-    
 }
 
-#texte_barreau{
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 65%;
-    bottom: 21vh;
-    color: white;
-   background-color: transparent;
-    font-family: parisine;
-    overflow-y: scroll;
-    overflow-x: hidden;
-     display: none;
-    
-}
 
-#texte_cadavre{
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 65%;
-    bottom: 21vh;
-    color: white;
-   background-color: transparent;
-    font-family: parisine;
-    overflow-y: scroll;
-    overflow-x: hidden;
-     display: none;
-    
-}
-
-#texte_prostitue{
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 65%;
-    bottom: 21vh;
-    color: white;
-   background-color: transparent;
-    font-family: parisine;
-    overflow-y: scroll;
-    overflow-x: hidden;
-     display: none;
-}
-
-#texte_chevalier{
-    position: absolute;
-    width: 20%;
-    height: 49%;
-    left: 65%;
-    bottom: 21vh;
-    color: white;
-   background-color: transparent;
-    font-family: parisine;
-    overflow-y: scroll;
-    overflow-x: hidden;
-     display: none;
-    
-}
-*/
 
 #robert{
     position: absolute;
@@ -434,7 +349,7 @@ li::after{
 #diable{
     position: absolute;
     right: 0;
-    bottom : 22vh;
+    bottom : 30vh;
     width: 16%;
     height: auto;
     
@@ -443,7 +358,7 @@ li::after{
 #diable-hover{
     position: absolute;
     right: 0;
-    bottom : 22vh;
+    bottom : 30vh;
     width: 16.2%;
     height: auto;
     display: none;
