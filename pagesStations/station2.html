@@ -9,6 +9,7 @@
         <link rel="stylesheet" type="text/css" href="../css/header.css" />
         <link rel="stylesheet" type="text/css" href="../css/modal.css" />
         <link rel="stylesheet" type="text/css" href="../css/styleMobile.css" />
+        <link rel="stylesheet" type="text/css" href="../css/stationMobile.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
     </head>
@@ -37,28 +38,28 @@
                 <li class="icon"><a href="#mobileMenu">&#9776;</a></li>
             </ul>
         </header>
-
+        <div id="logoCite">
+                <img src="../images/logo/logo_300x300.png" />
+                <div id="baselineCite">Voyage dans <br /> Paris par <br />le Métronome</div>
+        </div>
         <!-- station sans la timeline -->
         <div id = "station">
             
-            <div id="logoCite">
-                <img src="../images/logo/logo_300x300.png" />
-                <div id="baselineCite">Voyage dans <br /> Paris par <br />le Métronome</div>
-            </div>
-            <img id="romain" src="../images/anecdotes/galoromain.png"/>
-            <img id="romain-hover" src="../images/anecdotes/galoromain_hover.png"/>
             
-            <img id="culotte" src="../images/anecdotes/culotte.png" />
-            <img id="culotte-hover" src="../images/anecdotes/culotte_hover.png" />
+            <img class="illustration" id="romain" src="../images/anecdotes/galoromain.png"/>
+            <img class="illustration-hover" id="romain-hover" src="../images/anecdotes/galoromain_hover.png"/>
             
-            <img id="plateau" src="../images/anecdotes/plateau.png" />
-            <img id="plateau-hover" src="../images/anecdotes/plateau_hover.png" />
+            <img class="illustration" id="culotte" src="../images/anecdotes/culotte.png" />
+            <img class="illustration-hover" id="culotte-hover" src="../images/anecdotes/culotte_hover.png" />
             
-            <img id="diable" src="../images/anecdotes/diable.png" />
-             <img id="diable-hover" src="../images/anecdotes/diable_hover.png" />
+            <img class="illustration" id="plateau" src="../images/anecdotes/plateau.png" />
+            <img class="illustration-hover" id="plateau-hover" src="../images/anecdotes/plateau_hover.png" />
             
-            <img id="robert" src="../images/anecdotes/robert.png" />
-            <img id="robert-hover" src ="../images/anecdotes/robert_hover.png" />
+            <img class="illustration" id="diable" src="../images/anecdotes/diable.png" />
+             <img class="illustration-hover" id="diable-hover" src="../images/anecdotes/diable_hover.png" />
+            
+            <img class="illustration" id="robert" src="../images/anecdotes/robert.png" />
+            <img class="illustration-hover" id="robert-hover" src ="../images/anecdotes/robert_hover.png" />
             
             <iframe class="anecdoteVideoCite" id ="video_robert" src="https://www.youtube.com/embed/kDehTEEoFnE" frameborder="0" allowfullscreen></iframe>
             <div id="texte_robert" class="anecdoteTextCite">
@@ -196,7 +197,7 @@
         <div class="stationsDots">
             <a href="station1.html"><div class="invalides"></div></a>
             <a href="station2.html"><div class="chatelet"></div></a>
-            <a href="station3.html"><div class="cite"></div></a>
+            <a href="station3.html"><div class="cite" style="background-color: #BD4D99;"></div></a>
             <a href="station4.html"><div class="maubert"></div></a>
         </div>
         <div class="lines">
@@ -217,7 +218,6 @@
     <script src="../jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../javascript/mobileLanguages.js"></script>
     <script src="../javaScript/load.js"></script>
-
     <script src="../javaScript/cite.js"></script>
         
     </body>

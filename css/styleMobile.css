@@ -6,6 +6,7 @@
   #background{
   	background-image: url("../images/backgrounds/bg_home_mobile.jpg");
   	background-position: 0 0;
+    height: 25vh;
   }
   .header li:not(:last-child) {
   	display: none;
@@ -41,11 +42,13 @@
   }
   .description {
   	position: relative;
-  	height: 38vh;
+  	height: 45vh;
   	background-image: url("../images/backgrounds/bg_home_mobile.jpg");
   	background-position: 0 -166px;
-	background-size: cover;
-	background-repeat: no-repeat;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+    top: 0;
+    opacity: 1;
 
   }
   .description img{
@@ -75,13 +78,14 @@
   .mobileStations{
   	display: block;
   	width: 100vw;
-  	height: 33vh;
+  	height: 36vh;
   }
   .backgroundMobile{
   	display: block;
   }
   .mobileStations img{
   	width: 100%;
+    height: 100%;
   }
   .invalidesM{
   	width: 50vw;

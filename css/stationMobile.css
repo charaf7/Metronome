@@ -27,17 +27,33 @@
 	    left: 43%;
 	    top: 3vh;
 	}
+	#logoCite img {
+    position: absolute;
+    width: 16%;
+    height: auto;
+    left: 23%;
+    top: 3vh;
+	}
+	#baselineCite {
+	    position: absolute;
+	    font-family: paris;
+	    font-size: 108%;
+	    color: #ffcb26;
+	    left: 43%;
+	    top: 3vh;
+	}
 	#timeline{
 		display: none;
 	}
 
+	/*chatelet*/
 	.anecdoteVideoChatelet{
 		position: initial;
 	    width: 80%;
 	    margin: 0 auto;
 	    display: block;
 	    margin-top: 20px;
-	    margin-bottom:  10px;
+	    margin-bottom: 120px;
 	    height: auto;
 	}
 	.anecdoteTextChatelet{
@@ -47,8 +63,97 @@
 	    display: block;
 	    margin-bottom: 20px;
 	}
-	.illustration{
-		display: none;
+	
+	.illustration-hover{
+		width: 0px !important;
+	}
+	.illustration#drakkar{
+		display: block;
+		position: absolute;
+		left: 36%;
+		top: 36vh;
+		width: 25%;
+	}
+	.illustration#barreau{
+		display: block;
+		position: absolute;
+		left: 33%;
+		top: 144vh;
+		width: 33%;
+	}
+	.illustration#cadavre{
+		display: block;
+		position: absolute;
+		left: 14%;
+		top: 251vh;
+		width: 67%;
+	}
+	.illustration#prostitue{
+		display: block;
+		position: absolute;
+		left: 41%;
+		top: 343vh;
+		width: 14%;
+	}
+	.illustration#chevalier{
+		display: block;
+		position: absolute;
+		left: 31%;
+		top: 446vh;
+		width: 39%;
+	}
+	/*cite*/
+	
+	.anecdoteVideoCite{
+		position: initial;
+	    width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	    margin-top: 20px;
+	    margin-bottom: 120px;
+	    height: auto;
+	}
+	.anecdoteTextCite{
+		position: initial;
+	    width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	    margin-bottom: 20px;
+	}
+	.illustration#robert{
+		display: block;
+		position: absolute;
+		left: 32%;
+		top: 40vh;
+		width: 32%;
+	}
+	.illustration#romain{
+		display: block;
+		position: absolute;
+		left: 34%;
+		top: 140vh;
+		width: 24%;
+	}
+	.illustration#culotte{
+		display: block;
+		position: absolute;
+		left: 35%;
+		top: 251vh;
+		width: 28%;
+	}
+	.illustration#diable{
+		display: block;
+		position: absolute;
+		left: 33%;
+		top: 346vh;
+		width: 22%;
+	}
+	.illustration#plateau{
+		display: block;
+		position: absolute;
+		left: 22%;
+		top: 455vh;
+		width: 46%;
 	}
 	
 }
