@@ -50,6 +50,12 @@ header{
 
 }
 
+.hiddenForAccess{
+    visibility: hidden;
+}
+.illustrationMobile{
+    display: none;
+}
 #station{
 	height: 65vh;
     position: relative;
@@ -58,6 +64,9 @@ header{
     position: absolute;
     width: 100%;
     height: 100vh;
+}
+hr{
+    display: none;
 }
 ul{
     /*cacher puce */

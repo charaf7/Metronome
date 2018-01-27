@@ -224,7 +224,7 @@
   }
   .invalides1{
   		position: absolute;
-  		top: 136px;
+  		top: 215px;
 		right: 64px;
   		background-color: #C7A4CE;
   		width: 7px;
@@ -233,23 +233,23 @@
   }
   .invalides2{
   		position: absolute;
-  		top: 162px;
-		right: 64px;
+  		top: 241px;
+		  right: 64px;
   		background-color: #F1C811;
   		width: 7px;
   		height: 30px;
   }
   .chatelet1{
   		position: absolute;
-  		top: 216px;
-		right: 64px;
+  		top: 295px;
+		  right: 64px;
   		background-color: #BB4B9D;
   		width: 7px;
   		height: 56px;
   }
   .cite1{
   		position: absolute;
-  		top: 296px;
+  		top: 375px;
 		right: 64px;
   		background-color: #BB4B9D;
   		width: 7px;
@@ -257,7 +257,7 @@
   }
   .cite2{
   		position: absolute;
-  		top: 322px;
+  		top: 401px;
 		  right: 64px;
   		background-color: #F1C811;
   		width: 7px;
