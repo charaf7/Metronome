@@ -11,6 +11,7 @@
         <link rel="stylesheet" type="text/css" href="../css/modal.css" />
         <link rel="stylesheet" type="text/css" href="../css/styleMobile.css" />
         <link rel="stylesheet" type="text/css" href="../css/stationMobile.css" />
+        <link rel="stylesheet" type="text/css" href="../css/mapPopup.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
     </head>
@@ -61,6 +62,8 @@
             
             <img class="illustration" id="chevalier" src="../images/anecdotes/chevalier-geant.png" />
             <img class="illustration-hover" id="chevalier-hover" src ="../images/anecdotes/chevalier-geant_hover.png" />
+
+            <a href="#mapChatelet" id="map_linkChatelet"><img class="illustration" id="map_illustChatelet" src="../images/map/map_illust.png"></a>
             
             <iframe class="anecdoteVideoChatelet" id ="video_drakkar" src="https://www.youtube.com/embed/kDehTEEoFnE" frameborder="0" allowfullscreen></iframe>
             <div id="texte_drakkar" class="anecdoteTextChatelet">
@@ -217,10 +220,27 @@
     <div id="credit" class="modal-window"></div>
     <div id="aide" class="modal-window"></div>
     <div id="mobileMenu" class="menuModal"></div>
+    <div id="mapChatelet" class="modal-window">
+        <div class="map">
+            <a href="#modal-close" title="Fermer" class="modal-close">X</a>
+            <div class="theMap">
+                <img src="../images/map/carte_vierge.png">
+                <div id="invalidesT" ><a href="../pagesStations/station1.html"><span>Invalides</span></a></div>
+                <div id="chateletT"><a href="../pagesStations/station1.html"><span>Chatelet</span></a></div>
+                <div id="citeT"><a href="../pagesStations/station2.html"><span>Cité</span></a></div>
+                <div id="maubertT"><a href="../pagesStations/station4.html"><span>Maubert-Mutualité</span></a></div>
+                <div id="invalidesP" ><a href="../pagesStations/station1.html"><img src="../images/map/pointer_invalides.png"></a></div>
+                <div id="chateletP"><a href="../pagesStations/station2.html"><img src="../images/map/pointer_chatelet.png"></a></div>
+                <div id="citeP"><a href="../pagesStations/station3.html"><img src="../images/map/pointer_cite.png"></a></div>
+                <div id="maubertP"><a href="../pagesStations/station4.html"><img src="../images/map/pointer_maubert.png"></a></div>
+            </div>
+        </div>
+    </div>
 
     <script src="../jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../javascript/mobileLanguages.js"></script>
     <script src="../javaScript/load.js"></script>
-    <script src="../javaScript/chatelet.js"></script>        
+    <script src="../javaScript/chatelet.js"></script>
+    <script type="text/javascript" src="../javaScript/showPositions.js"></script>        
     </body>
 </html>

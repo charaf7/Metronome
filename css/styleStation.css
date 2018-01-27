@@ -121,6 +121,9 @@ li::after{
     height: 100%;
 }*/
 
+/****************************************/
+/*         CHATELET                     /
+***************************************/
 #logoChatelet img{
     position: absolute;
     width:6%;
@@ -128,6 +131,23 @@ li::after{
     left: 1%;
     top: 11vh;
     
+}
+#map_linkChatelet{
+    position: absolute;
+    left: 46.3%;
+    bottom: 22.9vh;
+    width: 10%;
+    height: 20%;
+}
+#map_illustChatelet{
+    position: absolute;
+    width: 88%;
+    height: 100%;
+    visibility: hidden;
+    
+}
+#map_linkChatelet:hover #map_illustChatelet{
+  visibility: visible;
 }
 
 #baselineChatelet{
@@ -279,7 +299,9 @@ li::after{
     display: none;
 }
 
-
+/****************************************/
+/*         CITE                         /
+***************************************/
 .anecdoteVideoCite{
     position: absolute;
     width: 27%;

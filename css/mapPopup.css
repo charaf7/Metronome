@@ -1,0 +1,143 @@
+/****************************************/
+/*         MAP                          /
+***************************************/
+
+.modal-window {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.15);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.modal-window:target {
+  opacity: 1;
+  pointer-events: auto;
+  background-color: rgba(20, 20, 20, 0.86);
+}
+
+.modal-window>div {
+  width: 50%;
+  position: relative;
+  margin: 2% auto;
+  padding: 2rem;
+  color: #fff;
+  /*background-image: url("../images/backgrounds/popup_background.jpg");*/
+  background: none !important;
+  background-size: cover;
+
+}
+
+.modal-window header {
+  font-weight: bold;
+}
+
+.backgroundMobile{
+    display: none;
+}
+.modal-title{
+    font-family: parisine;
+}
+.modal-close {
+  color: #ffcb26;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+  font-family: parisine;
+  font-size: 30px;
+}
+
+.modal-close:hover {
+  color: #aaa;
+}
+.theMap span {
+    font-size: 15px;
+    color: #141414;
+    font-weight: bold;
+}
+#mapChatelet .theMap a {
+    text-decoration: none;
+    color: #000;
+}
+#mapChatelet .theMap{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 80vh;
+}
+#mapChatelet .theMap>img{
+  margin-top: 5px;
+  height: 75vh;
+  width: 47vw;
+}
+#mapChatelet #invalidesP{
+  position: absolute;
+  left: 16.7vw;
+  top: 28.5vh;
+  display: none;
+}
+#mapChatelet #chateletP{
+  position: absolute;
+  left: 25.2vw;
+  top: 30.5vh;
+  display: none;
+}
+#mapChatelet #citeP{
+  position: absolute;
+  left: 51.3vw;
+  top: 35vh;
+  display: none;
+}
+#mapChatelet #maubertP {
+  position: absolute;
+  left: 51.8vw;
+  top: 40vh;
+  display: none;
+}
+
+#mapChatelet #invalidesT{
+  position: absolute;
+  left: 34%;
+  top: 36vh;
+}
+#mapChatelet #chateletT{
+  position: absolute;
+  left: 54%;
+  top: 34vh;
+}
+#mapChatelet #citeT{
+  position: absolute;
+  left: 53%;
+  top: 38vh;
+}
+#mapChatelet #maubertT{
+  position: absolute;
+  left: 49%;
+  top: 46vh;
+}
+
+#mapChatelet #invalides img{
+  width: 20px;  
+}
+#mapChatelet #chatelet img{
+  width: 20px;
+}
+#mapChatelet #cite img{
+  width: 20px;
+}
+#mapChatelet #maubert img{
+  width: 20px;
+}
