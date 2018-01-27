@@ -460,3 +460,84 @@ li::after{
     height: auto;
     display: none;
 }
+
+#vendeur{
+    position: absolute;
+    left: 53%;
+    bottom : 4vh;
+    width: 9%;
+    height: auto;
+
+    
+}
+
+#vendeur-hover{
+    position: absolute;
+    left: 53%;
+    bottom : 4vh;
+    width: 9.5%;
+    display: none;
+}
+
+#canne{
+    position: absolute;
+    left: 41%;
+    bottom : 4vh;
+    width: 2.5%;
+    height: auto;
+    border-radius: 15%;
+
+    
+}
+
+#canne-hover{
+    position: absolute;
+    left: 41%;
+    bottom : 4vh;
+    width: 2.7%;
+    height: auto;
+    border-radius: 15%;
+    display: none;
+}
+
+#logoInvalides img{
+    position: absolute;
+    width:6%;
+    height: auto;
+    left: 1%;
+    bottom: 80vh;
+    
+}
+
+#baselineInvalides{
+    position: absolute;
+    font-family: paris;
+    font-size: 130%;
+    color : #ffcb26;
+    left: 8%;
+    bottom: 80vh;
+    
+}
+
+.anecdoteVideoInvalides{
+    position: absolute;
+    width: 31%;
+    height: 55%;
+    bottom: 18vh;
+    left: 7.4%;
+    display: none;
+}
+.anecdoteTextInvalides{
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 65%;
+    bottom: 21vh;
+    color: white;
+    background-color: transparent;
+    font-family: parisine;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+

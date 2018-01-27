@@ -71,256 +71,259 @@ $(document).ready(function()
     }
     );
     
-     $( "#culotte" ).hover(
+     $( "#vendeur" ).hover(
         function() {
       
-            $( "#culotte-hover" ).css('display', 'block');
+            $( "#vendeur-hover" ).css('display', 'block');
         }, function() {
       
-            $( "#culotte-hover" ).css('display', 'none');
+            $( "#vendeur-hover" ).css('display', 'none');
     }
     );
     
-      $( "#culotte-hover" ).hover(
+      $( "#vendeur-hover" ).hover(
         function() {
       
-            $( "#culotte-hover" ).css('display', 'block');
-             $( "#culotte" ).css('display', 'none');
+            $( "#vendeur-hover" ).css('display', 'block');
+             $( "#vendeur" ).css('display', 'none');
             
         }, function() {
       
-            $( "#culotte-hover" ).css('display', 'none');
-             $( "#culotte" ).css('display', 'block');
+            $( "#vendeur-hover" ).css('display', 'none');
+             $( "#vendeur" ).css('display', 'block');
     }
     );
     
     
-    $( "#plateau" ).hover(
+    $( "#canne" ).hover(
         function() {
       
-            $( "#plateau-hover" ).css('display', 'block');
+            $( "#canne-hover" ).css('display', 'block');
         }, function() {
       
-            $( "#plateau-hover" ).css('display', 'none');
+            $( "#canne-hover" ).css('display', 'none');
     }
     );
     
-      $( "#plateau-hover" ).hover(
+      $( "#canne-hover" ).hover(
         function() {
       
-            $( "#plateau-hover" ).css('display', 'block');
-             $( "#plateau" ).css('display', 'none');
+            $( "#canne-hover" ).css('display', 'block');
+             $( "#canne" ).css('display', 'none');
             
         }, function() {
       
-            $( "#plateau-hover" ).css('display', 'none');
-             $( "#plateau" ).css('display', 'block');
+            $( "#canne-hover" ).css('display', 'none');
+             $( "#canne" ).css('display', 'block');
     }
     );
      /*-----------------------------------------------------------------------------*/
     
-     $( "#robert-hover" ).click(
+     $( "#berceau-hover" ).click(
         function() {
       
-            $( "#video_robert" ).css('display', 'block');
+            $( "#video_berceau" ).css('display', 'block');
             
-            $( "#video_romain" ).css('display', 'none');
-            $( "#video_diable" ).css('display', 'none');
-            $( "#video_plateau" ).css('display', 'none');
-            $( "#video_culotte" ).css('display', 'none');
+            $( "#video_raisin" ).css('display', 'none');
+            $( "#video_pont" ).css('display', 'none');
+            $( "#video_vendeur" ).css('display', 'none');
+            $( "#video_canne" ).css('display', 'none');
             
-            $( "#texte_robert" ).css('display', 'block');
+            $( "#texte_berceau" ).css('display', 'block');
             
-            $( "#texte_romain" ).css('display', 'none');
-            $( "#texte_diable" ).css('display', 'none');
-            $( "#texte_plateau" ).css('display', 'none');
-            $( "#texte_culotte" ).css('display', 'none');
+            $( "#texte_raisin" ).css('display', 'none');
+            $( "#texte_pont" ).css('display', 'none');
+            $( "#texte_vendeur" ).css('display', 'none');
+            $( "#texte_canne" ).css('display', 'none');
             
-            var video = $("#video_robert").attr("src");
-            $("#video_robert").attr("src","");
-            $("#video_robert").attr("src",video);
+            var video = $("#video_berceau").attr("src");
+            $("#video_berceau").attr("src","");
+            $("#video_berceau").attr("src",video);
             
-             var video = $("#video_romain").attr("src");
-            $("#video_romain").attr("src","");
-            $("#video_romain").attr("src",video);
+             var video = $("#video_pont").attr("src");
+            $("#video_pont").attr("src","");
+            $("#video_pont").attr("src",video);
             
-             var video = $("#video_diable").attr("src");
-            $("#video_diable").attr("src","");
-            $("#video_diable").attr("src",video);
+             var video = $("#video_vendeur").attr("src");
+            $("#video_vendeur").attr("src","");
+            $("#video_vendeur").attr("src",video);
             
-             var video = $("#video_plateau").attr("src");
-            $("#video_plateau").attr("src","");
-            $("#video_plateau").attr("src",video);
+             var video = $("#video_raisin").attr("src");
+            $("#video_raisin").attr("src","");
+            $("#video_raisin").attr("src",video);
             
-             var video = $("#video_culotte").attr("src");
-            $("#video_culotte").attr("src","");
-            $("#video_culotte").attr("src",video);
+             var video = $("#video_canne").attr("src");
+            $("#video_canne").attr("src","");
+            $("#video_canne").attr("src",video);
             
              
         });
     
      /*-----------------------------------------------------------------------------*/
     
-     $( "#romain-hover" ).click(
+     $( "#raisin-hover" ).click(
         function() {
-            $( "#video_romain" ).css('display', 'block');
+            $( "#video_raisin" ).css('display', 'block');
             
-            $( "#video_robert" ).css('display', 'none');
-            $( "#video_diable" ).css('display', 'none');
-            $( "#video_plateau" ).css('display', 'none');
-            $( "#video_culotte" ).css('display', 'none');
+            $( "#video_berceau" ).css('display', 'none');
+            $( "#video_pont" ).css('display', 'none');
+            $( "#video_vendeur" ).css('display', 'none');
+            $( "#video_canne" ).css('display', 'none');
             
-            $( "#texte_romain" ).css('display', 'block');
+            $( "#texte_raisin" ).css('display', 'block');
             
-            $( "#texte_robert" ).css('display', 'none');
-            $( "#texte_diable" ).css('display', 'none');
-            $( "#texte_plateau" ).css('display', 'none');
-            $( "#texte_culotte" ).css('display', 'none');
+            $( "#texte_berceau" ).css('display', 'none');
+            $( "#texte_pont" ).css('display', 'none');
+            $( "#texte_vendeur" ).css('display', 'none');
+            $( "#texte_canne" ).css('display', 'none');
              
+       
+             var video = $("#video_berceau").attr("src");
+            $("#video_berceau").attr("src","");
+            $("#video_berceau").attr("src",video);
             
-            var video = $("#video_robert").attr("src");
-            $("#video_robert").attr("src","");
-            $("#video_robert").attr("src",video);
+             var video = $("#video_pont").attr("src");
+            $("#video_pont").attr("src","");
+            $("#video_pont").attr("src",video);
             
-             var video = $("#video_romain").attr("src");
-            $("#video_romain").attr("src","");
-            $("#video_romain").attr("src",video);
+             var video = $("#video_vendeur").attr("src");
+            $("#video_vendeur").attr("src","");
+            $("#video_vendeur").attr("src",video);
             
-             var video = $("#video_diable").attr("src");
-            $("#video_diable").attr("src","");
-            $("#video_diable").attr("src",video);
+             var video = $("#video_raisin").attr("src");
+            $("#video_raisin").attr("src","");
+            $("#video_raisin").attr("src",video);
             
-             var video = $("#video_plateau").attr("src");
-            $("#video_plateau").attr("src","");
-            $("#video_plateau").attr("src",video);
-            
-             var video = $("#video_culotte").attr("src");
-            $("#video_culotte").attr("src","");
-            $("#video_culotte").attr("src",video);
-            
-        });
-    
-    /*-----------------------------------------------------------------------------*/
-    
-     $( "#diable-hover" ).click(
-        function() {
-      
-            $( "#video_diable" ).css('display', 'block');
-            
-            $( "#video_robert" ).css('display', 'none');
-            $( "#video_romain" ).css('display', 'none');
-            $( "#video_plateau" ).css('display', 'none');
-            $( "#video_culotte" ).css('display', 'none');
-            
-             $( "#texte_diable" ).css('display', 'block');
-            
-            $( "#texte_robert" ).css('display', 'none');
-            $( "#texte_romain" ).css('display', 'none');
-            $( "#texte_plateau" ).css('display', 'none');
-            $( "#texte_culotte" ).css('display', 'none');
-             
-            var video = $("#video_robert").attr("src");
-            $("#video_robert").attr("src","");
-            $("#video_robert").attr("src",video);
-            
-             var video = $("#video_romain").attr("src");
-            $("#video_romain").attr("src","");
-            $("#video_romain").attr("src",video);
-            
-             var video = $("#video_diable").attr("src");
-            $("#video_diable").attr("src","");
-            $("#video_diable").attr("src",video);
-            
-             var video = $("#video_plateau").attr("src");
-            $("#video_plateau").attr("src","");
-            $("#video_plateau").attr("src",video);
-            
-             var video = $("#video_culotte").attr("src");
-            $("#video_culotte").attr("src","");
-            $("#video_culotte").attr("src",video);
+             var video = $("#video_canne").attr("src");
+            $("#video_canne").attr("src","");
+            $("#video_canne").attr("src",video);
             
             
         });
     
     /*-----------------------------------------------------------------------------*/
     
-     $( "#plateau-hover" ).click(
+     $( "#pont-hover" ).click(
         function() {
       
-          $( "#video_plateau" ).css('display', 'block');
+            $( "#video_pont" ).css('display', 'block');
             
-            $( "#video_robert" ).css('display', 'none');
-            $( "#video_romain" ).css('display', 'none');
-            $( "#video_diable" ).css('display', 'none');
-            $( "#video_culotte" ).css('display', 'none');
+            $( "#video_berceau" ).css('display', 'none');
+            $( "#video_raisin" ).css('display', 'none');
+            $( "#video_vendeur" ).css('display', 'none');
+            $( "#video_canne" ).css('display', 'none');
             
-            $( "#texte_plateau" ).css('display', 'block');
+             $( "#texte_pont" ).css('display', 'block');
             
-            $( "#texte_robert" ).css('display', 'none');
-            $( "#texte_romain" ).css('display', 'none');
-            $( "#texte_diable" ).css('display', 'none');
-            $( "#texte_culotte" ).css('display', 'none');
+            $( "#texte_berceau" ).css('display', 'none');
+            $( "#texte_raisin" ).css('display', 'none');
+            $( "#texte_vendeur" ).css('display', 'none');
+            $( "#texte_canne" ).css('display', 'none');
+             
+            var video = $("#video_berceau").attr("src");
+            $("#video_berceau").attr("src","");
+            $("#video_berceau").attr("src",video);
             
-            var video = $("#video_robert").attr("src");
-            $("#video_robert").attr("src","");
-            $("#video_robert").attr("src",video);
+             var video = $("#video_pont").attr("src");
+            $("#video_pont").attr("src","");
+            $("#video_pont").attr("src",video);
             
-             var video = $("#video_romain").attr("src");
-            $("#video_romain").attr("src","");
-            $("#video_romain").attr("src",video);
+             var video = $("#video_vendeur").attr("src");
+            $("#video_vendeur").attr("src","");
+            $("#video_vendeur").attr("src",video);
             
-             var video = $("#video_diable").attr("src");
-            $("#video_diable").attr("src","");
-            $("#video_diable").attr("src",video);
+             var video = $("#video_raisin").attr("src");
+            $("#video_raisin").attr("src","");
+            $("#video_raisin").attr("src",video);
             
-             var video = $("#video_plateau").attr("src");
-            $("#video_plateau").attr("src","");
-            $("#video_plateau").attr("src",video);
+             var video = $("#video_canne").attr("src");
+            $("#video_canne").attr("src","");
+            $("#video_canne").attr("src",video);
             
-             var video = $("#video_culotte").attr("src");
-            $("#video_culotte").attr("src","");
-            $("#video_culotte").attr("src",video);
+            
+            
+        });
+    
+    /*-----------------------------------------------------------------------------*/
+    
+     $( "#vendeur-hover" ).click(
+        function() {
+      
+          $( "#video_vendeur" ).css('display', 'block');
+            
+            $( "#video_berceau" ).css('display', 'none');
+            $( "#video_raisin" ).css('display', 'none');
+            $( "#video_pont" ).css('display', 'none');
+            $( "#video_canne" ).css('display', 'none');
+            
+            $( "#texte_vendeur" ).css('display', 'block');
+            
+            $( "#texte_berceau" ).css('display', 'none');
+            $( "#texte_raisin" ).css('display', 'none');
+            $( "#texte_pont" ).css('display', 'none');
+            $( "#texte_canne" ).css('display', 'none');
+            
+             var video = $("#video_berceau").attr("src");
+            $("#video_berceau").attr("src","");
+            $("#video_berceau").attr("src",video);
+            
+             var video = $("#video_pont").attr("src");
+            $("#video_pont").attr("src","");
+            $("#video_pont").attr("src",video);
+            
+             var video = $("#video_vendeur").attr("src");
+            $("#video_vendeur").attr("src","");
+            $("#video_vendeur").attr("src",video);
+            
+             var video = $("#video_raisin").attr("src");
+            $("#video_raisin").attr("src","");
+            $("#video_raisin").attr("src",video);
+            
+             var video = $("#video_canne").attr("src");
+            $("#video_canne").attr("src","");
+            $("#video_canne").attr("src",video);
+            
             
              
         });
     /*-----------------------------------------------------------------------------*/
     
-     $( "#culotte-hover" ).click(
+     $( "#canne-hover" ).click(
         function() {
       
-            $( "#video_culotte" ).css('display', 'block');
+            $( "#video_canne" ).css('display', 'block');
             
-            $( "#video_robert" ).css('display', 'none');
-            $( "#video_romain" ).css('display', 'none');
-            $( "#video_diable" ).css('display', 'none');
-            $( "#video_plateau" ).css('display', 'none');
+            $( "#video_berceau" ).css('display', 'none');
+            $( "#video_raisin" ).css('display', 'none');
+            $( "#video_pont" ).css('display', 'none');
+            $( "#video_vendeur" ).css('display', 'none');
             
-            $( "#texte_culotte" ).css('display', 'block');
+            $( "#texte_canne" ).css('display', 'block');
             
-            $( "#texte_robert" ).css('display', 'none');
-            $( "#texte_romain" ).css('display', 'none');
-            $( "#texte_diable" ).css('display', 'none');
-            $( "#texte_plateau" ).css('display', 'none');
+            $( "#texte_berceau" ).css('display', 'none');
+            $( "#texte_raisin" ).css('display', 'none');
+            $( "#texte_pont" ).css('display', 'none');
+            $( "#texte_vendeur" ).css('display', 'none');
             
-            var video = $("#video_robert").attr("src");
-            $("#video_robert").attr("src","");
-            $("#video_robert").attr("src",video);
+             var video = $("#video_berceau").attr("src");
+            $("#video_berceau").attr("src","");
+            $("#video_berceau").attr("src",video);
             
-             var video = $("#video_romain").attr("src");
-            $("#video_romain").attr("src","");
-            $("#video_romain").attr("src",video);
+             var video = $("#video_pont").attr("src");
+            $("#video_pont").attr("src","");
+            $("#video_pont").attr("src",video);
             
-             var video = $("#video_diable").attr("src");
-            $("#video_diable").attr("src","");
-            $("#video_diable").attr("src",video);
+             var video = $("#video_vendeur").attr("src");
+            $("#video_vendeur").attr("src","");
+            $("#video_vendeur").attr("src",video);
             
-             var video = $("#video_plateau").attr("src");
-            $("#video_plateau").attr("src","");
-            $("#video_plateau").attr("src",video);
+             var video = $("#video_raisin").attr("src");
+            $("#video_raisin").attr("src","");
+            $("#video_raisin").attr("src",video);
             
-             var video = $("#video_culotte").attr("src");
-            $("#video_culotte").attr("src","");
-            $("#video_culotte").attr("src",video);
+             var video = $("#video_canne").attr("src");
+            $("#video_canne").attr("src","");
+            $("#video_canne").attr("src",video);
             
             
         });
