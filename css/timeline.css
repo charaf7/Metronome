@@ -170,7 +170,7 @@
 	width: 100px;	
 }
 #timeline #next img{
-	width: 18%;
+	width: 25%;
 }
 #timeline #back{
 	position: absolute;
@@ -179,7 +179,7 @@
 	width: 100px;	
 }
 #timeline #back img{
-	width: 18%;	
+	width: 25%;	
 }
 /*
 #timeline #next-hover{

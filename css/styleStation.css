@@ -371,7 +371,7 @@ li::after{
 #diable{
     position: absolute;
     right: 0;
-    bottom : 30vh;
+    bottom : 26vh;
     width: 16%;
     height: auto;
     
@@ -380,7 +380,7 @@ li::after{
 #diable-hover{
     position: absolute;
     right: 0;
-    bottom : 30vh;
+    bottom : 26vh;
     width: 16.2%;
     height: auto;
     display: none;
@@ -429,3 +429,137 @@ li::after{
     display: none;
     
 }
+
+#berceau{
+    position: absolute;
+    left: 60%;
+    bottom : 59vh;
+    width: 10%;
+    height: auto;
+}
+
+#berceau-hover{
+    position: absolute;
+    left: 60%;
+    bottom : 59vh;
+    width: 10.5%;
+    height: auto;
+    display: none;
+}
+
+#raisin{
+    position: absolute;
+    left: 14%;
+    bottom : 3vh;
+    width: 10%;
+    height: auto;
+   
+}
+
+#raisin-hover{
+    position: absolute;
+    left: 14%;
+    bottom : 3vh;
+    width: 10.5%;
+    height: auto;
+    display: none;
+}
+
+
+#pont{
+    position: absolute;
+    left: 67%;
+    bottom : 1vh;
+    width : 33%;
+    height: auto;
+}
+
+#pont-hover{
+    position: absolute;
+    left: 67%;
+    bottom : 1vh;
+    width : 33%;
+    height: auto;
+    display: none;
+}
+
+#vendeur{
+    position: absolute;
+    left: 53%;
+    bottom : 4vh;
+    width: 9%;
+    height: auto;
+
+    
+}
+
+#vendeur-hover{
+    position: absolute;
+    left: 53%;
+    bottom : 4vh;
+    width: 9.5%;
+    display: none;
+}
+
+#canne{
+    position: absolute;
+    left: 41%;
+    bottom : 4vh;
+    width: 2.5%;
+    height: auto;
+    border-radius: 15%;
+
+    
+}
+
+#canne-hover{
+    position: absolute;
+    left: 41%;
+    bottom : 4vh;
+    width: 2.7%;
+    height: auto;
+    border-radius: 15%;
+    display: none;
+}
+
+#logoInvalides img{
+    position: absolute;
+    width:6%;
+    height: auto;
+    left: 1%;
+    bottom: 80vh;
+    
+}
+
+#baselineInvalides{
+    position: absolute;
+    font-family: paris;
+    font-size: 130%;
+    color : #ffcb26;
+    left: 8%;
+    bottom: 80vh;
+    
+}
+
+.anecdoteVideoInvalides{
+    position: absolute;
+    width: 30.5%;
+    height: 54.5%;
+    bottom: 20.5vh;
+    left: 7.4%;
+    display: none;
+}
+.anecdoteTextInvalides{
+    position: absolute;
+    width: 28%;
+    height: 49%;
+    left: 65%;
+    bottom: 23vh;
+    color: white;
+    background-color: transparent;
+    font-family: parisine;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+
