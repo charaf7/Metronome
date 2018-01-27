@@ -349,7 +349,7 @@ li::after{
 #diable{
     position: absolute;
     right: 0;
-    bottom : 30vh;
+    bottom : 26vh;
     width: 16%;
     height: auto;
     
@@ -358,7 +358,7 @@ li::after{
 #diable-hover{
     position: absolute;
     right: 0;
-    bottom : 30vh;
+    bottom : 26vh;
     width: 16.2%;
     height: auto;
     display: none;
@@ -406,4 +406,57 @@ li::after{
     height: auto;
     display: none;
     
+}
+
+#berceau{
+    position: absolute;
+    left: 60%;
+    bottom : 59vh;
+    width: 10%;
+    height: auto;
+}
+
+#berceau-hover{
+    position: absolute;
+    left: 60%;
+    bottom : 59vh;
+    width: 10.5%;
+    height: auto;
+    display: none;
+}
+
+#raisin{
+    position: absolute;
+    left: 14%;
+    bottom : 3vh;
+    width: 10%;
+    height: auto;
+   
+}
+
+#raisin-hover{
+    position: absolute;
+    left: 14%;
+    bottom : 3vh;
+    width: 10.5%;
+    height: auto;
+    display: none;
+}
+
+
+#pont{
+    position: absolute;
+    left: 67%;
+    bottom : 1vh;
+    width : 33%;
+    height: auto;
+}
+
+#pont-hover{
+    position: absolute;
+    left: 67%;
+    bottom : 1vh;
+    width : 33%;
+    height: auto;
+    display: none;
 }
