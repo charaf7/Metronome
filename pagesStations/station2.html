@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="../css/modal.css" />
         <link rel="stylesheet" type="text/css" href="../css/styleMobile.css" />
         <link rel="stylesheet" type="text/css" href="../css/stationMobile.css" />
+        <link rel="stylesheet" type="text/css" href="../css/mapPopup.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
     </head>
@@ -61,6 +62,7 @@
             <img class="illustration" id="robert" src="../images/anecdotes/robert.png" />
             <img class="illustration-hover" id="robert-hover" src ="../images/anecdotes/robert_hover.png" />
             
+            <a href="#mapCite" id="map_linkCite"><img class="illustration" id="map_illustCite" src="../images/map/map_illust.png"></a>
             <!-- _______________________________________________________-ROBERT _____________________________________________________-->
             <iframe class="anecdoteVideoCite" id ="video_robert" src="https://www.youtube.com/embed/kDehTEEoFnE" frameborder="0" allowfullscreen></iframe>
             <img class="illustrationMobileCite"  src="../images/anecdotes/robert.png" />
@@ -193,21 +195,8 @@
                 textetextetexte<br /><br />
                 </p>
             </div>
-              <!-- aller vers la map interactive-->
-            <div id = "map">
-            </div>
     </div>
         
-        
-    <div id="nav-gauche">
-    
-    
-    </div>
-    
-    <div id="nav-droite">
-        
-        
-    </div>
 <!-- Timeline de navigation -->
      <div id = "timeline">
         <div class="stations">
@@ -237,10 +226,30 @@
     <div id="aide" class="modal-window"></div>
     <div id="mobileMenu" class="menuModal"></div>
 
+    <!-- aller vers la map interactive-->
+    <div id="mapCite" class="modal-window">
+        <span class="hiddenForAccess">Accéder à la carte interactive des stations de métro parisien.</span>
+        <div class="map">
+            <a href="#modal-close" title="Fermer" class="modal-close">X</a>
+            <div class="theMap">
+                <img src="../images/map/carte_vierge.png">
+                <div id="invalidesT" ><a href="../pagesStations/station1.html"><span>Invalides</span></a></div>
+                <div id="chateletT"><a href="../pagesStations/station1.html"><span>Chatelet</span></a></div>
+                <div id="citeT"><a href="../pagesStations/station2.html"><span>Cité</span></a></div>
+                <div id="maubertT"><a href="../pagesStations/station4.html"><span>Maubert-Mutualité</span></a></div>
+                <div id="invalidesP" ><a href="../pagesStations/station1.html"><img src="../images/map/pointer_invalides.png"></a></div>
+                <div id="chateletP"><a href="../pagesStations/station2.html"><img src="../images/map/pointer_chatelet.png"></a></div>
+                <div id="citeP"><a href="../pagesStations/station3.html"><img src="../images/map/pointer_cite.png"></a></div>
+                <div id="maubertP"><a href="../pagesStations/station4.html"><img src="../images/map/pointer_maubert.png"></a></div>
+            </div>
+        </div>
+    </div>
+
     <script src="../jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../javascript/mobileLanguages.js"></script>
     <script src="../javaScript/load.js"></script>
     <script src="../javaScript/cite.js"></script>
+    <script type="text/javascript" src="../javaScript/showPositions.js"></script>
         
     </body>
 </html>

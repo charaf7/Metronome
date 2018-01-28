@@ -11,9 +11,10 @@
         <link rel="stylesheet" type="text/css" href="../css/modal.css" />
         <link rel="stylesheet" type="text/css" href="../css/styleMobile.css" />
         <link rel="stylesheet" type="text/css" href="../css/stationMobile.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+        <link rel="stylesheet" type="text/css" href="../css/mapPopup.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     </head>
+
     <body>
         <img id ="background" src="../images/backgrounds/background_invalides.jpg" alt="vous êtes à la station Invalides/Vous vous trouvez dans la station de métro Invalides et sur le quai d'en face il y a :" />
              
@@ -61,6 +62,10 @@
             
             <img class="illustration" id="canne" src="../images/anecdotes/canne.png" />
             <img id="canne-hover" src ="../images/anecdotes/canne_hover.png" />
+
+            <a href="#mapInvalides" id="map_linkInvalides"><img class="illustration" id="map_illustInvalides" src="../images/map/map_illust.png"></a>
+            
+            <!-- _______________________________________________________-BERCEAU _____________________________________________________-->
             
             <iframe class="anecdoteVideoInvalides" id ="video_berceau" src="https://www.youtube.com/embed/kDehTEEoFnE" frameborder="0" allowfullscreen></iframe>
             <div id="texte_berceau" class="anecdoteTextInvalides">
@@ -172,23 +177,10 @@
                 textetextetexte<br /><br />
                 </p>
             </div>
-              <!-- aller vers la map interactive-->
-            <div id = "map">
-            </div>
-    
-    </div>
-        
-        
-    <div id="nav-gauche">
-    
-    
+                
     </div>
     
-    <div id="nav-droite">
-        
-        
-    </div>
-        <!-- Timeline de navigation -->
+    <!-- Timeline de navigation -->
     <div id = "timeline">
         <div class="stations">
             <span class="station" id="invalides"><a href="station1.html">Invalides</a></span>
@@ -197,8 +189,8 @@
             <span class="station" id="maubert"><a href="station1.html">Maubert-Mutualité</a></span>
         </div>
         <div class="stationsDots">
-            <a href="station1.html"><div class="invalides"></div></a>
-            <a href="station1.html"><div class="chatelet" style="background-color: #F0C736;"></div></a>
+            <a href="station1.html"><div class="invalides" style="background-color: #BEA0C2;"></div></a>
+            <a href="station1.html"><div class="chatelet"></div></a>
             <a href="station2.html"><div class="cite"></div></a>
             <a href="station4.html"><div class="maubert"></div></a>
         </div>
@@ -218,9 +210,30 @@
     <div id="aide" class="modal-window"></div>
     <div id="mobileMenu" class="menuModal"></div>
 
+    <!-- aller vers la map interactive-->
+    <div id="mapInvalides" class="modal-window">
+        <span class="hiddenForAccess">Accéder à la carte interactive des stations de métro parisien.</span>
+        <div class="map">
+            <a href="#modal-close" title="Fermer" class="modal-close">X</a>
+            <div class="theMap">
+                <img src="../images/map/carte_vierge.png">
+                <div id="invalidesT" ><a href="../pagesStations/station1.html"><span>Invalides</span></a></div>
+                <div id="chateletT"><a href="../pagesStations/station1.html"><span>Chatelet</span></a></div>
+                <div id="citeT"><a href="../pagesStations/station2.html"><span>Cité</span></a></div>
+                <div id="maubertT"><a href="../pagesStations/station4.html"><span>Maubert-Mutualité</span></a></div>
+                <div id="invalidesP" ><a href="../pagesStations/station1.html"><img src="../images/map/pointer_invalides.png"></a></div>
+                <div id="chateletP"><a href="../pagesStations/station2.html"><img src="../images/map/pointer_chatelet.png"></a></div>
+                <div id="citeP"><a href="../pagesStations/station3.html"><img src="../images/map/pointer_cite.png"></a></div>
+                <div id="maubertP"><a href="../pagesStations/station4.html"><img src="../images/map/pointer_maubert.png"></a></div>
+            </div>
+        </div>
+    </div>
+
     <script src="../jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../javascript/mobileLanguages.js"></script>
     <script src="../javaScript/load.js"></script>
-    <script src="../javaScript/invalides.js"></script>        
+    <script src="../javaScript/invalides.js"></script>
+    <script type="text/javascript" src="../javaScript/showPositions.js"></script>
+
     </body>
 </html>

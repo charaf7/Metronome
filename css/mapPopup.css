@@ -2,7 +2,7 @@
 /*         MAP                          /
 ***************************************/
 
-.modal-window {
+#mapChatelet.modal-window {
     position: fixed;
     background-color: rgba(255, 255, 255, 0.15);
     top: 0;
@@ -17,13 +17,12 @@
     transition: all 0.3s;
 }
 
-.modal-window:target {
+#mapChatelet.modal-window:target {
   opacity: 1;
   pointer-events: auto;
   background-color: rgba(20, 20, 20, 0.86);
 }
-
-.modal-window>div {
+#mapChatelet.modal-window>div {
   width: 50%;
   position: relative;
   margin: 2% auto;
@@ -34,6 +33,74 @@
   background-size: cover;
 
 }
+/*---------------------------------------------*/
+
+#mapCite.modal-window {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.15);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#mapCite.modal-window:target {
+  opacity: 1;
+  pointer-events: auto;
+  background-color: rgba(20, 20, 20, 0.86);
+}
+#mapCite.modal-window>div {
+  width: 50%;
+  position: relative;
+  margin: 2% auto;
+  padding: 2rem;
+  color: #fff;
+  /*background-image: url("../images/backgrounds/popup_background.jpg");*/
+  background: none !important;
+  background-size: cover;
+
+}
+/*---------------------------------------------*/
+
+#mapInvalides.modal-window {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.15);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#mapInvalides.modal-window:target {
+  opacity: 1;
+  pointer-events: auto;
+  background-color: rgba(20, 20, 20, 0.86);
+}
+#mapInvalides.modal-window>div {
+  width: 50%;
+  position: relative;
+  margin: 2% auto;
+  padding: 2rem;
+  color: #fff;
+  /*background-image: url("../images/backgrounds/popup_background.jpg");*/
+  background: none !important;
+  background-size: cover;
+
+}
+/*---------------------------------------------*/
+
 
 .modal-window header {
   font-weight: bold;
@@ -97,14 +164,14 @@
 }
 #mapChatelet #citeP{
   position: absolute;
-  left: 51.3vw;
-  top: 35vh;
+  left: 24.6vw;
+  top: 33.1vh;
   display: none;
 }
 #mapChatelet #maubertP {
   position: absolute;
-  left: 51.8vw;
-  top: 40vh;
+  left: 25.1vw;
+  top: 39vh;
   display: none;
 }
 
@@ -139,5 +206,158 @@
   width: 20px;
 }
 #mapChatelet #maubert img{
+  width: 20px;
+}
+
+
+#mapCite .theMap a {
+    text-decoration: none;
+    color: #000;
+}
+#mapCite .theMap{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 80vh;
+}
+#mapCite .theMap>img{
+  margin-top: 5px;
+  height: 75vh;
+  width: 47vw;
+}
+#mapCite #invalidesP{
+  position: absolute;
+  left: 16.7vw;
+  top: 28.5vh;
+  display: none;
+}
+#mapCite #chateletP{
+  position: absolute;
+  left: 25.2vw;
+  top: 30.5vh;
+  display: none;
+}
+#mapCite #citeP{
+  position: absolute;
+  left: 24.6vw;
+  top: 33.1vh;
+  display: none;
+}
+#mapCite #maubertP {
+  position: absolute;
+  left: 25.1vw;
+  top: 39vh;
+  display: none;
+}
+
+#mapCite #invalidesT{
+  position: absolute;
+  left: 34%;
+  top: 36vh;
+}
+#mapCite #chateletT{
+  position: absolute;
+  left: 54%;
+  top: 34vh;
+}
+#mapCite #citeT{
+  position: absolute;
+  left: 53%;
+  top: 38vh;
+}
+#mapCite #maubertT{
+  position: absolute;
+  left: 49%;
+  top: 46vh;
+}
+
+#mapCite #invalides img{
+  width: 20px;  
+}
+#mapCite #chatelet img{
+  width: 20px;
+}
+#mapCite #cite img{
+  width: 20px;
+}
+#mapCite #maubert img{
+  width: 20px;
+}
+
+/*------------------------------------------- INVALIDES --------------------------------------------*/
+
+#mapInvalides .theMap a {
+    text-decoration: none;
+    color: #000;
+}
+#mapInvalides .theMap{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 80vh;
+}
+#mapInvalides .theMap>img{
+  margin-top: 5px;
+  height: 75vh;
+  width: 47vw;
+}
+#mapInvalides #invalidesP{
+  position: absolute;
+  left: 16.7vw;
+  top: 28.5vh;
+  display: none;
+}
+#mapInvalides #chateletP{
+  position: absolute;
+  left: 25.2vw;
+  top: 30.5vh;
+  display: none;
+}
+#mapInvalides #citeP{
+  position: absolute;
+  left: 24.6vw;
+  top: 33.1vh;
+  display: none;
+}
+#mapInvalides #maubertP {
+  position: absolute;
+  left: 25.1vw;
+  top: 39vh;
+  display: none;
+}
+
+#mapInvalides #invalidesT{
+  position: absolute;
+  left: 34%;
+  top: 36vh;
+}
+#mapInvalides #chateletT{
+  position: absolute;
+  left: 54%;
+  top: 34vh;
+}
+#mapInvalides #citeT{
+  position: absolute;
+  left: 53%;
+  top: 38vh;
+}
+#mapInvalides #maubertT{
+  position: absolute;
+  left: 49%;
+  top: 46vh;
+}
+
+#mapInvalides #invalides img{
+  width: 20px;  
+}
+#mapInvalides #chatelet img{
+  width: 20px;
+}
+#mapInvalides #cite img{
+  width: 20px;
+}
+#mapInvalides #maubert img{
   width: 20px;
 }
