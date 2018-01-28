@@ -56,9 +56,7 @@ header{
 .illustrationMobile{
     display: none;
 }
-.illustrationMobileCite{
-    display: none;
-}
+
 #station{
 	height: 65vh;
     position: relative;
@@ -453,6 +451,10 @@ li::after{
     display: none;
     
 }
+.illustrationMobileCite{
+    display: none;
+}
+
 
 /****************************************/
 /*         INVALIDES                    /
@@ -588,6 +590,9 @@ li::after{
     font-family: parisine;
     overflow-y: scroll;
     overflow-x: hidden;
+    display: none;
+}
+.illustrationMobileInvalides{
     display: none;
 }
 
