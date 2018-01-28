@@ -11,6 +11,7 @@
         <link rel="stylesheet" type="text/css" href="../css/modal.css" />
         <link rel="stylesheet" type="text/css" href="../css/styleMobile.css" />
         <link rel="stylesheet" type="text/css" href="../css/stationMobile.css" />
+        <link rel="stylesheet" type="text/css" href="../css/mapPopup.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
     </head>
@@ -57,12 +58,19 @@
             <img id="manif-hover" src="../images/anecdotes/manif_hover.png" />
             
             <img class="illustration" id="marrais" src="../images/anecdotes/marrais.png" />
-             <img id="marrais-hover" src="../images/anecdotes/marrais_hover.png" />
+            <img id="marrais-hover" src="../images/anecdotes/marrais_hover.png" />
             
             <img class="illustration" id="chapelet" src="../images/anecdotes/chapelet.png" />
             <img id="chapelet-hover" src ="../images/anecdotes/chapelet_hover.png" />
             
+            
+            <a href="#mapMaubert" id="map_linkMaubert"><img class="illustration" id="map_illustMaubert" src="../images/map/map_illust.png"></a>
+
+            
+            <!-- _______________________________________________________-LETTRE _____________________________________________________-->
+
             <iframe class="anecdoteVideoMaubert" id ="video_lettre" src="https://www.youtube.com/embed/kDehTEEoFnE" frameborder="0" allowfullscreen></iframe>
+            <img class="illustrationMobileMaubert"  src="../images/anecdotes/lettre.png"/>
             <div id="texte_lettre" class="anecdoteTextMaubert">
             <p>DRAKKAR tetextetextetexttextetexte<br />
                 textetextetextetextetexttextetete<br />
@@ -84,8 +92,13 @@
                 textetextetexte<br /><br />
                 </p>
             </div>
+            
+            <!-- _______________________________________________________-LIVRE _____________________________________________________-->
+            <hr>
+
             <iframe  class="anecdoteVideoMaubert" id ="video_livre" src="https://www.youtube.com/embed/LKFuXETZUsI" frameborder="0" allowfullscreen></iframe>
-             <div id="texte_livre" class="anecdoteTextMaubert">
+            <img class="illustrationMobileMaubert" " src="../images/anecdotes/livres.png" />
+            <div id="texte_livre" class="anecdoteTextMaubert">
             <p>BARREAU extetextetextetexttextetexte<br />
                 textetextetextetextetexttextetete<br />
                 textetextetetextetetextetexte<br />
@@ -106,8 +119,13 @@
                 textetextetexte<br /><br />
                 </p>
             </div>
+
+            <!-- _______________________________________________________-MANIF _____________________________________________________-->
+            <hr>
+
             <iframe class="anecdoteVideoMaubert" id ="video_manif" src="https://www.youtube.com/embed/KYz2wyBy3kc" frameborder="0" allowfullscreen></iframe>
-             <div id="texte_manif" class="anecdoteTextMaubert">
+            <img class="illustrationMobileMaubert"  src="../images/anecdotes/manif.png" />
+            <div id="texte_manif" class="anecdoteTextMaubert">
             <p>CADAVRE textetextetexteteextetexte<br />
                 textetextetextetextetexttextetete<br />
                 textetextetetextetetextetexte<br />
@@ -128,8 +146,13 @@
                 textetextetexte<br /><br />
                 </p>
             </div>
+
+            <!-- _______________________________________________________-MARRAIS_____________________________________________________-->
+            <hr>
+
             <iframe class="anecdoteVideoMaubert" id ="video_marrais" src="https://www.youtube.com/embed/ViKC6MGYbUo" frameborder="0" allowfullscreen></iframe>
-             <div id="texte_marrais" class="anecdoteTextMaubert">
+            <img class="illustrationMobileMaubert"  src="../images/anecdotes/marrais.png" />
+            <div id="texte_marrais" class="anecdoteTextMaubert">
             <p>PROSTITUE teetextetexteteextetexte<br />
                 textetextetextetextetexttextetete<br />
                 textetextetetextetetextetexte<br />
@@ -150,8 +173,13 @@
                 textetextetexte<br /><br />
                 </p>
             </div>
+
+            <!-- _______________________________________________________-CHAPELET _____________________________________________________-->
+            <hr>
+
             <iframe class="anecdoteVideoMaubert" id ="video_chapelet" src="https://www.youtube.com/embed/bY73vFGhSVk" frameborder="0" allowfullscreen></iframe>
-             <div id="texte_chapelet" class="anecdoteTextMaubert">
+            <img class="illustrationMobileMaubert" src="../images/anecdotes/chapelet.png" />
+            <div id="texte_chapelet" class="anecdoteTextMaubert">
                 <p>CHEVALIER xtetextetexteteextetexte<br />
                 textetextetextetextetexttextetete<br />
                 textetextetetextetetextetexte<br />
@@ -171,23 +199,10 @@
                 textetextetextetextetexte<br />
                 textetextetexte<br /><br />
                 </p>
-            </div>
-              <!-- aller vers la map interactive-->
-            <div id = "map">
-            </div>
-    
+            </div>    
     </div>
         
         
-    <div id="nav-gauche">
-    
-    
-    </div>
-    
-    <div id="nav-droite">
-        
-        
-    </div>
         <!-- Timeline de navigation -->
     <div id = "timeline">
         <div class="stations">
@@ -218,9 +233,31 @@
     <div id="aide" class="modal-window"></div>
     <div id="mobileMenu" class="menuModal"></div>
 
+    <!-- aller vers la map interactive-->
+    <div id="mapMaubert" class="modal-window">
+        <span class="hiddenForAccess">Accéder à la carte interactive des stations de métro parisien.</span>
+        <div class="map">
+            <a href="#modal-close" title="Fermer" class="modal-close">X</a>
+            <div class="theMap">
+                <img src="../images/map/carte_vierge.png">
+                <div id="invalidesT" ><a href="../pagesStations/station1.html"><span>Invalides</span></a></div>
+                <div id="chateletT"><a href="../pagesStations/station1.html"><span>Chatelet</span></a></div>
+                <div id="citeT"><a href="../pagesStations/station2.html"><span>Cité</span></a></div>
+                <div id="maubertT"><a href="../pagesStations/station4.html"><span>Maubert-Mutualité</span></a></div>
+                <div id="invalidesP" ><a href="../pagesStations/station1.html"><img src="../images/map/pointer_invalides.png"></a></div>
+                <div id="chateletP"><a href="../pagesStations/station2.html"><img src="../images/map/pointer_chatelet.png"></a></div>
+                <div id="citeP"><a href="../pagesStations/station3.html"><img src="../images/map/pointer_cite.png"></a></div>
+                <div id="maubertP"><a href="../pagesStations/station4.html"><img src="../images/map/pointer_maubert.png"></a></div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="../jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../javascript/mobileLanguages.js"></script>
     <script src="../javaScript/load.js"></script>
-    <script src="../javaScript/maubert.js"></script>        
+    <script src="../javaScript/maubert.js"></script>  
+    <script type="text/javascript" src="../javaScript/showPositions.js"></script>
+
     </body>
 </html>

@@ -170,6 +170,44 @@
 		width: 50%;
 	}
 
+	/*MAUBERT*/
+	#logoMaubert img {
+    position: absolute;
+    width: 16%;
+    height: auto;
+    left: 23%;
+    top: 3vh;
+	}
+	#baselineMaubert {
+	    position: absolute;
+	    font-family: paris;
+	    font-size: 108%;
+	    color: #ffcb26;
+	    left: 43%;
+	    top: 3vh;
+	}
 	
+	.anecdoteVideoMaubert{
+		position: initial;
+	    width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	    height: auto;
+	}
+	.anecdoteTextMaubert{
+		position: initial;
+	    width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	    margin-bottom: 20px;
+	}
+	.illustrationMobileMaubert{
+		display: block;
+		width: 30%;
+		margin: 0 auto;
+		margin-bottom: 18px;
+	}
 	
 }

@@ -76,8 +76,6 @@ ul{
     display: flex;
     justify-content: space-between;
     font-family: parisine;
-
-    
 }
 
 li {
@@ -607,6 +605,31 @@ li::after{
     height: 17%;
 }
 #map_illustInvalides{
+    position: absolute;
+    width: 92%;
+    height: 100%;
+    visibility: hidden;
+    
+}
+
+/****************************************/
+/*         MAUBERT                      /
+***************************************/
+
+.illustrationMobileMaubert{
+    display: none;
+}
+#map_linkMaubert:hover #map_illustMaubert{
+  visibility: visible;
+}
+#map_linkMaubert{
+    position: absolute;
+    left: 44.3%;
+    bottom: 28.4vh;
+    width: 8%;
+    height: 17%;
+}
+#map_illustMaubert{
     position: absolute;
     width: 92%;
     height: 100%;
