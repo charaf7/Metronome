@@ -15,6 +15,9 @@
         
     </head>
     <body>
+        <video autoplay muted loop id="intro">
+      <source src="../videos/transition.mp4" type="video/mp4">
+    </video>
         <img id ="background" src="../images/backgrounds/background_cite.jpg" alt="Vous voilà dans la station de métro Cité et devant vous, sur l'autre quai :" />  
         <header>
             <ul>
@@ -246,6 +249,10 @@
             </div>
         </div>
     </div>
+        
+        <script>
+        setTimeout(function(){ document.getElementById('intro').style.display = "none"; }, 5000);
+    </script>
 
     <script src="../jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../javascript/mobileLanguages.js"></script>

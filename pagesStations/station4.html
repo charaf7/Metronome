@@ -16,6 +16,9 @@
         
     </head>
     <body>
+    <video autoplay muted loop id="intro">
+      <source src="../videos/transition.mp4" type="video/mp4">
+    </video>
         <img id ="background" src="../images/backgrounds/background_maubert.jpg" alt="Vous voilà dans la station Maubert-Mutualité et sur le quais d'en face il y a :" />
              
         <header>
@@ -54,10 +57,10 @@
             
             <img class="illustration" id="livres" src="../images/anecdotes/livres.png" alt="Sur le sol il y a une pile de gros livre." />
             <img class="illustration-hover" id="livres-hover" src="../images/anecdotes/livres_hover.png" />
-            
-            <img class="illustration" id="manif" src="../images/anecdotes/manif.png" alt="Une banderole sur laquelle on peut lire "Paris, trop cher pour les étudiants!" est accrochée au plafond." />
-            <img class="illustration-hover" id="manif-hover" src="../images/anecdotes/manif_hover.png" />
-            
+
+            <img class="illustration" id="manif" src="../images/anecdotes/manif.png" alt="Une banderole sur laquelle on peut lire Paris, trop cher pour les étudiants! est accrochée au plafond." />
+            <img id="manif-hover" src="../images/anecdotes/manif_hover.png" />
+
             <img class="illustration" id="marrais" src="../images/anecdotes/marrais.png" alt="Le poster d'un monstre marin est affiché sur l'un des murs de la station." />
             <img class="illustration-hover" id="marrais-hover" src="../images/anecdotes/marrais_hover.png" />
             
@@ -254,6 +257,9 @@
     </div>
 
 
+    <script>
+        setTimeout(function(){ document.getElementById('intro').style.display = "none"; }, 5000);
+    </script>
     <script src="../jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../javascript/mobileLanguages.js"></script>
     <script src="../javaScript/load.js"></script>
