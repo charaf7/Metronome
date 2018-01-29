@@ -351,8 +351,8 @@ li::after{
 }
 #robert{
     position: absolute;
-    left: 32%;
-    bottom : 51vh;
+    left: 33%;
+    bottom : 40vh;
     width: 8%;
     height: auto;
     border-radius: 10%;
@@ -361,8 +361,8 @@ li::after{
 
 #robert-hover{
     position: absolute;
-    left: 32%;
-    bottom : 51vh;
+    left: 33%;
+    bottom : 40vh;
     width: 8.5%;
     height: auto;
     border-radius: 10%;
@@ -821,4 +821,61 @@ li::after{
 #intro{
     min-width: 100%;
     min-height: 100%;
+}
+
+
+#retranscriptionChatelet{
+    position: absolute;
+    top: 2vh;
+    left: 21%;
+    color: white;
+    text-decoration: none;
+    font-family: parisine;
+    padding: 0.5%;
+    border: white 2px solid;
+    border-radius: 15px;
+    width: 16%;
+    text-align: center;
+}
+
+#retranscriptionCite{
+    position: absolute;
+    top: 2vh;
+    left: 16%;
+    color: white;
+    text-decoration: none;
+    font-family: parisine;
+    padding: 0.5%;
+    border: white 2px solid;
+    border-radius: 15px;
+    width: 16%;
+    text-align: center;
+}
+
+#retranscriptionInvalides{
+   position: absolute;
+    top: 0.5vh;
+    left: 21%;
+    color: white;
+    text-decoration: none;
+    font-family: parisine;
+    padding: 0.5%;
+    border: white 2px solid;
+    border-radius: 15px;
+    width: 16%;
+    text-align: center;
+}
+
+#retranscriptionMaubert{
+   position: absolute;
+    bottom: 12vh;
+    left: 16%;
+    color: white;
+    text-decoration: none;
+    font-family: parisine;
+    padding: 0.5%;
+    border: white 2px solid;
+    border-radius: 15px;
+    width: 16%;
+    text-align: center;
 }
