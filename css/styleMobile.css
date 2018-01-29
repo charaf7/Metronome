@@ -3,6 +3,9 @@
   	background-color: #E4E4E6;
   	text-align: left;
   }
+  #introVideo{
+    display: none;
+  }
   #background{
   	background-image: url("../images/backgrounds/bg_home_mobile.jpg");
   	background-position: 0 0;

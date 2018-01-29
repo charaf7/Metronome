@@ -209,5 +209,8 @@
 		margin: 0 auto;
 		margin-bottom: 18px;
 	}
+	#introVideo{
+    display: none;
+  }
 	
 }
