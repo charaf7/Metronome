@@ -751,9 +751,9 @@ li::after{
 
 #chapelet-hover{
      position: absolute;
-    right: 1%;
+    right: 0.3%;
     bottom : 15vh;
-    width: 7.2%;
+    width: 8.3%;
     height: auto;
     display: none;
 }
