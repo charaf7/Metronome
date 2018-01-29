@@ -137,7 +137,7 @@ li::after{
     width:6%;
     height: auto;
     left: 1%;
-    top: 11vh;
+    top: 13vh;
     
 }
 #map_linkChatelet{
@@ -164,7 +164,7 @@ li::after{
     font-size: 130%;
     color : #ffcb26;
     left: 8%;
-    top: 13vh;
+    top: 14vh;
     
 }
 
@@ -410,9 +410,9 @@ li::after{
 
 #culotte{
     position: absolute;
-    left: 52%;
-    bottom : 9vh;
-    width: 8%;
+    left: 60%;
+    bottom : 60vh;
+    width: 10%;
     height: auto;
     border-radius: 10%;
     
@@ -421,9 +421,9 @@ li::after{
 #culotte-hover{
 
     position: absolute;
-    left: 52%;
-    bottom : 9vh;
-    width: 8.2%;
+    left: 60%;
+    bottom : 60vh;
+    width: 10.2%;
     height: auto;
     display: none;
     
@@ -624,15 +624,152 @@ li::after{
 }
 #map_linkMaubert{
     position: absolute;
-    left: 44.3%;
-    bottom: 28.4vh;
-    width: 8%;
-    height: 17%;
+    left: 45.7%;
+    bottom: 22.5vh;
+    width: 9%;
+    height: 17.5%;
 }
 #map_illustMaubert{
     position: absolute;
     width: 92%;
     height: 100%;
     visibility: hidden;
+   
+}
+
+
+.anecdoteVideoMaubert{
+    position: absolute;
+    width: 26%;
+    height: 52%;
+    bottom: 19vh;
+    left: 11%;
+    display: none;
+}
+.anecdoteTextMaubert{
+    position: absolute;
+    width: 21%;
+    height: 46%;
+    left: 65%;
+    bottom: 22vh;
+    color: white;
+    background-color: transparent;
+    font-family: parisine;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+
+#lettre{
+    position: absolute;
+    left: 32%;
+    bottom : 3vh;
+    width: 12%;
+    height: auto;
+
+    
+}
+
+#lettre-hover{
+    position: absolute;
+    left: 32%;
+    bottom : 3vh;
+    width: 12%;
+    height: auto;
+    display: none;
+}
+
+#livres{
+    position: absolute;
+    left: 54%;
+    bottom : 4vh;
+    width: 8%;
+    height: auto;
+
+    
+}
+
+#livres-hover{
+    position: absolute;
+    left: 53.6%;
+    bottom : 3.4vh;
+    width: 8.5%;
+    height: auto;
+    display: none;
+}
+
+#manif{
+    position: absolute;
+    left: 51%;
+    bottom : 55vh;
+    width: 25%;
+    height: auto;
+    border-radius: 5%;
+    
+}
+
+#manif-hover{
+    position: absolute;
+    left: 51%;
+    bottom : 55vh;
+    width: 25.5%;
+    display: none;
+}
+
+
+#marrais{
+    position: absolute;
+     left: 0.5%;
+    bottom : 13vh;
+    width: 9%;
+    height: auto;
+
+    
+}
+
+#marrais-hover{
+    position: absolute;
+    left: 0.5%;
+    bottom : 13vh;
+    width: 9.5%;
+    height: auto;
+    display: none;
+}
+
+#chapelet{
+    position: absolute;
+    right: 1%;
+    bottom : 15vh;
+    width: 7%;
+    height: auto;
+
+    
+}
+
+#chapelet-hover{
+     position: absolute;
+    right: 1%;
+    bottom : 15vh;
+    width: 7.2%;
+    height: auto;
+    display: none;
+}
+
+#logoMaubert img{
+    position: absolute;
+    width:6%;
+    height: auto;
+    left: 1%;
+    top: 14vh;
+    
+}
+
+#baselineMaubert{
+     position: absolute;
+    font-family: paris;
+    font-size: 130%;
+    color : #ffcb26;
+    left: 8%;
+    top: 15vh;
     
 }
