@@ -167,14 +167,15 @@
 	position: absolute;
 	right: 0;
 	top: 50%;
-	width: 100px;	
+	width: 100px;
+    text-align: end;
 }
 #timeline #next img{
 	width: 25%;
 }
 #timeline #back{
 	position: absolute;
-	left: 5%;
+	left: 0;
 	top: 50%;
 	width: 100px;	
 }
