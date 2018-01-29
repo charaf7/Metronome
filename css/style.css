@@ -23,6 +23,9 @@ header{
 	height: 10vh;
 	
 }
+.header a{
+	color: #fff !important;
+}
 ul{
 	margin : 0;
 	display : flex;
@@ -104,6 +107,9 @@ li::after{
 	width: 0;
 	background: black;
 }
+.header li::after{
+	background: #fff !important;
+}
 .langue{
 	position: relative;
 	display: inline-block;
@@ -137,13 +143,15 @@ li::after{
 }
 .langues li a{
 	display: initial;
+	color: #000 !important;
 }
 .langues li:hover::after {
 	width: 40px;
 }
-.langue:hover .langues{
-    display: block;
+.langues li::after {
+	background: #000 !important;
 }
+
 .header .icon {
   display: none;
 }
@@ -162,22 +170,33 @@ li::after{
 #logonav h1{
 	
 }
-#white{
-	color: #fff;
-	margin: 1%;
-}
 #background{
-	background-image: url('../images/backgrounds/header_home.png');
-	background-size: cover;
-	background-position: center;
 	height: 20vh;
 }
 .description{
 	position: absolute;
-	background-color: #141414;
-	width: 100%;
-	opacity: 0.7;
-	top: 21.5vh;
+	width: 25%;
+	top: 50vh;
+	left: 3vw;
+}
+.descBox{
+	position: absolute;
+	width: 23%;
+	top: 37vh;
+	right: 3vw;
+	 transition-property: all;
+  transition-duration: 3s; /* on aurait pu écrire 500ms également */
+  transition-timing-function: ease-in;
+  transition-delay: 4s;
+}
+.descBox h4.bigger{
+	text-align: center;
+	margin : 20px;
+}
+.descBox h4#white{
+	text-align: center;
+	margin : 50px;
+	color: #fff;
 }
 .theMap{
 	position: relative;
@@ -429,4 +448,16 @@ li::after{
 #intro{
     min-width: 100%;
     min-height: 100%;
+}
+video#backgroundVideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; height: auto;
+  z-index: -100;
+  background-size: cover;
+  opacity: 0.4;
+}
 }

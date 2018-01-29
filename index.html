@@ -12,6 +12,10 @@
 </head>
 
 <body>
+	<video  autoplay loop id="backgroundVideo">
+	  <source src="videos/video_accueil.mp4" type="video/mp4">
+	</video>
+
     <div id="introVideo">
         <video autoplay muted loop id="intro">
       		<source src="videos/intro.mp4" type="video/mp4">
@@ -28,9 +32,9 @@
 				</div>
 
 				<li class="langue">
-					<a href="#"> LANGUE : FR <img src="images/icones/down.png"></a> 
-					<ul class="langues">
-						<li><a href="#">FR.</a></li>
+					<a href="#" id="langueShow"> LANGUE : FR <img src="images/icones/down-white.png"></a> 
+					<ul class="langues" id="langueShown">
+						<li><a href="index.html">FR.</a></li>
 						<li><a href="#">ENG.</a></li>
 						<li><a href="#">DE.</a></li>
 						<li><a href="#">ES.</a></li>
@@ -60,16 +64,15 @@
 
 	<div class="description">
 		<img class="backgroundMobile" src="images/backgrounds/bg_home_mobileC.jpg">
-		<div class="descBox">
-			<h4>Découvrez les secrets de la ville lumière cachés dans les profondeurs de son métro:</h4>
-			<h4 class="bigger">4 stations,</h4>
-			<h4 class="bigger">4 univers,</h4>
-			<h4 class="bigger">1 multitude d'histoires insolites...</h4>
-			<h4>...qui n'attendent qu'a être révélées au grand jour.</h4>
-			<h4 id="white">Cliquez sur une station et voyagez !</h4>
-		</div>
+		<h4>Découvrez les secrets de la ville lumière cachés dans les profondeurs de son métro:</h4>
 	</div>
-
+	<div class="descBox">
+		<h4 class="bigger">4 stations,</h4>
+		<h4 class="bigger">4 univers,</h4>
+		<h4 class="bigger">1 multitude d'histoires insolites...</h4>
+		<h4>...qui n'attendent qu'a être révélées au grand jour.</h4>
+		<h4 id="white">Cliquez sur une station et voyagez !</h4>
+	</div>
 	
 	<div class="mobileStations">
 		<div class="invalidesM"><a href="pagesStations/station1.html"><img src="images/backgrounds/button_invalides_home.jpg"></a></div>
@@ -255,7 +258,7 @@
 	    </div>
 	    <div class="mobileNav">
 	    		<div class="langue" id="mobileLangue">
-					<p style="margin : 0"> LANGUE : FR <img src="images/icones/down.png"></p> 
+					<p style="margin : 0"> LANGUE : FR <img src="images/icones/down-white.png"></p> 
 					<ul class="langues" id="mobileLangues">
 						<li><a href="#">FR.</a></li>
 						<li><a href="#">ENG.</a></li>
@@ -272,7 +275,7 @@
 	    		</a>
 	    	</div>
 	    	<div class="stationPart">
-	    		<a href="pagesStations/station.html">
+	    		<a href="pagesStations/station3.html">
 	    			<div class="station">Invalides</div>
 	    			<div class="cercle"></div>
 	    		</a>
@@ -360,6 +363,19 @@
     }
     document.getElementById("maubertT").onmouseout = function() {
     	maubert.style.display = "none";
+	}
+
+
+	langueShow = document.getElementById("langueShow");
+	langueShown = document.getElementById("langueShown");
+	langueShown.style.display ="none";
+	langueShow.onclick = function(){
+		if(langueShown.style.display == "none"){
+			langueShown.style.display ="block";
+		}
+		else{
+			langueShown.style.display ="none";
+		}
 	}
 
 	langue = document.getElementById("mobileLangue");

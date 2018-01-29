@@ -80,9 +80,7 @@ header li::after{
 .langues li:hover::after {
 	width: 40px;
 }
-#langue:hover .langues{
-    display: block;
-}
+
 header .icon {
   display: none;
 }
