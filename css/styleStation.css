@@ -773,3 +773,7 @@ li::after{
     top: 15vh;
     
 }
+
+#intro{
+    display: none;
+}
