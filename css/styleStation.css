@@ -755,6 +755,38 @@ li::after{
     display: none;
 }
 
+#logoMaubertLink{
+    position: absolute;
+    width: 15%;
+    height: 13%;
+    left: 1%;
+    top: 14vh;
+    z-index: 99;
+}
+#logoInvalidesLink{
+    position: absolute;
+    width: 14%;
+    height: 12%;
+    left: 1%;
+    top: 9vh;
+    z-index: 99;
+}
+#logoCiteLink{
+    position: absolute;
+    width: 14%;
+    height: 12%;
+    left: 1%;
+    top: 12vh;
+    z-index: 99;
+}
+#logoChateletLink{
+    position: absolute;
+    width: 14%;
+    height: 11%;
+    left: 1%;
+    top: 14vh;
+    z-index: 99;
+}
 #logoMaubert img{
     position: absolute;
     width:6%;

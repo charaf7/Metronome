@@ -35,7 +35,7 @@
 		display: none;
 	}
 	.illustration{
-		display: none;
+		display: none !important;
 	}
 	.illustration-hover{
 		width: 0px !important;
