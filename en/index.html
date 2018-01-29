@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Metronome</title>
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/styleMobile.css">
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/fontawesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+	<video  autoplay loop id="backgroundVideo">
+	  <source src="videos/video_accueil.mp4" type="video/mp4">
+	</video>
+
+    <div id="introVideo">
+        <video autoplay muted loop id="intro">
+      		<source src="videos/intro.mp4" type="video/mp4">
+    	</video>
+    </div>  
+    
+	<div id="background">
+		<header class="header" id="nav">
+			<ul>
+				<div id="menu">
+					<li><a href="#apropos">ABOUT</a></li>
+					<li><a href="#credit">CREDITS</a></li>
+					<li><a href="#aide">HELP</a></li>
+				</div>
+
+				<li class="langue">
+					<a href="#" id="langueShow"> LANGAGE :EN <img src="images/icones/down-white.png"></a> 
+					<ul class="langues" id="langueShown">
+						<li><a href="../index.html">FR.</a></li>
+						<li><a href="index.html">ENG.</a></li>
+						<li><a href="#">DE.</a></li>
+						<li><a href="#">ES.</a></li>
+						<li><a href="#">JP.</a></li>
+						<li><a href="#">CHN.</a></li>
+					</ul>
+				</li>
+				<li class="icon"><a href="#mobileMenu">&#9776;</a></li>
+			</ul>
+		</header>
+		<div id="logonav">
+			<img src="images/logo/logo_300x300.png" alt="Logo du webdoc">
+			<h1> A TRIP IN PARIS BY THE METRONOME</h1><br>
+		</div>
+	</div>
+	<div class="theMap">
+		<img src="images/map/carte_vierge.png" alt="Des lignes de métro quadrillent Paris et plusieurs stations sortent du lot, elles ont des secrets à dévoiler…">
+		<div id="invalidesT" ><a href="pagesStations/station3.html"><span>Invalides</span></a></div>
+		<div id="chateletT"><a href="pagesStations/station1.html"><span>Chatelet</span></a></div>
+		<div id="citeT"><a href="pagesStations/station2.html"><span>Cité</span></a></div>
+		<div id="maubertT"><a href="pagesStations/station4.html"><span>Maubert-Mutualité</span></a></div>
+		<div id="invalides" ><a href="pagesStations/station3.html"><img src="images/map/pointer_invalides.png"></a></div>
+		<div id="chatelet"><a href="pagesStations/station1.html"><img src="images/map/pointer_chatelet.png"></a></div>
+		<div id="cite"><a href="pagesStations/station2.html"><img src="images/map/pointer_cite.png"></a></div>
+		<div id="maubert"><a href="pagesStations/station4.html"><img src="images/map/pointer_maubert.png"></a></div>
+	</div>
+
+	<div class="description">
+		<img class="backgroundMobile" src="images/backgrounds/bg_home_mobileC.jpg">
+		<h4>Discover the secrets of the city of lights hidden in the deepness of it subway:</h4>
+	</div>
+	<div class="descBox">
+		<h4 class="bigger">4 stations,</h4>
+		<h4 class="bigger">4 univeres,</h4>
+		<h4 class="bigger">1 multitude of unusual stories...</h4>
+		<h4 class="bigger">... just waiting to be revealed .</h4>
+		<h4 id="white">Click in a station and start travelling!</h4>
+	</div>
+	
+	<div class="mobileStations">
+		<div class="invalidesM"><a href="pagesStations/station3.html"><img src="images/backgrounds/button_invalides_home.jpg"></a></div>
+		<div class="chateletM"><a href="pagesStations/station1.html"><img src="images/backgrounds/button_chatelet_home.jpg"></a></div>
+		<div class="citeM"><a href="pagesStations/station2.html"><img src="images/backgrounds/button_cite_home.jpg"></a></div>
+		<div class="maubertM"><a href="pagesStations/station4.html"><img src="images/backgrounds/button_maubert_home.jpg"></a></div>
+	</div>
+	<div id="apropos" class="modal-window">
+  		<div>
+		    <a href="#modal-close" title="Fermer" class="modal-close">X</a>
+		    <h1 class="modal-title">ABOUT</h1>
+		    <div class="content">
+		    	<img src="images/livre_apropos.png" alt="image du livre de Métronome">
+		    	<h2>Metronome by Lorant Deutsch</h2>
+		    	<p>This Web-documentary is inspired by the documentary ‘’Metronome’’ by Lorànt Deutsch. This documentary concern on various faces of the story of Paris through the different metro stations. It provoked by curiousity of discovering anecdotes and short stories which associated with these stations of Metro Parisian.</p>
+		    	<p>By all these stories, Métronome tells the struggles, hopes, conflicts, structures that provide the secret of Paris, and allows to raise some mysteries. It makes easy to find what we can discover from the past that we believed and hidden forever.</p>
+		    	<p>We took this documentary to make a web documentary. Because we found that it is instructive.</p>
+		    	<p>So, the purpose of this web documentary is to participate in this instruction but in another way while keeping the same idea.</p>
+		    	<p>With a team of 10 people, all of students is in Master 1 at University of Paris 13 - Villetaneuse, it created during the academic year of 2017-2018 in a general core curriculum. Some of us are in Multimedia and Internet Interface Design and others in Innovations in Communication. Together, we gathered our skills to make this web documentary in a trip in Paris by Lorànt Deutsch Métronome.</p>
+		    	<p>As an university project, it was supported by our professorst: Guy BILISKO and Ines LAITANO.</p>
+		    	<h4>“A Curious Journey Through The Metronome”</h4>
+		    	<p>During this journey in Paris, we travel in 4 stations of several railways. We focused on our work on the following stations : Châtelet, Cité, Maubert-Mutualité, and Invalides. Its were chosen because the anecdotes have relation with our web documentary’s vision : the places, historical characters, and the storytelling. It is addressed to people who want to know more about the story of Paris.</p>
+		    	<p>However, it works like an information media, composed of images, sound, and videos which present different stations.</p>
+		    	<p>Concerning to the topic Metronome,  it was chosen from a proposal idea of the topic which came from some members of the group. After the realisation of global vote, Métronome was selected. </p>
+		    	<p>The purpose of this project is to offer a different web documentary especially by the interface and illustrations which tell a story.</p>
+		    </div>
+	    </div>
+	</div>
+
+	<div id="credit" class="modal-window">
+  		<div>
+		    <a href="#modal-close" title="Fermer" class="modal-close">X</a>
+		    <h1 class="modal-title">Credits</h1>
+		    <div class="content">
+			    <h2>The team</h2>
+			    <div id="pictures">
+			    	<div class="person">
+				    	<img src="images/trombinoscope/nico1.jpg" alt="Picture of SAUVAGE Nicolas">
+				    	<h3>SAUVAGE Nicolas</h3>
+				    	<span>Project Director</span>
+				    	<span>Developer</span>
+				    	<span>Master’s 1 DIMI*</span>
+				    	<div class="hidden">
+				    		<img src="images/trombinoscope/nico2.jpg">
+				    	</div>
+			    	</div>
+			    	<div class="person">
+				    	<img src="images/trombinoscope/charaf1.jpg" alt="Picture of SKIKER Charaf-Eddine">
+				    	<h3>SKIKER Charaf-Eddine</h3>
+				    	<span>Technical Manager</span>
+				    	<span>Developer</span>
+				    	<span>Master’s 1 DIMI</span>
+				    	<div class="hidden">
+				    		<img src="images/trombinoscope/charaf2.jpg">
+				    	</div>
+			    	</div>
+			    	<div class="person">
+				    	<img src="images/trombinoscope/ophelie1.jpg" alt="Picture of de CLET Ophélie">
+				    	<h3>CLET Ophélie</h3>
+				    	<span>Artistic Director</span>
+				    	<span>Computer Graphics Designer</span>
+				    	<span>Master’s 1 DIMI</span>
+				    	<div class="hidden">
+				    		<img src="images/trombinoscope/ophelie2.jpg">
+				    	</div>
+			    	</div>
+			    	<div class="person">
+				    	<img src="images/trombinoscope/devi1.jpg" alt="Picture of QORINA Devi Yohanita">
+				    	<h3>QORINA Devi Yohanita</h3>
+				    	<span>Editor Manager</span>
+				    	<span>Editor</span>
+				    	<span>Master’s 1 IC**</span>
+				    	<div class="hidden">
+				    		<img src="images/trombinoscope/devi2.jpg">
+				    	</div>
+			    	</div>
+			    	<div class="person">
+				    	<img src="images/trombinoscope/caro1.jpg" alt="Picture of PRETOT Caroline">
+				    	<h3>PRETOT Caroline</h3>
+				    	<span>Accessibility Director</span>
+				    	<span>Alternative and accessible productions</span>
+				    	<span>Master’s 1 DIMI</span>
+				    	<div class="hidden">
+				    		<img src="images/trombinoscope/caro2.jpg">
+				    	</div>
+			    	</div>
+			    	<div class="person">
+				    	<img src="images/trombinoscope/liana1.jpg" alt="Picture of RAMANANTSIALONINA Anja Liana">
+				    	<h3>RAMANANTSIALONINA Anja Liana</h3>
+				    	<span>UX Director</span>
+				    	<span>Editor</span>
+				    	<span>Master’s 1 IC</span>
+				    	<div class="hidden">
+				    		<img src="images/trombinoscope/liana2.jpg">
+				    	</div>
+			    	</div>
+			    	<div class="person">
+				    	<img src="images/trombinoscope/eva1.jpg" alt="Picture of DULAU Eva">
+				    	<h3>DULAU Eva</h3>
+				    	<span>Audiovisual Director</span>
+				    	<span>Interaction Designer </span>
+				    	<span>Master’s 1 DIMI</span>
+				    	<div class="hidden">
+				    		<img src="images/trombinoscope/eva2.jpg">
+				    	</div>
+			    	</div>
+			    	<div class="person">
+				    	<img src="images/trombinoscope/lopes1.jpg" alt="Picture of LOPES Honorine">
+				    	<h3>LOPES Honorine</h3>
+				    	<span>Quality Manager</span>
+				    	<span>Scriptwriting Director</span>
+				    	<span>Computer Graphics Designer</span>
+				    	<span>Master’s 1 DIMI</span>
+				    	<div class="hidden">
+				    		<img src="images/trombinoscope/lopes2.jpg">
+				    	</div>
+			    	</div>
+			    	<div class="person">
+				    	<img src="images/trombinoscope/yollande1.jpg" alt="Picture of Yolande Dignanyo">
+				    	<h3>TOURE Yolande Dignanyo</h3>
+				    	<span>Editor</span>
+				    	<span>Audiovisual productions</span>
+				    	<span>Master’s 1 IC</span>
+				    	<div class="hidden">
+				    		<img src="images/trombinoscope/yollande2.jpg">
+				    	</div>
+			    	</div>
+			    	<div class="person">
+				    	<img src="images/trombinoscope/magalon1.jpg" alt="Picture of MAGALLON Honorine">
+				    	<h3>MAGALLON Honorine</h3>
+				    	<span>Computer Graphics Designer</span>
+				     	<span>Master’s 1 DIMI</span>
+				    	<div class="hidden">
+				    		<img src="images/trombinoscope/magalon2.jpg">
+				    	</div>
+			    	</div>
+			    </div>
+			    <div id="info">
+				    <span>*DIMI : Interface Design, Multimedia and Internet</span>
+				    <span>**IC : Innovations in Communication</span>
+				</div>
+				<section id="sources">
+					<h2>Sources</h2>
+					<p>This project is based on our multiple research which focused on the Metronome’s documentary produced by Lorant Deutsch and the best-seller book named “Metronome”.</p>
+					<p>The pictures of our web documentary was taken by Charaf-Eddine SKIKER.</p>
+					<p>And the illustrations drawn by Ophélie CLET.</p>
+				</section>
+			</div>
+	    </div>
+	</div>
+
+	<div id="aide" class="modal-window">
+  		<div class="aide">
+		    <a href="#modal-close" title="Fermer" class="modal-close">X</a>
+		    <h1 class="modal-title">HELP</h1>
+		    <div class="content">
+			    <h2>How can we help you?
+</h2>
+			    <section>
+			    	<h3>Navigate about the web-documentary :</h3>
+			    	<p>On the map, to see a station, you can click the button where there is the name of the station. This action will allow you to navigate to see the different stations.</p>
+			    	<p>To see another station : The arrow on the right side directs you to a station. When you click this arrow in the each page of the station, this action will allow you to move to another station.</p>
+			    	<p>You will have an access to all the information about the team and the sources on the page “Credit”.</p>
+			    	<p>All the information about this web-documentary can be found on the page “About”.</p>
+			    </section>
+			    <section>
+			    	<h3>About the page of each station:</h3>
+			    	<p>n the top right, you can click on FR / EN for the language choices of the interface. (FR for French and EN for English). And the video subtitle is available in French or in English.</p>
+			    	<p>When you click on the button "?", you will have access to the page "Help".</p>
+			    	<p>The button “Home” to go to home page.</p>
+			    	<p>A thumbnail of the interactive map in the center of the interface is another way to navigate back to the map in the home page and also determines your current location when the station name on the map is red.</p>
+			    	<p>To play the video: the button “Play” in the middle will allow you to play the video about the station.</p>
+			    	<p>The timeline: Determine your position. The color of the button on the timeline or the line of the metro station at the bottom, shows you your position, it changes color when you click it. This action means that you are at the selected station.</p>
+			    </section>
+			    <h2>Accessibility</h2>
+	    		<a target="_blank" href="accessibilite/accessibilité.html" id="accessibilite"><span>Consult the accessibility policy</span></a>
+		    </div>
+	    </div>
+	</div>
+
+	<div id="mobileMenu" class="menuModal">
+  		<div>
+		    <a href="#modal-close" title="Fermer" class="modal-close">X</a>
+	    </div>
+	    <div class="mobileNav">
+	    		<div class="langue" id="mobileLangue">
+					<p style="margin : 0"> LANGAGE : EN <img src="images/icones/down-white.png"></p> 
+					<ul class="langues" id="mobileLangues">
+						<li><a href="#">FR.</a></li>
+						<li><a href="#">ENG.</a></li>
+						<li><a href="#">DE.</a></li>
+						<li><a href="#">ES.</a></li>
+						<li><a href="#">JP.</a></li>
+						<li><a href="#">CHN.</a></li>
+					</ul>
+				</div>
+	    	<div class="stationPart">
+	    		<a href="index.html">
+	    			<div class="station">Home</div>
+	    			<div class="cercle" style="background-color: white"></div>
+	    		</a>
+	    	</div>
+	    	<div class="stationPart">
+	    		<a href="pagesStations/station3.html">
+	    			<div class="station">Invalides</div>
+	    			<div class="cercle"></div>
+	    		</a>
+	    	</div>
+	    	<div class="stationPart">
+	    		<a href="pagesStations/station1.html">
+	    			<div class="station">Chatelêt</div>
+	    			<div class="cercle"></div>
+	    		</a>
+	    	</div>
+	    	<div class="stationPart">
+	    		<a href="pagesStations/station2.html">
+	    			<div class="station">Cité</div>
+	    			<div class="cercle"></div>
+	    		</a>
+	    	</div>
+	    	<div class="stationPart">
+	    		<a href="pagesStations/station4.html">
+	    			<div class="station">Maubert-Mutualité</div>
+	    			<div class="cercle"></div>
+	    		</a>
+	    	</div>
+	    	<div class="stationPart">
+	    		<a href="#apropos">
+	    			<div class="station">About</div>
+	    			<div class="cercle"></div>
+	    		</a>
+	    	</div>
+	    	<div class="stationPart">
+	    		<a href="#credit">
+	    			<div class="station">Credits</div>
+	    			<div class="cercle"></div>
+	    		</a>
+	    	</div>
+	    	<div class="stationPart">
+	    		<a href="#aide">
+	    			<div class="station">Help</div>
+	    			<div class="cercle"></div>
+	    		</a>
+	    	</div>
+	    	<div class="invalides1"></div>
+	    	<div class="invalides2"></div>
+	    	<div class="chatelet1"></div>
+	    	<div class="cite1"></div>
+	    	<div class="cite2"></div>
+		</div>
+	</div>
+
+    <script>
+    setTimeout(function(){ document.getElementById('introVideo').style.display = "none"; }, 4000);
+    </script>
+
+</body>
+
+</html> 
+
+<script type="text/javascript">
+	invalides = document.getElementById("invalides");
+	document.getElementById("invalidesT").onmouseover = function() {
+    	invalides.style.display = "block";
+    }
+    document.getElementById("invalidesT").onmouseout = function() {
+    	invalides.style.display = "none";
+	}
+
+	chatelet = document.getElementById("chatelet");
+	document.getElementById("chateletT").onmouseover = function() {
+    	chatelet.style.display = "block";
+    }
+    document.getElementById("chateletT").onmouseout = function() {
+    	chatelet.style.display = "none";
+	}
+
+	cite = document.getElementById("cite");
+	document.getElementById("citeT").onmouseover = function() {
+    	cite.style.display = "block";
+    }
+    document.getElementById("citeT").onmouseout = function() {
+    	cite.style.display = "none";
+	}
+
+	maubert = document.getElementById("maubert");
+	document.getElementById("maubertT").onmouseover = function() {
+    	maubert.style.display = "block";
+    }
+    document.getElementById("maubertT").onmouseout = function() {
+    	maubert.style.display = "none";
+	}
+
+
+	langueShow = document.getElementById("langueShow");
+	langueShown = document.getElementById("langueShown");
+	langueShown.style.display ="none";
+	langueShow.onclick = function(){
+		if(langueShown.style.display == "none"){
+			langueShown.style.display ="block";
+		}
+		else{
+			langueShown.style.display ="none";
+		}
+	}
+
+	langue = document.getElementById("mobileLangue");
+	langues = document.getElementById("mobileLangues");
+	langues.style.display ="none";
+	langue.onclick = function(){
+		if(langues.style.display == "none"){
+			langues.style.display ="block";
+		}
+		else{
+			langues.style.display ="none";
+		}
+	}
+
+</script>

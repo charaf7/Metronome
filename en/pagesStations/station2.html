@@ -1,0 +1,297 @@
+<html lang="fr">
+    
+    <head>
+        <title>Cité's station</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="../css/styleStation.css" />
+        <link rel="stylesheet" type="text/css" href="../css/timeline.css" />
+        <link rel="stylesheet" type="text/css" href="../css/header.css" />
+        <link rel="stylesheet" type="text/css" href="../css/modal.css" />
+        <link rel="stylesheet" type="text/css" href="../css/styleMobile.css" />
+        <link rel="stylesheet" type="text/css" href="../css/stationMobile.css" />
+        <link rel="stylesheet" type="text/css" href="../css/mapPopup.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <div id="introVideo">
+            <video autoplay muted loop id="intro">
+              <source src="../videos/transition.mp4" type="video/mp4">
+            </video>
+        </div>
+        <img id ="background" src="../images/backgrounds/background_cite.jpg" alt="Vous voilà dans la station de métro Cité et devant vous, sur l'autre quai :" />  
+        <header>
+            <ul>
+                <div id="header-menu">
+                    <li><a href="../../index.html">HOME</a></li>
+                    <li><a href="#apropos">ABOUT</a></li>
+                    <li><a href="#credit">CREDITS</a></li>
+                    <li><a href="#aide">HELP</a></li>
+                </div>
+
+                <li id="langue">
+                    <a href="#" id="langueShow"> LANGAGE : FR <img src="../images/icones/down.png"></a> 
+                    <ul class="langues" id="langueShown">
+                        <li><a href="../index.html">FR.</a></li>
+                        <li><a href="#">ENG.</a></li>
+                        <li><a href="#">DE.</a></li>
+                        <li><a href="#">ES.</a></li>
+                        <li><a href="#">JP.</a></li>
+                        <li><a href="#">CHN.</a></li>
+                    </ul>
+                </li>
+                <li class="icon"><a href="#mobileMenu">&#9776;</a></li>
+            </ul>
+        </header>
+        <div id="logoCite">
+                <a id="logoCiteLink" href="../index.html"></a>
+                <img src="../images/logo/logo_300x300.png" />
+                <div id="baselineCite">Voyage dans <br /> Paris par <br />le Métronome</div>
+        </div>
+        <!-- station sans la timeline -->
+        <div id = "station">
+            
+            
+            <img class="illustration" id="romain" src="../images/anecdotes/galoromain.png" alt="Un soldat est vêtu à la mode gauloise mais son casque, son bouclier et sa lance sont de facture romaine."/>
+            <img class="illustration-hover" id="romain-hover" src="../images/anecdotes/galoromain_hover.png"/>
+            
+            <img class="illustration" id="culotte" src="../images/anecdotes/culotte.png" alt="Une culotte bouffante est suspendue au plafond. Se pourait-il que ce soit celle du roi Dagobert ?"/>
+            <img class="illustration-hover" id="culotte-hover" src="../images/anecdotes/culotte_hover.png" />
+            
+            <img class="illustration" id="plateau" src="../images/anecdotes/plateau.png" alt="Un plateau de tourtes décorées de bouts de phalanges est posé sur le sol."/>
+            <img class="illustration-hover" id="plateau-hover" src="../images/anecdotes/plateau_hover.png" />
+            
+            <img class="illustration" id="diable" src="../images/anecdotes/diable.png" alt="L'ombre d'un être ailé et cornu s'étire sur le mur du métro. On dirait bien que c'est celle du diable."/>
+             <img class="illustration-hover" id="diable-hover" src="../images/anecdotes/diable_hover.png" />
+            
+            <img class="illustration" id="robert" src="../images/anecdotes/robert.png" alt="Le poster d'un couple royal a passé un sale quart d'heure... il est tout déchiré et gribouillé." />
+            <img class="illustration-hover" id="robert-hover" src ="../images/anecdotes/robert_hover.png" />
+            
+            <a href="#mapCite" id="map_linkCite"><img class="illustration" id="map_illustCite" src="../images/map/map_illust.png"></a>
+            
+            <a href="#" id="retranscriptionCite">video's retranscription</a>
+            <!-- _______________________________________________________-ROBERT _____________________________________________________-->
+            
+            <img class="illustrationMobileCite"  src="../images/anecdotes/robert.png" />
+            <iframe class="anecdoteVideoCite" id ="video_robert" src="https://www.youtube.com/embed/kDehTEEoFnE" frameborder="0" allowfullscreen></iframe>
+            <div id="texte_robert" class="anecdoteTextCite">
+            <p>DRAKKAR tetextetextetexttextetexte<br />
+                textetextetextetextetexttete<br />
+                textetextetetextetetextetexte<br />
+                textetextetetextetextetextetext<br />
+                textetetextetetextetetextete<br />
+                textetextetetextetetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextettexteteexte<br />
+                textetextetextetextetext<br />
+                textetextetetextetextetext<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br />
+                textetextetextetexte<br />
+                textetextetetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br /><br />
+                </p>
+            </div>
+
+            <!-- _______________________________________________________-ROMAIN _____________________________________________________-->
+            <hr>
+
+            <img  class="illustrationMobileCite"  src="../images/anecdotes/galoromain.png"/>
+            <iframe  class="anecdoteVideoCite" id ="video_romain" src="https://www.youtube.com/embed/LKFuXETZUsI" frameborder="0" allowfullscreen></iframe>
+            <div id="texte_romain" class="anecdoteTextCite">
+            <p>BARREAU extetextetextetexttextetexte<br />
+                textetextetextetextetexetete<br />
+                textetextetetextetetextetexte<br />
+                textetextetetextetextetextetext<br />
+                textetetextetetextetetextete<br />
+                textetextetetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextettexteteexte<br />
+                textetextetextetextetext<br />
+                textetextetetextetextetext<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br />
+                textetextetextetexte<br />
+                textetextetetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br /><br />
+                </p>
+            </div>
+
+            <!-- _______________________________________________________-CULOTTE _____________________________________________________-->
+            <hr>
+
+            <img class="illustrationMobileCite"  src="../images/anecdotes/culotte.png" />
+            <iframe class="anecdoteVideoCite" id ="video_culotte" src="https://www.youtube.com/embed/KYz2wyBy3kc" frameborder="0" allowfullscreen></iframe>
+            <div id="texte_culotte" class="anecdoteTextCite">
+            <p>CADAVRE textetextetexteteextetexte<br />
+                textetextetextetextetextetete<br />
+                textetextetetextetetextetexte<br />
+                textetextetetextetextetextetext<br />
+                textetetextetetextetetextete<br />
+                textetextetetexteteextetexte<br />
+                textetextetextetextetexte<br />
+                textetextettexteteexte<br />
+                textetextetextetextetext<br />
+                textetextetetextetextetext<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br />
+                textetextetextetexte<br />
+                textetextetetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br /><br />
+                </p>
+            </div>
+
+            <!-- _______________________________________________________-DIABLE _____________________________________________________-->
+            <hr>
+
+            <img class="illustrationMobileCite" src="../images/anecdotes/diable.png" />
+            <iframe class="anecdoteVideoCite" id ="video_diable" src="https://www.youtube.com/embed/ViKC6MGYbUo" frameborder="0" allowfullscreen></iframe>
+            <div id="texte_diable" class="anecdoteTextCite">
+            <p>PROSTITUE teetextetexteteextetexte<br />
+                textetextetextetextetexetete<br />
+                textetextetetextetetextetexte<br />
+                textetextetetextetextetextetext<br />
+                textetetextetetextetetextete<br />
+                textetextetetextetexxtetexte<br />
+                textetextetextetextetexte<br />
+                textetextettexteteexte<br />
+                textetextetextetextetext<br />
+                textetextetetextetextetext<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br />
+                textetextetextetexte<br />
+                textetextetetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br /><br />
+                </p>
+            </div>
+
+            <!-- _______________________________________________________-PLATEAU _____________________________________________________-->
+            <hr>
+
+            <img class="illustrationMobileCite"  src="../images/anecdotes/plateau.png" />
+            <iframe class="anecdoteVideoCite" id ="video_plateau" src="https://www.youtube.com/embed/bY73vFGhSVk" frameborder="0" allowfullscreen></iframe>
+            <div id="texte_plateau" class="anecdoteTextCite">
+            <p>CHEVALIER xtetextetexteteextetexte<br />
+                textetextetextetextetextetete<br />
+                textetextetetextetetextetexte<br />
+                textetextetetextetextetextetext<br />
+                textetetextetetextetetextete<br />
+                textetextetetextetextetetexte<br />
+                textetextetextetextetexte<br />
+                textetextettexteteexte<br />
+                textetextetextetextetext<br />
+                textetextetetextetextetext<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br />
+                textetextetextetexte<br />
+                textetextetetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br /><br />
+                </p>
+            </div>
+    </div>
+        
+<!-- Timeline de navigation -->
+     <div id = "timeline">
+        <div class="stations">
+            <span class="station" id="invalides"><a href="station3.html">Invalides</a></span>
+            <span class="station" id="chatelet"><a href="station1.html">Châtelet</a></span>
+            <span class="station" id="cite"><a href="station2.html">Cité</a></span>
+            <span class="station" id="maubert"><a href="station4.html">Maubert-Mutualité</a></span>
+        </div>
+        <div class="stationsDots">
+            <a href="station3.html"><div class="invalides"></div></a>
+            <a href="station1.html"><div class="chatelet"></div></a>
+            <a href="station2.html"><div class="cite" style="background-color: #BD4D99;"></div></a>
+            <a href="station4.html"><div class="maubert"></div></a>
+        </div>
+        <div class="lines">
+            <div id="invalides1"></div>
+            <div id="invalides2"></div>
+            <div id="chatelet"></div>
+            <div id="cite1"></div>
+            <div id="cite2"></div>
+        </div>
+        <div id="next"><a href="../pagesStations/station4.html"><img src="../images/icones/bouton_droit.jpg"></a></div>
+        <div id="back"><a href="../pagesStations/station1.html"><img src="../images/icones/bouton_gauche.jpg"></a></div>
+    </div>
+    <div id="apropos" class="modal-window"></div>
+    <div id="credit" class="modal-window"></div>
+    <div id="aide" class="modal-window"></div>
+    <div id="mobileMenu" class="menuModal"></div>
+
+    <!-- aller vers la map interactive-->
+    <div id="mapCite" class="modal-window">
+        <span class="hiddenForAccess">Accéder à la carte interactive des stations de métro parisien.</span>
+        <div class="map">
+            <a href="#modal-close" title="Fermer" class="modal-close">X</a>
+            <div class="theMap">
+                <img src="../images/map/carte_vierge.png">
+                <div id="invalidesT" ><a href="../pagesStations/station3.html"><span>Invalides</span></a></div>
+                <div id="chateletT"><a href="../pagesStations/station1.html"><span>Chatelet</span></a></div>
+                <div id="citeT"><a href="../pagesStations/station2.html"><span>Cité</span></a></div>
+                <div id="maubertT"><a href="../pagesStations/station4.html"><span>Maubert-Mutualité</span></a></div>
+                <div id="invalidesP" ><a href="../pagesStations/station3.html"><img src="../images/map/pointer_invalides.png"></a></div>
+                <div id="chateletP"><a href="../pagesStations/station1.html"><img src="../images/map/pointer_chatelet.png"></a></div>
+                <div id="citeP"><a href="../pagesStations/station2.html"><img src="../images/map/pointer_cite.png"></a></div>
+                <div id="maubertP"><a href="../pagesStations/station4.html"><img src="../images/map/pointer_maubert.png"></a></div>
+            </div>
+        </div>
+    </div>
+        
+        <script>
+        setTimeout(function(){ document.getElementById('introVideo').style.display = "none"; }, 2000);
+
+        langueShow = document.getElementById("langueShow");
+        langueShown = document.getElementById("langueShown");
+        langueShown.style.display ="none";
+        langueShow.onclick = function(){
+            if(langueShown.style.display == "none"){
+                langueShown.style.display ="block";
+            }
+            else{
+                langueShown.style.display ="none";
+            }
+        }
+        langue = document.getElementById("mobileLangue");
+        langues = document.getElementById("mobileLangues");
+        langues.style.display ="none";
+        langue.onclick = function(){
+            if(langues.style.display == "none"){
+                langues.style.display ="block";
+            }
+            else{
+                langues.style.display ="none";
+            }
+        }
+    </script>
+
+    <script src="../jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../javaScript/mobileLanguages.js"></script>
+    <script src="../javaScript/load.js"></script>
+    <script src="../javaScript/cite.js"></script>
+    <script type="text/javascript" src="../javaScript/showPositions.js"></script>
+    
+    <style type="text/css">
+        .stationPart .cercle#cit{
+            background: white;
+        }
+    </style>
+
+    </body>
+</html>

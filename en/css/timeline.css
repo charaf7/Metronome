@@ -1,0 +1,205 @@
+
+#timeline{
+	height: 20.4vh;
+	background-color: #141414;
+	width: 100%;
+	position: relative;
+}
+#timeline .stations{
+	position: relative;
+	width: 100%;
+}
+#timeline .stations a{
+	text-decoration: none;
+	color: white;
+}
+#timeline .stations .station{
+	-ms-transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg); 
+    -moz-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+    -sand-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+}
+#timeline #invalides{
+	color: #fff;
+	position: absolute;
+	font-size: 20px;
+	font-family: parisine;
+	top: 5vh;
+	left: 15%;
+}
+#timeline #chatelet{
+	color: #fff;
+	position: absolute;
+	font-size: 20px;
+	font-family: parisine;
+	top: 5vh;
+	left: 35%;
+}
+#timeline #cite{
+	color: #fff;
+	position: absolute;
+	font-size: 20px;
+	font-family: parisine;
+	top: 5vh;
+	left: 55%;
+}
+#timeline #maubert{
+	color: #fff;
+	position: absolute;
+	font-size: 20px;
+	font-family: parisine;
+	top: 5vh;
+	left: 75%;
+}
+#timeline .stationsDots{
+	position: relative;
+	width: 100%;
+}
+#timeline .stationsDots .invalides{
+	position: absolute;
+	background-color: #fff;
+	border-radius: 50%;
+	border : 2px #141414 solid;
+	width: 20px;
+	height: 20px;
+	top: 12vh;
+	left: 17%;
+	z-index: 999;
+}
+#timeline .stationsDots .chatelet{
+	position: absolute;
+	background-color: #fff;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	top: 12vh;
+	left: 37%;
+	border : 2px #141414 solid;
+	z-index: 999;
+}
+
+#timeline .stationsDots .cite{
+	position: absolute;
+	background-color: #fff;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	top: 12vh;
+	left: 56%;
+	border : 2px #141414 solid;
+	z-index: 999;
+}
+#timeline .stationsDots .maubert{
+	position: absolute;
+	background-color: #fff;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	top: 12vh;
+	left: 79%;
+	border : 2px #141414 solid;
+	z-index: 999;
+}
+#timeline .stationsDots .chatelet:hover{
+	background-color: #BD4D99 !important;
+}
+#timeline .stationsDots .maubert:hover{
+	background-color: #F0C736 !important;
+}
+#timeline .stationsDots .invalides:hover{
+	background-color: #BEA0C2 !important;
+}
+#timeline .stationsDots .cite:hover{
+	background-color: #BD4D99 !important;
+}
+#timeline .lines{
+	position: relative;
+	width: 100%;
+}
+#timeline .lines #invalides1{
+	position: absolute;
+	background-color: #BEA0C2;
+	border:3px #fff solid;
+	width: 10%;
+	height: 9px;
+	top: 13.1vh;
+	left: 18%;
+}
+#timeline .lines #invalides2{
+	position: absolute;
+	background-color: #F0C736;
+	border:3px #fff solid;
+	width: 10%;
+	height: 9px;
+	top: 13.1vh;
+	left: 28%;
+}
+#timeline .lines #chatelet{
+	position: absolute;
+	background-color: #BD4D99;
+	border:3px #fff solid;
+	width: 19%;
+	height: 9px;
+	top: 13.1vh;
+	left: 38%;
+}
+#timeline .lines #cite1{
+	position: absolute;
+	background-color: #BD4D99;
+	border:3px #fff solid;
+	width: 11.5%;
+	height: 9px;
+	top: 13.1vh;
+	left: 57%;
+}
+#timeline .lines #cite2{
+	position: absolute;
+	background-color: #F0C736;
+	border:3px #fff solid;
+	width: 11.5%;
+	height: 9px;
+	top: 13.1vh;
+	left: 68%;
+}
+#timeline #next{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 100px;
+    text-align: end;
+}
+#timeline #next img{
+	width: 25%;
+}
+#timeline #back{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100px;	
+}
+#timeline #back img{
+	width: 25%;	
+}
+/*
+#timeline #next-hover{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	opacity: 0.7;
+	border-radius: 50%;
+}
+#timeline #back-hover{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	opacity: 0.7;
+	border-radius: 50%;
+}*/

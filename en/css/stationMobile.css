@@ -1,0 +1,216 @@
+@media screen and (max-width: 768px) {
+	body{
+		background-color: #141414;
+		overflow-x: hidden;
+	}
+	header{
+		height: 20vh;
+	}
+	#background{
+		width: auto;
+		left: -85%;
+		opacity: 0.5;
+		height: 100vh;
+	}
+	#station{
+		height: 85vh;
+		overflow: scroll;
+	}
+	.hiddenForAccess{
+		visibility: hidden;
+	}
+	.illustrationMobile{
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+		margin-bottom: 18px;
+	}
+	
+	hr{
+		width: 80%;
+		display: block;
+	}
+		
+	#timeline{
+		display: none;
+	}
+	.illustration{
+		display: none !important;
+	}
+	.illustration-hover{
+		width: 0px !important;
+	}
+
+	/*chatelet*/
+
+	#logoChatelet img {
+	    position: absolute;
+	    width: 16%;
+	    height: auto;
+	    left: 23%;
+	    top: 3vh;
+	}
+	#baselineChatelet {
+	    position: absolute;
+	    font-family: paris;
+	    font-size: 108%;
+	    color: #ffcb26;
+	    left: 43%;
+	    top: 3vh;
+	}
+
+	.anecdoteVideoChatelet{
+		position: initial;
+	    width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	    height: auto;
+	}
+	.anecdoteTextChatelet{
+		position: initial;
+	    width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	    margin-bottom: 20px;
+	}
+	.small.illustrationMobile{
+		width: 40%;
+	}
+	.smallP.illustrationMobile{
+		width: 20%;
+	}
+	
+	
+	/*cite*/
+	#logoCite img {
+    position: absolute;
+    width: 16%;
+    height: auto;
+    left: 23%;
+    top: 3vh;
+	}
+	#baselineCite {
+	    position: absolute;
+	    font-family: paris;
+	    font-size: 108%;
+	    color: #ffcb26;
+	    left: 43%;
+	    top: 3vh;
+	}
+	
+	.anecdoteVideoCite{
+		position: initial;
+	    width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	    height: auto;
+	}
+	.anecdoteTextCite{
+		position: initial;
+	    width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	    margin-bottom: 20px;
+	}
+	.illustrationMobileCite{
+		display: block;
+		width: 30%;
+		margin: 0 auto;
+		margin-bottom: 18px;
+	}
+
+	/*Invalides*/
+
+	#logoInvalides img {
+    position: absolute;
+    width: 16%;
+    height: auto;
+    left: 23%;
+    top: 3vh;
+	}
+	#baselineInvalides {
+	    position: absolute;
+	    font-family: paris;
+	    font-size: 108%;
+	    color: #ffcb26;
+	    left: 43%;
+	    top: 3vh;
+	}
+	
+	.anecdoteVideoInvalides{
+		position: initial;
+	    width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	    height: auto;
+	}
+	.anecdoteTextInvalides{
+		position: initial;
+	    width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	    margin-bottom: 20px;
+	}
+	.illustrationMobileInvalides{
+		display: block;
+		width: 30%;
+		margin: 0 auto;
+		margin-bottom: 18px;
+	}
+	.illustrationMobileInvalides.small{
+		width: 10%;
+	}
+	.illustrationMobileInvalides.big{
+		width: 50%;
+	}
+
+	/*MAUBERT*/
+	#logoMaubert img {
+    position: absolute;
+    width: 16%;
+    height: auto;
+    left: 23%;
+    top: 3vh;
+	}
+	#baselineMaubert {
+	    position: absolute;
+	    font-family: paris;
+	    font-size: 108%;
+	    color: #ffcb26;
+	    left: 43%;
+	    top: 3vh;
+	}
+	
+	.anecdoteVideoMaubert{
+		position: initial;
+	    width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	    height: auto;
+	}
+	.anecdoteTextMaubert{
+		position: initial;
+	    width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	    margin-bottom: 20px;
+	}
+	.illustrationMobileMaubert{
+		display: block;
+		width: 30%;
+		margin: 0 auto;
+		margin-bottom: 18px;
+	}
+	#introVideo{
+    display: none;
+  }
+	
+}

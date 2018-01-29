@@ -1,0 +1,881 @@
+@font-face {
+  font-family: 'paris';
+  src: url('../lib/fonts/Quick Toy.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'parisine';
+  src: url('../lib/fonts/parisine_regular.ttf') format('truetype'); 
+}
+
+
+html{
+    margin: 0;
+    /*ne pas laisser un fond blanc si l'image de fond ne charge pas */
+    background-color: #54585A;
+    /* background-image:url(../images/backgrounds/background_chatelet.jpg);
+    background-size: 100% 100%; */
+     /*background-image: url("../images/backgrounds/background_chatelet.jpg");
+    background-size: 100% 98%;
+    background-repeat: no-repeat; */
+    width: 100%;
+}
+
+body{
+    /*enlever les marges automatiques */
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+
+/*#fond img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+    z-index: 0;
+
+}*/
+#decor img{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+header{
+     background-color: transparent;
+    height: 15vh;
+
+}
+
+.hiddenForAccess{
+    visibility: hidden;
+}
+.illustrationMobile{
+    display: none;
+}
+
+#station{
+	height: 65vh;
+    position: relative;
+}
+ #background{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+hr{
+    display: none;
+}
+ul{
+    /*cacher puce */
+    margin: 0;
+     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: parisine;
+}
+
+li {
+    margin-top: 3vh;
+	list-style-type: none;
+	display: block;
+	flex: 0.1 1 auto;
+	height: 0;
+}
+
+li{
+	position: relative;
+}
+
+li:hover::after{
+ 	width: 60px;
+ 	transition: width 0.5s;
+ }
+
+li::after{
+ 	content: "";
+	position: absolute;
+	top: 25px;
+	left: 0;
+	height: 3px;
+	width: 0;
+	background: black;
+}
+
+#menu{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+
+#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+#station{
+    height: 64.6vh;
+}
+.illustration-hover{
+    cursor: pointer;
+}
+
+
+/*#video img{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}*/
+
+/****************************************/
+/*         CHATELET                     /
+***************************************/
+#logoChatelet img{
+    position: absolute;
+    width:6%;
+    height: auto;
+    left: 1%;
+    top: 13vh;
+    
+}
+#map_linkChatelet{
+    position: absolute;
+    left: 46.3%;
+    bottom: 22.9vh;
+    width: 10%;
+    height: 20%;
+}
+#map_illustChatelet{
+    position: absolute;
+    width: 88%;
+    height: 100%;
+    visibility: hidden;
+    
+}
+#map_linkChatelet:hover #map_illustChatelet{
+  visibility: visible;
+}
+
+#baselineChatelet{
+    position: absolute;
+    font-family: paris;
+    font-size: 130%;
+    color : #ffcb26;
+    left: 8%;
+    top: 14vh;
+    
+}
+
+#logoCite img{
+    position: absolute;
+    width:6%;
+    height: auto;
+    left: 1%;
+    bottom: 77vh;
+    
+}
+
+#baselineCite{
+    position: absolute;
+    font-family: paris;
+    font-size: 130%;
+    color : #ffcb26;
+    left: 8%;
+    bottom: 77vh;
+    
+}
+
+#drakkar{
+    position: absolute;
+    right: 0;
+    bottom : 3vh;
+    width :16%;
+    height: auto;
+}
+
+#drakkar-hover{
+    position: absolute;
+    right: 0;
+    bottom : 3vh;
+    width :15%;
+    height: auto;
+    display: none;
+}
+
+#barreau{
+    position: absolute;
+    left: 53%;
+    bottom : 8vh;
+    width : 9%;
+    height: auto;
+}
+
+#barreau-hover{
+    position: absolute;
+    left: 53%;
+    bottom : 8vh;
+    width : 10%;
+    height: auto;
+    display: none;
+}
+
+
+#cadavre{
+    position: absolute;
+    left: 6%;
+    bottom : 3vh;
+    width: 20%;
+    height: auto;
+   
+}
+
+#cadavre-hover{
+    position: absolute;
+    left: 6%;
+    bottom : 2vh;
+    width: 21%;
+    height: auto;
+    display: none;
+}
+
+#prostitue{
+    position: absolute;
+    left: 39%;
+    bottom : 4vh;
+    width: 7%;
+    height: auto;  
+}
+
+#prostitue-hover{
+    position: absolute;
+    left: 39%;
+    bottom : 4vh;
+    width: 7.3%;
+    display: none;
+}
+
+
+#nav-gauche{
+    position: absolute;
+    background-color: white;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    top: 40vh;
+    display: none;
+}
+
+#chevalier{
+    position: absolute;
+    left: 45%;
+    bottom : 47vh;
+    width: 12%;
+    height: auto;
+}
+
+#chevalier-hover{
+    position: absolute;
+    left: 45%;
+    bottom : 47vh;
+    width: 13%;
+    height: auto;
+     display: none;
+}
+.anecdoteVideoChatelet{
+    position: absolute;
+    width: 31%;
+    height: 55%;
+    bottom: 18vh;
+    left: 7.4%;
+    display: none;
+}
+.anecdoteTextChatelet{
+    position: absolute;
+    width: 20%;
+    height: 49%;
+    left: 65%;
+    bottom: 21vh;
+    color: white;
+    background-color: transparent;
+    font-family: parisine;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+
+/****************************************/
+/*         CITE                         /
+***************************************/
+.anecdoteVideoCite{
+    position: absolute;
+    width: 27%;
+    height: 56%;
+    bottom: 18vh;
+    left: 3.6%;
+    display: none;
+}
+.anecdoteTextCite{
+    position: absolute;
+    width: 19%;
+    height: 50%;
+    left: 69%;
+    bottom: 20vh;
+    color: white;
+    background-color: transparent;
+    font-family: parisine;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+#map_linkCite:hover #map_illustCite{
+  visibility: visible;
+}
+#map_linkCite{
+    position: absolute;
+    left: 52.1%;
+    bottom: 20.4vh;
+    width: 8%;
+    height: 17%;
+}
+#map_illustCite{
+    position: absolute;
+    width: 92%;
+    height: 100%;
+    visibility: hidden;
+    
+}
+#robert{
+    position: absolute;
+    left: 33%;
+    bottom : 40vh;
+    width: 8%;
+    height: auto;
+    border-radius: 10%;
+    
+}
+
+#robert-hover{
+    position: absolute;
+    left: 33%;
+    bottom : 40vh;
+    width: 8.5%;
+    height: auto;
+    border-radius: 10%;
+    display: none;
+    
+}
+
+#romain{
+    position: absolute;
+    left: 32.2%;
+    bottom : 3vh;
+    width: 11.5%;
+    height: auto;
+    border-radius: 10%;
+    
+}
+
+#romain-hover{
+    position: absolute;
+    left: 32%;
+    bottom : 3vh;
+    width: 12.2%;
+    height: auto;
+    border-radius: 10%;
+    display: none;
+    
+}
+
+#diable{
+    position: absolute;
+    right: 0;
+    bottom : 26vh;
+    width: 16%;
+    height: auto;
+    
+}
+
+#diable-hover{
+    position: absolute;
+    right: 0;
+    bottom : 26vh;
+    width: 16.2%;
+    height: auto;
+    display: none;
+    
+}
+
+
+#culotte{
+    position: absolute;
+    left: 60%;
+    bottom : 60vh;
+    width: 10%;
+    height: auto;
+    border-radius: 10%;
+    
+}
+
+#culotte-hover{
+
+    position: absolute;
+    left: 60%;
+    bottom : 60vh;
+    width: 10.2%;
+    height: auto;
+    display: none;
+    
+}
+
+#plateau{
+    position: absolute;
+    left: 12%;
+    bottom : 3vh;
+    width: 10%;
+    height: auto;
+    border-radius: 10%;
+    
+}
+
+#plateau-hover{
+
+    position: absolute;
+    left: 12%;
+    bottom : 3vh;
+    width: 10.5%;
+    height: auto;
+    display: none;
+    
+}
+.illustrationMobileCite{
+    display: none;
+}
+
+
+/****************************************/
+/*         INVALIDES                    /
+***************************************/
+
+#berceau{
+    position: absolute;
+    left: 60%;
+    bottom : 59vh;
+    width: 10%;
+    height: auto;
+}
+
+#berceau-hover{
+    position: absolute;
+    left: 60%;
+    bottom : 59vh;
+    width: 10.5%;
+    height: auto;
+    display: none;
+}
+
+#raisin{
+    position: absolute;
+    left: 14%;
+    bottom : 3vh;
+    width: 10%;
+    height: auto;
+   
+}
+
+#raisin-hover{
+    position: absolute;
+    left: 14%;
+    bottom : 3vh;
+    width: 10.5%;
+    height: auto;
+    display: none;
+}
+
+
+#pont{
+    position: absolute;
+    left: 67%;
+    bottom : 1vh;
+    width : 33%;
+    height: auto;
+}
+
+#pont-hover{
+    position: absolute;
+    left: 67%;
+    bottom : 1vh;
+    width : 33%;
+    height: auto;
+    display: none;
+}
+
+#vendeur{
+    position: absolute;
+    left: 53%;
+    bottom : 4vh;
+    width: 9%;
+    height: auto;
+
+    
+}
+
+#vendeur-hover{
+    position: absolute;
+    left: 53%;
+    bottom : 4vh;
+    width: 9.5%;
+    display: none;
+}
+
+#canne{
+    position: absolute;
+    left: 41%;
+    bottom : 4vh;
+    width: 2.5%;
+    height: auto;
+    border-radius: 15%;
+
+    
+}
+
+#canne-hover{
+    position: absolute;
+    left: 41%;
+    bottom : 4vh;
+    width: 2.7%;
+    height: auto;
+    border-radius: 15%;
+    display: none;
+}
+
+#logoInvalides img{
+    position: absolute;
+    width:6%;
+    height: auto;
+    left: 1%;
+    bottom: 80vh;
+    
+}
+
+#baselineInvalides{
+    position: absolute;
+    font-family: paris;
+    font-size: 130%;
+    color : #ffcb26;
+    left: 8%;
+    bottom: 80vh;
+    
+}
+
+.anecdoteVideoInvalides{
+    position: absolute;
+    width: 30.5%;
+    height: 54.5%;
+    bottom: 20.5vh;
+    left: 7.4%;
+    display: none;
+}
+.anecdoteTextInvalides{
+    position: absolute;
+    width: 28%;
+    height: 49%;
+    left: 65%;
+    bottom: 23vh;
+    color: white;
+    background-color: transparent;
+    font-family: parisine;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+.illustrationMobileInvalides{
+    display: none;
+}
+
+#map_linkInvalides:hover #map_illustInvalides{
+  visibility: visible;
+}
+#map_linkInvalides{
+    position: absolute;
+    left: 44.3%;
+    bottom: 28.4vh;
+    width: 8%;
+    height: 17%;
+}
+#map_illustInvalides{
+    position: absolute;
+    width: 92%;
+    height: 100%;
+    visibility: hidden;
+    
+}
+
+/****************************************/
+/*         MAUBERT                      /
+***************************************/
+
+.illustrationMobileMaubert{
+    display: none;
+}
+#map_linkMaubert:hover #map_illustMaubert{
+  visibility: visible;
+}
+#map_linkMaubert{
+    position: absolute;
+    left: 45.7%;
+    bottom: 22.5vh;
+    width: 9%;
+    height: 17.5%;
+}
+#map_illustMaubert{
+    position: absolute;
+    width: 92%;
+    height: 100%;
+    visibility: hidden;
+   
+}
+
+
+.anecdoteVideoMaubert{
+    position: absolute;
+    width: 26%;
+    height: 52%;
+    bottom: 19vh;
+    left: 11%;
+    display: none;
+}
+.anecdoteTextMaubert{
+    position: absolute;
+    width: 21%;
+    height: 46%;
+    left: 65%;
+    bottom: 22vh;
+    color: white;
+    background-color: transparent;
+    font-family: parisine;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+
+#lettre{
+    position: absolute;
+    left: 32%;
+    bottom : 3vh;
+    width: 12%;
+    height: auto;
+
+    
+}
+
+#lettre-hover{
+    position: absolute;
+    left: 32%;
+    bottom : 3vh;
+    width: 12%;
+    height: auto;
+    display: none;
+}
+
+#livres{
+    position: absolute;
+    left: 54%;
+    bottom : 4vh;
+    width: 8%;
+    height: auto;
+
+    
+}
+
+#livres-hover{
+    position: absolute;
+    left: 53.6%;
+    bottom : 3.4vh;
+    width: 8.5%;
+    height: auto;
+    display: none;
+}
+
+#manif{
+    position: absolute;
+    left: 51%;
+    bottom : 55vh;
+    width: 25%;
+    height: auto;
+    border-radius: 5%;
+    
+}
+
+#manif-hover{
+    position: absolute;
+    left: 51%;
+    bottom : 55vh;
+    width: 25.5%;
+    display: none;
+}
+
+
+#marrais{
+    position: absolute;
+     left: 0.5%;
+    bottom : 13vh;
+    width: 9%;
+    height: auto;
+
+    
+}
+
+#marrais-hover{
+    position: absolute;
+    left: 0.5%;
+    bottom : 13vh;
+    width: 9.5%;
+    height: auto;
+    display: none;
+}
+
+#chapelet{
+    position: absolute;
+    right: 1%;
+    bottom : 15vh;
+    width: 7%;
+    height: auto;
+
+    
+}
+
+#chapelet-hover{
+     position: absolute;
+    right: 0.3%;
+    bottom : 15vh;
+    width: 8.3%;
+    height: auto;
+    display: none;
+}
+
+#logoMaubertLink{
+    position: absolute;
+    width: 15%;
+    height: 13%;
+    left: 1%;
+    top: 14vh;
+    z-index: 99;
+}
+#logoInvalidesLink{
+    position: absolute;
+    width: 14%;
+    height: 12%;
+    left: 1%;
+    top: 9vh;
+    z-index: 99;
+}
+#logoCiteLink{
+    position: absolute;
+    width: 14%;
+    height: 12%;
+    left: 1%;
+    top: 12vh;
+    z-index: 99;
+}
+#logoChateletLink{
+    position: absolute;
+    width: 14%;
+    height: 11%;
+    left: 1%;
+    top: 14vh;
+    z-index: 99;
+}
+#logoMaubert img{
+    position: absolute;
+    width:6%;
+    height: auto;
+    left: 1%;
+    top: 14vh;
+    
+}
+
+#baselineMaubert{
+     position: absolute;
+    font-family: paris;
+    font-size: 130%;
+    color : #ffcb26;
+    left: 8%;
+    top: 15vh;
+    
+}
+
+#introVideo{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+#intro{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+#retranscriptionChatelet{
+    position: absolute;
+    top: 2vh;
+    left: 21%;
+    color: white;
+    text-decoration: none;
+    font-family: parisine;
+    padding: 0.5%;
+    border: white 2px solid;
+    border-radius: 15px;
+    width: 16%;
+    text-align: center;
+}
+
+#retranscriptionCite{
+    position: absolute;
+    top: 2vh;
+    left: 16%;
+    color: white;
+    text-decoration: none;
+    font-family: parisine;
+    padding: 0.5%;
+    border: white 2px solid;
+    border-radius: 15px;
+    width: 16%;
+    text-align: center;
+}
+
+#retranscriptionInvalides{
+   position: absolute;
+    top: 0.5vh;
+    left: 21%;
+    color: white;
+    text-decoration: none;
+    font-family: parisine;
+    padding: 0.5%;
+    border: white 2px solid;
+    border-radius: 15px;
+    width: 16%;
+    text-align: center;
+}
+
+#retranscriptionMaubert{
+   position: absolute;
+    bottom: 12vh;
+    left: 16%;
+    color: white;
+    text-decoration: none;
+    font-family: parisine;
+    padding: 0.5%;
+    border: white 2px solid;
+    border-radius: 15px;
+    width: 16%;
+    text-align: center;
+}
