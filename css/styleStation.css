@@ -120,6 +120,9 @@ li::after{
 #station{
     height: 64.6vh;
 }
+.illustration-hover{
+    cursor: pointer;
+}
 
 
 /*#video img{

@@ -167,3 +167,10 @@
 .modal-window h4 {
 	color: #ffcb26;
 }
+#accessibilite{
+	font-size: 22px;
+	color: #ffcb26;
+}
+#accessibilite span{
+	font-size: 14px;
+}
