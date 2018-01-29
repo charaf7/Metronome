@@ -2,14 +2,19 @@
   body{
   	background-color: #E4E4E6;
   	text-align: left;
+    height: 100vh;
   }
   #introVideo{
+    display: none;
+  }
+  #backgroundVideo{
     display: none;
   }
   #background{
   	background-image: url("../images/backgrounds/bg_home_mobile.jpg");
   	background-position: 0 0;
     height: 25vh;
+    background-size: cover;
   }
   .header li:not(:last-child) {
   	display: none;
@@ -25,7 +30,7 @@
   }
   .header .icon a {
   	  font-size:35px;
-  	  color: #F7CA23;
+  	  color: #F7CA23 !important;
   }
   .icon::after{
   	display: none;
@@ -45,13 +50,16 @@
   }
   .description {
   	position: relative;
-  	height: 45vh;
+  	height: 41vh;
   	background-image: url("../images/backgrounds/bg_home_mobile.jpg");
   	background-position: 0 -166px;
 	  background-size: cover;
 	  background-repeat: no-repeat;
     top: 0;
     opacity: 1;
+    width: 100%;
+    height: auto;
+    left: 0;
 
   }
   .description img{
@@ -59,7 +67,12 @@
   }
   .description h4{
   	font-weight: lighter;
- 	font-size: 12px;
+ 	  font-size: 12px;
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    left: 42vw;
+    top: 8vh;
   }
   .descBox{
   	text-align: center;
@@ -67,13 +80,14 @@
   	width: 50%;
   	position: absolute;
   	left: 42vw;
-  	top: 9vh;
+  	top: 43vh;
   }
   .descBox #white{
   	display: none;
   }
-  h4.bigger{
+  .descBox  h4.bigger{
   	font-size: 13px;
+    margin : 0;
   }
   .theMap{
   	display: none;

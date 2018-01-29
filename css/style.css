@@ -184,10 +184,6 @@ li::after{
 	width: 23%;
 	top: 37vh;
 	right: 3vw;
-	 transition-property: all;
-  transition-duration: 3s; /* on aurait pu écrire 500ms également */
-  transition-timing-function: ease-in;
-  transition-delay: 4s;
 }
 .descBox h4.bigger{
 	text-align: center;
@@ -207,53 +203,54 @@ li::after{
 }
 .theMap>img{
 	margin-top: 5px;
-	height: 75vh;
-	width: 47vw;
+	height: auto;
+	width: 650px;
+
 }
 #invalides{
 	position: absolute;
 	left: 43.5vw;
-	top: 30vh;
+	top: 196px;
 	display: none;
 }
 #chatelet{
 	position: absolute;
 	left: 52vw;
-	top: 32vh;
+	top: 207px;
 	display: none;
 }
 #cite{
 	position: absolute;
-	left: 51.3vw;
-	top: 35vh;
+	left: 51.5vw;
+	top: 228px;
 	display: none;
 }
 #maubert {
 	position: absolute;
-	left: 51.8vw;
-	top: 40vh;
+	left: 51.9vw;
+	top: 260px;
 	display: none;
 }
 
 #invalidesT{
 	position: absolute;
 	left: 43%;
-	top: 36vh;
+	top: 237px;
 }
 #chateletT{
 	position: absolute;
 	left: 54%;
-	top: 34vh;
+	top: 217px;
 }
 #citeT{
 	position: absolute;
 	left: 53%;
-	top: 38vh;
+	top: 253px
 }
 #maubertT{
 	position: absolute;
 	left: 49%;
-	top: 46vh;
+	top: 305px;
 }
 
 #invalides img{
