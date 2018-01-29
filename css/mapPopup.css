@@ -92,7 +92,7 @@
   position: absolute;
   left: 25.2vw;
   top: 30.5vh;
-  display: none;
+  display: block;
 }
 #mapChatelet #citeP{
   position: absolute;
@@ -207,7 +207,7 @@
   position: absolute;
   left: 24.6vw;
   top: 33.1vh;
-  display: none;
+  display: block;
 }
 #mapCite #maubertP {
   position: absolute;
@@ -305,7 +305,7 @@
   position: absolute;
   left: 16.7vw;
   top: 28.5vh;
-  display: none;
+  display: block;
 }
 #mapInvalides #chateletP{
   position: absolute;
