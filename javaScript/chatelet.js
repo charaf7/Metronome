@@ -273,8 +273,8 @@ $(document).ready(function()
             $( "#retrChateletCadavre" ).css('display', 'none');
             $( "#retrChateletChevalier" ).css('display', 'none');
             
-            
-             $( "#popupBarreau" ).css('display', 'none');      
+
+            $( "#popupBarreau" ).css('display', 'none');      
             $( "#popupDrakkar" ).css('display', 'block');
             $( "#popupProstitue" ).css('display', 'none');
             $( "#popupCadavre" ).css('display', 'none');
