@@ -394,7 +394,7 @@ li::after{
 #diable{
     position: absolute;
     right: 0;
-    bottom : 26vh;
+    bottom : 20vh;
     width: 16%;
     height: auto;
     
@@ -403,7 +403,7 @@ li::after{
 #diable-hover{
     position: absolute;
     right: 0;
-    bottom : 26vh;
+    bottom : 20vh;
     width: 16.2%;
     height: auto;
     display: none;
