@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>Invalides's station</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="../css/styleStation.css" />
+        <link rel="stylesheet" type="text/css" href="../css/timeline.css" />
+        <link rel="stylesheet" type="text/css" href="../css/header.css" />
+        <link rel="stylesheet" type="text/css" href="../css/modal.css" />
+        <link rel="stylesheet" type="text/css" href="../css/styleMobile.css" />
+        <link rel="stylesheet" type="text/css" href="../css/stationMobile.css" />
+        <link rel="stylesheet" type="text/css" href="../css/mapPopup.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    </head>
+
+    <body>
+        <div id="introVideo">
+            <video autoplay muted loop id="intro">
+              <source src="../videos/transition.mp4" type="video/mp4">
+            </video>
+        </div>
+        <img id ="background" src="../images/backgrounds/background_invalides.jpg" alt="En face de vous, le quais du métro Invalides est un peu encombré :" />
+             
+        <header>
+            <ul>
+                <div id="header-menu">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="#apropos">ABOUT</a></li>
+                    <li><a href="#credit">CREDITS</a></li>
+                    <li><a href="#aide">HELP</a></li>
+                </div>
+
+                <li id="langue">
+                    <a href="#" id="langueShow"> LANGAGE : EN <img src="../images/icones/down.png"></a> 
+                    <ul class="langues" id="langueShown">
+                        <li><a href="../../index.html">FR.</a></li>
+                        <li><a href="#">ENG.</a></li>
+                        <li><a href="#">DE.</a></li>
+                        <li><a href="#">ES.</a></li>
+                        <li><a href="#">JP.</a></li>
+                        <li><a href="#">CHN.</a></li>
+                    </ul>
+                </li>
+                <li class="icon"><a href="#mobileMenu">&#9776;</a></li>
+            </ul>
+        </header>
+        <div id="logoInvalides">
+            <a id="logoInvalidesLink" href="../index.html"></a>
+            <img src="../images/logo/logo_300x300.png" />
+            <div id="baselineInvalides">Trip in <br /> Paris by <br />the Métronome</div>
+        </div>
+         <!-- station sans la timeline -->
+        <div id = "station">
+            
+            <img class="illustration" id="berceau" src="../images/anecdotes/berceau.png" alt="Proche du plafond de la station, un tag représente un couffin."/>
+            <img class="illustration-hover" id="berceau-hover" src="../images/anecdotes/berceau_hover.png"/>
+            
+            <img class="illustration" id="pont" src="../images/anecdotes/pont.png" alt="Les arches du premier pont parisien s'étirent sur le quai." />
+            <img class="illustration-hover" id="pont-hover" src="../images/anecdotes/pont_hover.png" />
+            
+            <img class="illustration" id="raisin" src="../images/anecdotes/raison.png" alt="Par terre, une grappe de raisin provenant de l'abbaye Saint Germain."/>
+            <img class="illustration-hover" id="raisin-hover" src="../images/anecdotes/raison_hover.png" />
+            
+            <img class="illustration" id="vendeur" src="../images/anecdotes/vendeur.png" alt="Un vendeur à la sauvette a les bras chargés de miniatures de l'arc de triomphe." />
+             <img class="illustration-hover" id="vendeur-hover" src="../images/anecdotes/vendeur_hover.png" />
+            
+            <img class="illustration" id="canne" src="../images/anecdotes/canne.png" alt="Appuyée contre le mur il y a une béquille."/>
+            <img class="illustration-hover" id="canne-hover" src ="../images/anecdotes/canne_hover.png" />
+
+            <a href="#mapInvalides" id="map_linkInvalides"><img class="illustration" id="map_illustInvalides" src="../images/map/map_illust.png"></a>
+            
+            <a href="#" id="retranscriptionInvalides">video's retranscription</a>
+            
+            <!-- _______________________________________________________-BERCEAU _____________________________________________________-->
+            
+            <img class="illustrationMobileInvalides" src="../images/anecdotes/berceau.png"/>
+            <iframe class="anecdoteVideoInvalides" id ="video_berceau" src="https://www.youtube.com/embed/kDehTEEoFnE" frameborder="0" allowfullscreen></iframe>
+            <div id="texte_berceau" class="anecdoteTextInvalides">
+            <p>DRAKKAR tetextetextetexttextetexte<br />
+                textetextetextetextetexttextetete<br />
+                textetextetetextetetextetexte<br />
+                textetextetetextetextetextetext<br />
+                textetetextetetextetetextete<br />
+                textetextetetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextettexteteexte<br />
+                textetextetextetextetext<br />
+                textetextetetextetextetext<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br />
+                textetextetextetexte<br />
+                textetextetetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br /><br />
+                </p>
+            </div>
+            
+            <!-- _______________________________________________________-PONT _____________________________________________________-->
+            <hr>
+
+            <img class="illustrationMobileInvalides big"  src="../images/anecdotes/pont.png" />
+            <iframe  class="anecdoteVideoInvalides" id ="video_pont" src="https://www.youtube.com/embed/LKFuXETZUsI" frameborder="0" allowfullscreen></iframe>
+            <div id="texte_pont" class="anecdoteTextInvalides">
+            <p>BARREAU extetextetextetexttextetexte<br />
+                textetextetextetextetexttextetete<br />
+                textetextetetextetetextetexte<br />
+                textetextetetextetextetextetext<br />
+                textetetextetetextetetextete<br />
+                textetextetetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextettexteteexte<br />
+                textetextetextetextetext<br />
+                textetextetetextetextetext<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br />
+                textetextetextetexte<br />
+                textetextetetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br /><br />
+                </p>
+            </div>
+
+            <!-- _______________________________________________________-RAISIN _____________________________________________________-->
+            <hr>
+
+            <img class="illustrationMobileInvalides"  src="../images/anecdotes/raison.png" />
+            <iframe class="anecdoteVideoInvalides" id ="video_raisin" src="https://www.youtube.com/embed/KYz2wyBy3kc" frameborder="0" allowfullscreen></iframe>
+             <div id="texte_raisin" class="anecdoteTextInvalides">
+            <p>CADAVRE textetextetexteteextetexte<br />
+                textetextetextetextetexttextetete<br />
+                textetextetetextetetextetexte<br />
+                textetextetetextetextetextetext<br />
+                textetetextetetextetetextete<br />
+                textetextetetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextettexteteexte<br />
+                textetextetextetextetext<br />
+                textetextetetextetextetext<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br />
+                textetextetextetexte<br />
+                textetextetetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br /><br />
+                </p>
+            </div>
+
+            <!-- _______________________________________________________-VENDEUR _____________________________________________________-->
+            <hr>
+
+            <img class="illustrationMobileInvalides"  src="../images/anecdotes/vendeur.png" />
+            <iframe class="anecdoteVideoInvalides" id ="video_vendeur" src="https://www.youtube.com/embed/ViKC6MGYbUo" frameborder="0" allowfullscreen></iframe>
+            <div id="texte_vendeur" class="anecdoteTextInvalides">
+            <p>PROSTITUE teetextetexteteextetexte<br />
+                textetextetextetextetexttextetete<br />
+                textetextetetextetetextetexte<br />
+                textetextetetextetextetextetext<br />
+                textetetextetetextetetextete<br />
+                textetextetetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextettexteteexte<br />
+                textetextetextetextetext<br />
+                textetextetetextetextetext<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br />
+                textetextetextetexte<br />
+                textetextetetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br /><br />
+                </p>
+            </div>
+
+            <!-- _______________________________________________________-CANNE_____________________________________________________-->
+            <hr>
+
+            <img class="illustrationMobileInvalides small"  src="../images/anecdotes/canne.png" />
+            <iframe class="anecdoteVideoInvalides" id ="video_canne" src="https://www.youtube.com/embed/bY73vFGhSVk" frameborder="0" allowfullscreen></iframe>
+            <div id="texte_canne" class="anecdoteTextInvalides">
+                <p>CHEVALIER xtetextetexteteextetexte<br />
+                textetextetextetextetexttextetete<br />
+                textetextetetextetetextetexte<br />
+                textetextetetextetextetextetext<br />
+                textetetextetetextetetextete<br />
+                textetextetetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextettexteteexte<br />
+                textetextetextetextetext<br />
+                textetextetetextetextetext<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br />
+                textetextetextetexte<br />
+                textetextetetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetextetextetexte<br />
+                textetextetexte<br /><br />
+                </p>
+            </div>
+                
+    </div>
+    
+    <!-- Timeline de navigation -->
+    <div id = "timeline">
+        <div class="stations">
+            <span class="station" id="invalides"><a href="station3.html">Invalides</a></span>
+            <span class="station" id="chatelet"><a href="station1.html">Châtelet</a></span>
+            <span class="station" id="cite"><a href="station2.html">Cité</a></span>
+            <span class="station" id="maubert"><a href="station4.html">Maubert-Mutualité</a></span>
+        </div>
+        <div class="stationsDots">
+            <a href="station3.html"><div class="invalides" style="background-color: #BEA0C2;"></div></a>
+            <a href="station1.html"><div class="chatelet"></div></a>
+            <a href="station2.html"><div class="cite"></div></a>
+            <a href="station4.html"><div class="maubert"></div></a>
+        </div>
+        <div class="lines">
+            <div id="invalides1"></div>
+            <div id="invalides2"></div>
+            <div id="chatelet"></div>
+            <div id="cite1"></div>
+            <div id="cite2"></div>
+        </div>
+        <div id="next"><a href="../pagesStations/station1.html"><img src="../images/icones/bouton_droit.jpg"></a></div>
+        <div id="back"><a href="../index.html"><img src="../images/icones/bouton_gauche.jpg"></a></div>
+
+    </div>
+    <div id="apropos" class="modal-window"></div>
+    <div id="credit" class="modal-window"></div>
+    <div id="aide" class="modal-window"></div>
+    <div id="mobileMenu" class="menuModal"></div>
+
+    <!-- aller vers la map interactive-->
+    <div id="mapInvalides" class="modal-window">
+        <span class="hiddenForAccess">Accéder à la carte interactive des stations de métro parisien.</span>
+        <div class="map">
+            <a href="#modal-close" title="Fermer" class="modal-close">X</a>
+            <div class="theMap">
+                <img src="../images/map/carte_vierge.png">
+                <div id="invalidesT" ><a href="../pagesStations/station3.html"><span>Invalides</span></a></div>
+                <div id="chateletT"><a href="../pagesStations/station1.html"><span>Chatelet</span></a></div>
+                <div id="citeT"><a href="../pagesStations/station2.html"><span>Cité</span></a></div>
+                <div id="maubertT"><a href="../pagesStations/station4.html"><span>Maubert-Mutualité</span></a></div>
+                <div id="invalidesP" ><a href="../pagesStations/station3.html"><img src="../images/map/pointer_invalides.png"></a></div>
+                <div id="chateletP"><a href="../pagesStations/station1.html"><img src="../images/map/pointer_chatelet.png"></a></div>
+                <div id="citeP"><a href="../pagesStations/station2.html"><img src="../images/map/pointer_cite.png"></a></div>
+                <div id="maubertP"><a href="../pagesStations/station4.html"><img src="../images/map/pointer_maubert.png"></a></div>
+            </div>
+        </div>
+    </div>
+        
+     <script>
+        setTimeout(function(){ document.getElementById('introVideo').style.display = "none"; }, 2000);
+
+        langueShow = document.getElementById("langueShow");
+        langueShown = document.getElementById("langueShown");
+        langueShown.style.display ="none";
+        langueShow.onclick = function(){
+            if(langueShown.style.display == "none"){
+                langueShown.style.display ="block";
+            }
+            else{
+                langueShown.style.display ="none";
+            }
+        }
+        langue = document.getElementById("mobileLangue");
+        langues = document.getElementById("mobileLangues");
+        langues.style.display ="none";
+        langue.onclick = function(){
+            if(langues.style.display == "none"){
+                langues.style.display ="block";
+            }
+            else{
+                langues.style.display ="none";
+            }
+        }
+    </script>
+
+    <script src="../jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../javaScript/mobileLanguages.js"></script>
+    <script src="../javaScript/load.js"></script>
+    <script src="../javaScript/invalides.js"></script>
+    <script type="text/javascript" src="../javaScript/showPositions.js"></script>
+    <style type="text/css">
+        .stationPart .cercle#inv{
+            background: white;
+        }
+    </style>
+    </body>
+</html>

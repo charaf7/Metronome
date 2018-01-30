@@ -1,0 +1,22 @@
+body{
+	background: #141414;
+  	color: #fff;
+  	background-image: url("../images/backgrounds/popup_background.jpg");
+  	background-size: cover; 
+}
+h1{
+	font-family: parisine;
+
+}
+h2{
+	font-family: parisine;
+	color: #FFCB26;
+
+}
+p{
+	font-family: parisine;
+}
+a{
+	color: #FFCB26;
+	text-decoration: underline;
+}

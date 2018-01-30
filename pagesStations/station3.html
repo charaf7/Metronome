@@ -33,10 +33,10 @@
                 </div>
 
                 <li id="langue">
-                    <a href="#"> LANGUE : FR <img src="../images/icones/down.png"></a> 
-                    <ul class="langues">
-                        <li><a href="#">FR.</a></li>
-                        <li><a href="#">ENG.</a></li>
+                    <a href="#" id="langueShow"> LANGUE : FR <img src="../images/icones/down.png"></a> 
+                    <ul class="langues" id="langueShown">
+                        <li><a href="../index.html">FR.</a></li>
+                        <li><a href="../en/pagesStations/station3.html">ENG.</a></li>
                         <li><a href="#">DE.</a></li>
                         <li><a href="#">ES.</a></li>
                         <li><a href="#">JP.</a></li>
@@ -70,6 +70,8 @@
             <img class="illustration-hover" id="canne-hover" src ="../images/anecdotes/canne_hover.png" />
 
             <a href="#mapInvalides" id="map_linkInvalides"><img class="illustration" id="map_illustInvalides" src="../images/map/map_illust.png"></a>
+            
+            <a href="#" id="retranscriptionInvalides">retranscription de la vidéo</a>
             
             <!-- _______________________________________________________-BERCEAU _____________________________________________________-->
             
@@ -173,14 +175,41 @@
     </div>
         
      <script>
-        setTimeout(function(){ document.getElementById('intro').style.display = "none"; }, 2000);
+        setTimeout(function(){ document.getElementById('introVideo').style.display = "none"; }, 2000);
+
+        langueShow = document.getElementById("langueShow");
+        langueShown = document.getElementById("langueShown");
+        langueShown.style.display ="none";
+        langueShow.onclick = function(){
+            if(langueShown.style.display == "none"){
+                langueShown.style.display ="block";
+            }
+            else{
+                langueShown.style.display ="none";
+            }
+        }
+        langue = document.getElementById("mobileLangue");
+        langues = document.getElementById("mobileLangues");
+        langues.style.display ="none";
+        langue.onclick = function(){
+            if(langues.style.display == "none"){
+                langues.style.display ="block";
+            }
+            else{
+                langues.style.display ="none";
+            }
+        }
     </script>
 
     <script src="../jquery/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="../javascript/mobileLanguages.js"></script>
+    <script type="text/javascript" src="../javaScript/mobileLanguages.js"></script>
     <script src="../javaScript/load.js"></script>
     <script src="../javaScript/invalides.js"></script>
     <script type="text/javascript" src="../javaScript/showPositions.js"></script>
-
+    <style type="text/css">
+        .stationPart .cercle#inv{
+            background: white;
+        }
+    </style>
     </body>
 </html>
