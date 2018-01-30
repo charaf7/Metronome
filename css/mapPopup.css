@@ -31,7 +31,7 @@
 .theMap span {
     font-size: 15px;
     color: #141414;
-    font-weight: bold;
+    font-weight: initial;
 }
 
 /*----------------------------------------------------CHATELET-------------------------------------------------*/
@@ -79,53 +79,53 @@
 }
 #mapChatelet .theMap>img{
   margin-top: 5px;
-  height: 75vh;
-  width: 47vw;
+  height: auto;
+  width: 650px;
 }
 #mapChatelet #invalidesP{
   position: absolute;
-  left: 16.7vw;
-  top: 28.5vh;
+  left: 230px;
+  top: 186px;
   display: none;
 }
 #mapChatelet #chateletP{
   position: absolute;
-  left: 25.2vw;
-  top: 30.5vh;
+  left: 348px;
+  top: 199px;
   display: block !important;
 }
 #mapChatelet #citeP{
   position: absolute;
-  left: 24.6vw;
-  top: 33.1vh;
+  left: 340px;
+  top: 220px;
   display: none;
 }
 #mapChatelet #maubertP {
   position: absolute;
-  left: 25.1vw;
-  top: 39vh;
+  left: 346px;
+  top: 251px;
   display: none;
 }
 
 #mapChatelet #invalidesT{
   position: absolute;
-  left: 34%;
-  top: 36vh;
+  left: 224px;
+  top: 239px;
 }
 #mapChatelet #chateletT{
   position: absolute;
-  left: 54%;
-  top: 34vh;
+  left: 377px;
+  top: 216px;
 }
 #mapChatelet #citeT{
   position: absolute;
-  left: 53%;
-  top: 38vh;
+  left: 373px;
+  top: 247px;
 }
 #mapChatelet #maubertT{
   position: absolute;
-  left: 49%;
-  top: 46vh;
+  left: 310px;
+  top: 300px;
 }
 
 #mapChatelet #invalides img{
