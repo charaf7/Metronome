@@ -164,11 +164,11 @@ $(document).ready(function()
             $( "#retrChateletCadavre" ).css('display', 'none');
             $( "#retrChateletChevalier" ).css('display', 'none');
             
-            $( "#transcriptionChateletProstitue #popupBarreau" ).css('display', 'block');      
-            $( "#transcriptionChateletProstitue #popupDrakkar" ).css('display', 'none');
-            $( "#transcriptionChateletProstitue #popupProstitue" ).css('display', 'none');
-            $( "#transcriptionChateletProstitue #popupCadavre" ).css('display', 'none');
-            $( "#transcriptionChateletProstitue #popupChevalier" ).css('display', 'none');
+            $( "#popupBarreau" ).css('display', 'block');      
+            $( "#popupDrakkar" ).css('display', 'none');
+            $( "#popupProstitue" ).css('display', 'none');
+            $( "#popupCadavre" ).css('display', 'none');
+            $( "#popupChevalier" ).css('display', 'none');
 
              
         });
@@ -220,11 +220,11 @@ $(document).ready(function()
             $( "#retrChateletCadavre" ).css('display', 'block');
             $( "#retrChateletChevalier" ).css('display', 'none');
             
-             $( "#transcriptionChateletProstitue #popupBarreau" ).css('display', 'none');      
-            $( "#transcriptionChateletProstitue #popupDrakkar" ).css('display', 'none');
-            $( "#transcriptionChateletProstitue #popupProstitue" ).css('display', 'none');
-            $( "#transcriptionChateletProstitue #popupCadavre" ).css('display', 'block');
-            $( "#transcriptionChateletProstitue #popupChevalier" ).css('display', 'none');
+             $( "#popupBarreau" ).css('display', 'none');      
+            $( "#popupDrakkar" ).css('display', 'none');
+            $( "#popupProstitue" ).css('display', 'none');
+            $( "#popupCadavre" ).css('display', 'block');
+            $( "#popupChevalier" ).css('display', 'none');
         });
     
     /*-----------------------------------------------------------------------------*/
@@ -274,11 +274,11 @@ $(document).ready(function()
             $( "#retrChateletChevalier" ).css('display', 'none');
             
 
-            $( "#transcriptionChateletProstitue #popupBarreau" ).css('display', 'none');      
-            $( "#transcriptionChateletProstitue #popupDrakkar" ).css('display', 'block');
-            $( "#transcriptionChateletProstitue #popupProstitue" ).css('display', 'none');
-            $( "#transcriptionChateletProstitue #popupCadavre" ).css('display', 'none');
-            $( "#transcriptionChateletProstitue #popupChevalier" ).css('display', 'none');
+            $( "#popupBarreau" ).css('display', 'none');      
+            $( "#popupDrakkar" ).css('display', 'block');
+            $( "#popupProstitue" ).css('display', 'none');
+            $( "#popupCadavre" ).css('display', 'none');
+            $( "#popupChevalier" ).css('display', 'none');
         });
     
     /*-----------------------------------------------------------------------------*/
@@ -327,11 +327,11 @@ $(document).ready(function()
             $( "#retrChateletCadavre" ).css('display', 'none');
             $( "#retrChateletChevalier" ).css('display', 'none');
             
-            $( "#transcriptionChateletProstitue #popupBarreau" ).css('display', 'none');      
-            $( "#transcriptionChateletProstitue #popupDrakkar" ).css('display', 'none');
-            $( "#transcriptionChateletProstitue #popupProstitue" ).css('display', 'block');
-            $( "#transcriptionChateletProstitue #popupCadavre" ).css('display', 'none');
-            $( "#transcriptionChateletProstitue #popupChevalier" ).css('display', 'none');
+            $( "#popupBarreau" ).css('display', 'none');      
+            $( "#popupDrakkar" ).css('display', 'none');
+            $( "#popupProstitue" ).css('display', 'block');
+            $( "#popupCadavre" ).css('display', 'none');
+            $( "#popupChevalier" ).css('display', 'none');
             
             
              
@@ -383,11 +383,11 @@ $(document).ready(function()
             $( "#retrChateletChevalier" ).css('display', 'block');
             
             
-            $( "#transcriptionChateletProstitue #popupBarreau" ).css('display', 'none');      
-            $( "#transcriptionChateletProstitue #popupDrakkar" ).css('display', 'none');
-            $( "#transcriptionChateletProstitue #popupProstitue" ).css('display', 'none');
-            $( "#transcriptionChateletProstitue #popupCadavre" ).css('display', 'none');
-            $( "#transcriptionChateletProstitue #popupChevalier" ).css('display', 'block');
+            $( "#popupBarreau" ).css('display', 'none');      
+            $( "#popupDrakkar" ).css('display', 'none');
+            $( "#popupProstitue" ).css('display', 'none');
+            $( "#popupCadavre" ).css('display', 'none');
+            $( "#popupChevalier" ).css('display', 'block');
             
         });
     
