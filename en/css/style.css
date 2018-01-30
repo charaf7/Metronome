@@ -176,7 +176,7 @@ li::after{
 .description{
 	position: absolute;
 	width: 25%;
-	top: 50vh;
+	top: 40vh;
 	left: 3vw;
 }
 .descBox{
@@ -189,9 +189,9 @@ li::after{
 	text-align: center;
 	margin : 20px;
 }
-.descBox h4#white{
+.description h4#white{
 	text-align: center;
-	margin : 50px;
+	margin : 20px;
 	color: #fff;
 }
 .theMap{
