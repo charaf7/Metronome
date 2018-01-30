@@ -12,6 +12,7 @@ $(document).ready(function(){
 });
 
 
+//LOAD POUR CHATELET
 $(document).ready(function(){
                 $("#transcriptionChateletDrakkar").load("../popups/retranscriptionChatelet.html");
 });
@@ -29,3 +30,9 @@ $(document).ready(function(){
                 $("#transcriptionChateletChevalier").load("../popups/retranscriptionChatelet.html");
 });
 
+
+//LOAD POUR CITE
+
+//LOAD POUR INVALIDES
+
+//LOAD POUR MAUBERT

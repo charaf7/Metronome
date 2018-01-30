@@ -272,10 +272,9 @@ $(document).ready(function()
             $( "#retrChateletProstitue" ).css('display', 'none');
             $( "#retrChateletCadavre" ).css('display', 'none');
             $( "#retrChateletChevalier" ).css('display', 'none');
-            
-            
-             $( "#popupBarreau" ).css('display', 'none');      
+    
             $( "#transcriptionChateletDrakkar #popupDrakkar" ).css('display', 'block');
+            $( "#popupBarreau" ).css('display', 'none');      
             $( "#popupProstitue" ).css('display', 'none');
             $( "#popupCadavre" ).css('display', 'none');
             $( "#popupChevalier" ).css('display', 'none');
