@@ -976,6 +976,22 @@ li::after{
 }
 
 
+#popupDiable{
+    display: none;
+}
+#popupRomain{
+    display: none;
+}
+#popupPlateau{
+    display: none;
+}
+#popupRobert{
+    display: none;
+}
+#popupCulotte{
+    display: none;
+}
+
 
 
 

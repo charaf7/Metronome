@@ -165,6 +165,11 @@ $(document).ready(function()
             $( "#retrCitePlateau" ).css('display', 'none');
             $( "#retrCiteCulotte" ).css('display', 'none');
             
+            $( "#popupDiable" ).css('display', 'none');      
+            $( "#popupRomain" ).css('display', 'none');
+            $( "#transcriptionCiteRobert #popupRobert" ).css('display', 'block');
+            $( "#popupPlateau" ).css('display', 'none');
+            $( "#popupCulotte" ).css('display', 'none');
              
         });
     
@@ -213,6 +218,12 @@ $(document).ready(function()
             $( "#retrCitePlateau" ).css('display', 'none');
             $( "#retrCiteCulotte" ).css('display', 'none');
             
+             $( "#popupDiable" ).css('display', 'none');      
+            $( "#transcriptionCiteRomain #popupRomain" ).css('display', 'block');
+            $( "#popupRobert" ).css('display', 'none');
+            $( "#popupPlateau" ).css('display', 'none');
+            $( "#popupCulotte" ).css('display', 'none');
+            
         });
     
     /*-----------------------------------------------------------------------------*/
@@ -260,6 +271,11 @@ $(document).ready(function()
             $( "#retrCitePlateau" ).css('display', 'none');
             $( "#retrCiteCulotte" ).css('display', 'none');
             
+            $( "#transcriptionCiteDiable #popupDiable" ).css('display', 'block');      
+            $( "#popupRomain" ).css('display', 'none');
+            $( "#popupRobert" ).css('display', 'none');
+            $( "#popupPlateau" ).css('display', 'none');
+            $( "#popupCulotte" ).css('display', 'none');
             
             
         });
@@ -309,6 +325,11 @@ $(document).ready(function()
             $( "#retrCitePlateau" ).css('display', 'block');
             $( "#retrCiteCulotte" ).css('display', 'none');
             
+            $( "#popupDiable" ).css('display', 'none');      
+            $( "#popupRomain" ).css('display', 'none');
+            $( "#popupRobert" ).css('display', 'none');
+            $( "#transcriptionCitePlateau #popupPlateau" ).css('display', 'block');
+            $( "#popupCulotte" ).css('display', 'none');
              
         });
     /*-----------------------------------------------------------------------------*/
@@ -356,6 +377,11 @@ $(document).ready(function()
             $( "#retrCitePlateau" ).css('display', 'none');
             $( "#retrCiteCulotte" ).css('display', 'block');
             
+            $( "#popupDiable" ).css('display', 'none');      
+            $( "#popupRomain" ).css('display', 'none');
+            $( "#popupRobert" ).css('display', 'none');
+            $( "#popupPlateau" ).css('display', 'none');
+            $( "#transcriptionCiteCulotte #popupCulotte" ).css('display', 'block');
             
             
         });
