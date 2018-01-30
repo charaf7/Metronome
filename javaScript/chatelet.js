@@ -164,7 +164,7 @@ $(document).ready(function()
             $( "#retrChateletCadavre" ).css('display', 'none');
             $( "#retrChateletChevalier" ).css('display', 'none');
             
-            $( "#popupBarreau" ).css('display', 'block');      
+            $( "#transcriptionChateletBarreau #popupBarreau" ).css('display', 'block');      
             $( "#popupDrakkar" ).css('display', 'none');
             $( "#popupProstitue" ).css('display', 'none');
             $( "#popupCadavre" ).css('display', 'none');
@@ -223,7 +223,7 @@ $(document).ready(function()
              $( "#popupBarreau" ).css('display', 'none');      
             $( "#popupDrakkar" ).css('display', 'none');
             $( "#popupProstitue" ).css('display', 'none');
-            $( "#popupCadavre" ).css('display', 'block');
+            $( "#transcriptionChateletCadavre #popupCadavre" ).css('display', 'block');
             $( "#popupChevalier" ).css('display', 'none');
         });
     
@@ -275,7 +275,7 @@ $(document).ready(function()
             
             
              $( "#popupBarreau" ).css('display', 'none');      
-            $( "#popupDrakkar" ).css('display', 'block');
+            $( "#transcriptionChateletDrakkar #popupDrakkar" ).css('display', 'block');
             $( "#popupProstitue" ).css('display', 'none');
             $( "#popupCadavre" ).css('display', 'none');
             $( "#popupChevalier" ).css('display', 'none');
@@ -329,7 +329,7 @@ $(document).ready(function()
             
             $( "#popupBarreau" ).css('display', 'none');      
             $( "#popupDrakkar" ).css('display', 'none');
-            $( "#popupProstitue" ).css('display', 'block');
+            $( "#transcriptionChateletProstitue #popupProstitue" ).css('display', 'block');
             $( "#popupCadavre" ).css('display', 'none');
             $( "#popupChevalier" ).css('display', 'none');
             
@@ -387,7 +387,7 @@ $(document).ready(function()
             $( "#popupDrakkar" ).css('display', 'none');
             $( "#popupProstitue" ).css('display', 'none');
             $( "#popupCadavre" ).css('display', 'none');
-            $( "#popupChevalier" ).css('display', 'block');
+            $( "#transcriptionChateletChevalier #popupChevalier" ).css('display', 'block');
             
         });
     
