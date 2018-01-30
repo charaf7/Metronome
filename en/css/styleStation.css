@@ -306,6 +306,7 @@ li::after{
     overflow-y: scroll;
     overflow-x: hidden;
     display: none;
+    
 }
 
 /****************************************/
@@ -824,7 +825,7 @@ li::after{
 }
 
 
-#retranscriptionChatelet{
+.retranscriptionChatelet{
     position: absolute;
     top: 2vh;
     left: 21%;
@@ -838,7 +839,28 @@ li::after{
     text-align: center;
 }
 
-#retranscriptionCite{
+#retrChateletDrakkar{
+    display: none;
+}
+
+#retrChateletBarreau{
+    display: none;
+}
+
+#retrChateletProstitue{
+    display: none;
+}
+
+#retrChateletCadavre{
+    display: none;
+}
+
+#retrChateletChevalier{
+    display: none;
+}
+
+
+.retranscriptionCite{
     position: absolute;
     top: 2vh;
     left: 16%;
@@ -852,7 +874,27 @@ li::after{
     text-align: center;
 }
 
-#retranscriptionInvalides{
+#retrCiteRomain{
+    display: none;
+}
+
+#retrCiteCulotte{
+    display: none;
+}
+
+#retrCitePlateau{
+    display: none;
+}
+
+#retrCiteDiable{
+    display: none;
+}
+
+#retrCiteRobert{
+    display: none;
+}
+
+.retranscriptionInvalides{
    position: absolute;
     top: 0.5vh;
     left: 21%;
@@ -866,7 +908,27 @@ li::after{
     text-align: center;
 }
 
-#retranscriptionMaubert{
+#retrInvalidesBerceau{
+    display: none;
+}
+
+#retrInvalidesPont{
+    display: none;
+}
+
+#retrInvalidesVendeur{
+    display: none;
+}
+
+#retrInvalidesCanne{
+    display: none;
+}
+
+#retrInvalidesRaisin{
+    display: none;
+}
+
+.retranscriptionMaubert{
    position: absolute;
     bottom: 12vh;
     left: 16%;
@@ -879,3 +941,41 @@ li::after{
     width: 16%;
     text-align: center;
 }
+
+#retrMaubertLettre{
+    display: none;
+}
+#retrMaubertLivres{
+    display: none;
+}
+#retrMaubertManif{
+    display: none;
+}
+#retrMaubertMarrais{
+    display: none;
+}
+#retrMaubertChapelet{
+    display: none;
+}
+
+#popupDrakkar{
+    display: none;
+}
+
+#popupBarreau{
+    display: none;
+}
+#popupCadavre{
+    display: none;
+}
+#popupProstitue{
+    display: none;
+}
+#popupChevalier{
+    display: none;
+}
+
+
+
+
+

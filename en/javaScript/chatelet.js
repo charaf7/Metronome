@@ -157,6 +157,19 @@ $(document).ready(function()
             $("#video_chevalier").attr("src","");
             $("#video_chevalier").attr("src",video);
             
+            $( "#retrChateletBarreau" ).css('display', 'block');
+            
+            $( "#retrChateletDrakkar" ).css('display', 'none');
+            $( "#retrChateletProstitue" ).css('display', 'none');
+            $( "#retrChateletCadavre" ).css('display', 'none');
+            $( "#retrChateletChevalier" ).css('display', 'none');
+            
+            $( "#transcriptionChateletProstitue #popupBarreau" ).css('display', 'block');      
+            $( "#transcriptionChateletProstitue #popupDrakkar" ).css('display', 'none');
+            $( "#transcriptionChateletProstitue #popupProstitue" ).css('display', 'none');
+            $( "#transcriptionChateletProstitue #popupCadavre" ).css('display', 'none');
+            $( "#transcriptionChateletProstitue #popupChevalier" ).css('display', 'none');
+
              
         });
     
@@ -199,6 +212,19 @@ $(document).ready(function()
             $("#video_chevalier").attr("src","");
             $("#video_chevalier").attr("src",video);
             
+            
+             $( "#retrChateletBarreau" ).css('display', 'none');
+            
+            $( "#retrChateletDrakkar" ).css('display', 'none');
+            $( "#retrChateletProstitue" ).css('display', 'none');
+            $( "#retrChateletCadavre" ).css('display', 'block');
+            $( "#retrChateletChevalier" ).css('display', 'none');
+            
+             $( "#transcriptionChateletProstitue #popupBarreau" ).css('display', 'none');      
+            $( "#transcriptionChateletProstitue #popupDrakkar" ).css('display', 'none');
+            $( "#transcriptionChateletProstitue #popupProstitue" ).css('display', 'none');
+            $( "#transcriptionChateletProstitue #popupCadavre" ).css('display', 'block');
+            $( "#transcriptionChateletProstitue #popupChevalier" ).css('display', 'none');
         });
     
     /*-----------------------------------------------------------------------------*/
@@ -240,7 +266,19 @@ $(document).ready(function()
             $("#video_chevalier").attr("src","");
             $("#video_chevalier").attr("src",video);
             
+             $( "#retrChateletBarreau" ).css('display', 'none');
             
+            $( "#retrChateletDrakkar" ).css('display', 'block');
+            $( "#retrChateletProstitue" ).css('display', 'none');
+            $( "#retrChateletCadavre" ).css('display', 'none');
+            $( "#retrChateletChevalier" ).css('display', 'none');
+            
+
+            $( "#transcriptionChateletProstitue #popupBarreau" ).css('display', 'none');      
+            $( "#transcriptionChateletProstitue #popupDrakkar" ).css('display', 'block');
+            $( "#transcriptionChateletProstitue #popupProstitue" ).css('display', 'none');
+            $( "#transcriptionChateletProstitue #popupCadavre" ).css('display', 'none');
+            $( "#transcriptionChateletProstitue #popupChevalier" ).css('display', 'none');
         });
     
     /*-----------------------------------------------------------------------------*/
@@ -281,6 +319,19 @@ $(document).ready(function()
              var video = $("#video_chevalier").attr("src");
             $("#video_chevalier").attr("src","");
             $("#video_chevalier").attr("src",video);
+            
+             $( "#retrChateletBarreau" ).css('display', 'none');
+            
+            $( "#retrChateletDrakkar" ).css('display', 'none');
+            $( "#retrChateletProstitue" ).css('display', 'block');
+            $( "#retrChateletCadavre" ).css('display', 'none');
+            $( "#retrChateletChevalier" ).css('display', 'none');
+            
+            $( "#transcriptionChateletProstitue #popupBarreau" ).css('display', 'none');      
+            $( "#transcriptionChateletProstitue #popupDrakkar" ).css('display', 'none');
+            $( "#transcriptionChateletProstitue #popupProstitue" ).css('display', 'block');
+            $( "#transcriptionChateletProstitue #popupCadavre" ).css('display', 'none');
+            $( "#transcriptionChateletProstitue #popupChevalier" ).css('display', 'none');
             
             
              
@@ -324,6 +375,19 @@ $(document).ready(function()
             $("#video_chevalier").attr("src","");
             $("#video_chevalier").attr("src",video);
             
+            $( "#retrChateletBarreau" ).css('display', 'none');
+            
+            $( "#retrChateletDrakkar" ).css('display', 'none');
+            $( "#retrChateletProstitue" ).css('display', 'none');
+            $( "#retrChateletCadavre" ).css('display', 'none');
+            $( "#retrChateletChevalier" ).css('display', 'block');
+            
+            
+            $( "#transcriptionChateletProstitue #popupBarreau" ).css('display', 'none');      
+            $( "#transcriptionChateletProstitue #popupDrakkar" ).css('display', 'none');
+            $( "#transcriptionChateletProstitue #popupProstitue" ).css('display', 'none');
+            $( "#transcriptionChateletProstitue #popupCadavre" ).css('display', 'none');
+            $( "#transcriptionChateletProstitue #popupChevalier" ).css('display', 'block');
             
         });
     
