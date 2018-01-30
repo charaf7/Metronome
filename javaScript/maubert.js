@@ -155,6 +155,13 @@ $(document).ready(function()
              var video = $("#video_lettre").attr("src");
             $("#video_lettre").attr("src","");
             $("#video_lettre").attr("src",video);
+            
+            $( "#retrMaubertLettre" ).css('display', 'block');
+            $( "#retrMaubertLivres" ).css('display', 'none');
+            $( "#retrMaubertManif" ).css('display', 'none');
+            $( "#retrMaubertMarrais" ).css('display', 'none');
+            $( "#retrMaubertChapelet" ).css('display', 'none');
+            
              
         });
     
@@ -198,6 +205,12 @@ $(document).ready(function()
             $("#video_lettre").attr("src",video);
             
             
+            $( "#retrMaubertLettre" ).css('display', 'none');
+            $( "#retrMaubertLivres" ).css('display', 'block');
+            $( "#retrMaubertManif" ).css('display', 'none');
+            $( "#retrMaubertMarrais" ).css('display', 'none');
+            $( "#retrMaubertChapelet" ).css('display', 'none');
+            
         });
     
     /*-----------------------------------------------------------------------------*/
@@ -239,6 +252,11 @@ $(document).ready(function()
             $("#video_lettre").attr("src","");
             $("#video_lettre").attr("src",video);
             
+            $( "#retrMaubertLettre" ).css('display', 'none');
+            $( "#retrMaubertLivres" ).css('display', 'none');
+            $( "#retrMaubertManif" ).css('display', 'block');
+            $( "#retrMaubertMarrais" ).css('display', 'none');
+            $( "#retrMaubertChapelet" ).css('display', 'none');
         });
     
     /*-----------------------------------------------------------------------------*/
@@ -280,6 +298,11 @@ $(document).ready(function()
             $("#video_lettre").attr("src","");
             $("#video_lettre").attr("src",video);
             
+               $( "#retrMaubertLettre" ).css('display', 'none');
+            $( "#retrMaubertLivres" ).css('display', 'none');
+            $( "#retrMaubertManif" ).css('display', 'none');
+            $( "#retrMaubertMarrais" ).css('display', 'block');
+            $( "#retrMaubertChapelet" ).css('display', 'none');
              
         });
     /*-----------------------------------------------------------------------------*/
@@ -321,6 +344,11 @@ $(document).ready(function()
             $("#video_lettre").attr("src","");
             $("#video_lettre").attr("src",video);
             
+               $( "#retrMaubertLettre" ).css('display', 'none');
+            $( "#retrMaubertLivres" ).css('display', 'none');
+            $( "#retrMaubertManif" ).css('display', 'none');
+            $( "#retrMaubertMarrais" ).css('display', 'none');
+            $( "#retrMaubertChapelet" ).css('display', 'block');
             
         });
     

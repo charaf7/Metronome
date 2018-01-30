@@ -157,6 +157,14 @@ $(document).ready(function()
             $("#video_chevalier").attr("src","");
             $("#video_chevalier").attr("src",video);
             
+            $( "#retrChateletBarreau" ).css('display', 'block');
+            
+            $( "#retrChateletDrakkar" ).css('display', 'none');
+            $( "#retrChateletProstitue" ).css('display', 'none');
+            $( "#retrChateletCadavre" ).css('display', 'none');
+            $( "#retrChateletChevalier" ).css('display', 'none');
+            
+
              
         });
     
@@ -199,6 +207,14 @@ $(document).ready(function()
             $("#video_chevalier").attr("src","");
             $("#video_chevalier").attr("src",video);
             
+            
+             $( "#retrChateletBarreau" ).css('display', 'none');
+            
+            $( "#retrChateletDrakkar" ).css('display', 'none');
+            $( "#retrChateletProstitue" ).css('display', 'none');
+            $( "#retrChateletCadavre" ).css('display', 'block');
+            $( "#retrChateletChevalier" ).css('display', 'none');
+            
         });
     
     /*-----------------------------------------------------------------------------*/
@@ -239,6 +255,14 @@ $(document).ready(function()
              var video = $("#video_chevalier").attr("src");
             $("#video_chevalier").attr("src","");
             $("#video_chevalier").attr("src",video);
+            
+             $( "#retrChateletBarreau" ).css('display', 'none');
+            
+            $( "#retrChateletDrakkar" ).css('display', 'block');
+            $( "#retrChateletProstitue" ).css('display', 'none');
+            $( "#retrChateletCadavre" ).css('display', 'none');
+            $( "#retrChateletChevalier" ).css('display', 'none');
+            
             
             
         });
@@ -282,6 +306,13 @@ $(document).ready(function()
             $("#video_chevalier").attr("src","");
             $("#video_chevalier").attr("src",video);
             
+             $( "#retrChateletBarreau" ).css('display', 'none');
+            
+            $( "#retrChateletDrakkar" ).css('display', 'none');
+            $( "#retrChateletProstitue" ).css('display', 'block');
+            $( "#retrChateletCadavre" ).css('display', 'none');
+            $( "#retrChateletChevalier" ).css('display', 'none');
+            
             
              
         });
@@ -324,6 +355,12 @@ $(document).ready(function()
             $("#video_chevalier").attr("src","");
             $("#video_chevalier").attr("src",video);
             
+            $( "#retrChateletBarreau" ).css('display', 'none');
+            
+            $( "#retrChateletDrakkar" ).css('display', 'none');
+            $( "#retrChateletProstitue" ).css('display', 'none');
+            $( "#retrChateletCadavre" ).css('display', 'none');
+            $( "#retrChateletChevalier" ).css('display', 'block');
             
         });
     

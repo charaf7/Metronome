@@ -155,7 +155,13 @@ $(document).ready(function()
              var video = $("#video_canne").attr("src");
             $("#video_canne").attr("src","");
             $("#video_canne").attr("src",video);
+        
             
+            $( "#retrInvalidesBerceau" ).css('display', 'block');
+            $( "#retrInvalidesPont" ).css('display', 'none');
+            $( "#retrInvalidesVendeur" ).css('display', 'none');
+            $( "#retrInvalidesCanne" ).css('display', 'none');
+            $( "#retrInvalidesRaisin" ).css('display', 'none');
              
         });
     
@@ -197,6 +203,12 @@ $(document).ready(function()
              var video = $("#video_canne").attr("src");
             $("#video_canne").attr("src","");
             $("#video_canne").attr("src",video);
+            
+             $( "#retrInvalidesBerceau" ).css('display', 'none');
+            $( "#retrInvalidesPont" ).css('display', 'none');
+            $( "#retrInvalidesVendeur" ).css('display', 'none');
+            $( "#retrInvalidesCanne" ).css('display', 'none');
+            $( "#retrInvalidesRaisin" ).css('display', 'block');
             
             
         });
@@ -240,7 +252,11 @@ $(document).ready(function()
             $("#video_canne").attr("src","");
             $("#video_canne").attr("src",video);
             
-            
+             $( "#retrInvalidesBerceau" ).css('display', 'none');
+            $( "#retrInvalidesPont" ).css('display', 'block');
+            $( "#retrInvalidesVendeur" ).css('display', 'none');
+            $( "#retrInvalidesCanne" ).css('display', 'none');
+            $( "#retrInvalidesRaisin" ).css('display', 'none');
             
         });
     
@@ -283,6 +299,12 @@ $(document).ready(function()
             $("#video_canne").attr("src","");
             $("#video_canne").attr("src",video);
             
+             $( "#retrInvalidesBerceau" ).css('display', 'none');
+            $( "#retrInvalidesPont" ).css('display', 'none');
+            $( "#retrInvalidesVendeur" ).css('display', 'block');
+            $( "#retrInvalidesCanne" ).css('display', 'none');
+            $( "#retrInvalidesRaisin" ).css('display', 'none');
+            
             
              
         });
@@ -324,6 +346,12 @@ $(document).ready(function()
              var video = $("#video_canne").attr("src");
             $("#video_canne").attr("src","");
             $("#video_canne").attr("src",video);
+            
+             $( "#retrInvalidesBerceau" ).css('display', 'none');
+            $( "#retrInvalidesPont" ).css('display', 'none');
+            $( "#retrInvalidesVendeur" ).css('display', 'none');
+            $( "#retrInvalidesCanne" ).css('display', 'block');
+            $( "#retrInvalidesRaisin" ).css('display', 'none');
             
             
         });

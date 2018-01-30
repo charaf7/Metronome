@@ -156,6 +156,15 @@ $(document).ready(function()
             $("#video_culotte").attr("src","");
             $("#video_culotte").attr("src",video);
             
+            
+            
+            $( "#retrCiteRobert" ).css('display', 'block');
+            
+            $( "#retrCiteRomain" ).css('display', 'none');
+            $( "#retrCiteDiable" ).css('display', 'none');
+            $( "#retrCitePlateau" ).css('display', 'none');
+            $( "#retrCiteCulotte" ).css('display', 'none');
+            
              
         });
     
@@ -198,6 +207,12 @@ $(document).ready(function()
             $("#video_culotte").attr("src","");
             $("#video_culotte").attr("src",video);
             
+            $( "#retrCiteRobert" ).css('display', 'none');
+            $( "#retrCiteRomain" ).css('display', 'block');
+            $( "#retrCiteDiable" ).css('display', 'none');
+            $( "#retrCitePlateau" ).css('display', 'none');
+            $( "#retrCiteCulotte" ).css('display', 'none');
+            
         });
     
     /*-----------------------------------------------------------------------------*/
@@ -238,6 +253,13 @@ $(document).ready(function()
              var video = $("#video_culotte").attr("src");
             $("#video_culotte").attr("src","");
             $("#video_culotte").attr("src",video);
+            
+             $( "#retrCiteRobert" ).css('display', 'none');
+            $( "#retrCiteRomain" ).css('display', 'none');
+            $( "#retrCiteDiable" ).css('display', 'block');
+            $( "#retrCitePlateau" ).css('display', 'none');
+            $( "#retrCiteCulotte" ).css('display', 'none');
+            
             
             
         });
@@ -281,6 +303,12 @@ $(document).ready(function()
             $("#video_culotte").attr("src","");
             $("#video_culotte").attr("src",video);
             
+             $( "#retrCiteRobert" ).css('display', 'none');
+            $( "#retrCiteRomain" ).css('display', 'none');
+            $( "#retrCiteDiable" ).css('display', 'none');
+            $( "#retrCitePlateau" ).css('display', 'block');
+            $( "#retrCiteCulotte" ).css('display', 'none');
+            
              
         });
     /*-----------------------------------------------------------------------------*/
@@ -321,6 +349,13 @@ $(document).ready(function()
              var video = $("#video_culotte").attr("src");
             $("#video_culotte").attr("src","");
             $("#video_culotte").attr("src",video);
+            
+             $( "#retrCiteRobert" ).css('display', 'none');
+            $( "#retrCiteRomain" ).css('display', 'none');
+            $( "#retrCiteDiable" ).css('display', 'none');
+            $( "#retrCitePlateau" ).css('display', 'none');
+            $( "#retrCiteCulotte" ).css('display', 'block');
+            
             
             
         });
