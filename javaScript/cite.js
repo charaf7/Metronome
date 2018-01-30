@@ -158,13 +158,18 @@ $(document).ready(function()
             
             
             
-            $( "#transcriptionCiteRobert #retrCiteRobert" ).css('display', 'block');
+            $( "#retrCiteRobert" ).css('display', 'block');
             
             $( "#retrCiteRomain" ).css('display', 'none');
             $( "#retrCiteDiable" ).css('display', 'none');
             $( "#retrCitePlateau" ).css('display', 'none');
             $( "#retrCiteCulotte" ).css('display', 'none');
             
+            $( "#popupDiable" ).css('display', 'none');      
+            $( "#popupRomain" ).css('display', 'none');
+            $( "#transcriptionCiteRobert #popupRobert" ).css('display', 'block');
+            $( "#popupPlateau" ).css('display', 'none');
+            $( "#popupCulotte" ).css('display', 'none');
              
         });
     
@@ -208,10 +213,16 @@ $(document).ready(function()
             $("#video_culotte").attr("src",video);
             
             $( "#retrCiteRobert" ).css('display', 'none');
-            $( "#transcriptionCiteRomain #retrCiteRomain" ).css('display', 'block');
+            $( "#retrCiteRomain" ).css('display', 'block');
             $( "#retrCiteDiable" ).css('display', 'none');
             $( "#retrCitePlateau" ).css('display', 'none');
             $( "#retrCiteCulotte" ).css('display', 'none');
+            
+             $( "#popupDiable" ).css('display', 'none');      
+            $( "#transcriptionCiteRomain #popupRomain" ).css('display', 'block');
+            $( "#popupRobert" ).css('display', 'none');
+            $( "#popupPlateau" ).css('display', 'none');
+            $( "#popupCulotte" ).css('display', 'none');
             
         });
     
@@ -256,10 +267,15 @@ $(document).ready(function()
             
              $( "#retrCiteRobert" ).css('display', 'none');
             $( "#retrCiteRomain" ).css('display', 'none');
-            $( "#transcriptionCiteDiable #retrCiteDiable" ).css('display', 'block');
+            $( "#retrCiteDiable" ).css('display', 'block');
             $( "#retrCitePlateau" ).css('display', 'none');
             $( "#retrCiteCulotte" ).css('display', 'none');
             
+            $( "#transcriptionCiteDiable #popupDiable" ).css('display', 'block');      
+            $( "#popupRomain" ).css('display', 'none');
+            $( "#popupRobert" ).css('display', 'none');
+            $( "#popupPlateau" ).css('display', 'none');
+            $( "#popupCulotte" ).css('display', 'none');
             
             
         });
@@ -306,9 +322,14 @@ $(document).ready(function()
              $( "#retrCiteRobert" ).css('display', 'none');
             $( "#retrCiteRomain" ).css('display', 'none');
             $( "#retrCiteDiable" ).css('display', 'none');
-            $( "#transcriptionCitePlateau #retrCitePlateau" ).css('display', 'block');
+            $( "#retrCitePlateau" ).css('display', 'block');
             $( "#retrCiteCulotte" ).css('display', 'none');
             
+            $( "#popupDiable" ).css('display', 'none');      
+            $( "#popupRomain" ).css('display', 'none');
+            $( "#popupRobert" ).css('display', 'none');
+            $( "#transcriptionCitePlateau #popupPlateau" ).css('display', 'block');
+            $( "#popupCulotte" ).css('display', 'none');
              
         });
     /*-----------------------------------------------------------------------------*/
@@ -354,8 +375,13 @@ $(document).ready(function()
             $( "#retrCiteRomain" ).css('display', 'none');
             $( "#retrCiteDiable" ).css('display', 'none');
             $( "#retrCitePlateau" ).css('display', 'none');
-            $( "#transcriptionCiteCulotte #retrCiteCulotte" ).css('display', 'block');
+            $( "#retrCiteCulotte" ).css('display', 'block');
             
+            $( "#popupDiable" ).css('display', 'none');      
+            $( "#popupRomain" ).css('display', 'none');
+            $( "#popupRobert" ).css('display', 'none');
+            $( "#popupPlateau" ).css('display', 'none');
+            $( "#transcriptionCiteCulotte #popupCulotte" ).css('display', 'block');
             
             
         });

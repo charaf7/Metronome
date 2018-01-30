@@ -33,6 +33,23 @@ $(document).ready(function(){
 
 //LOAD POUR CITE
 
+$(document).ready(function(){
+                $("#transcriptionCiteDiable").load("../popups/retranscriptionCite.html");
+});
+
+$(document).ready(function(){
+                $("#transcriptionCiteRomain").load("../popups/retranscriptionCite.html");
+});
+$(document).ready(function(){
+                $("#transcriptionCitePlateau").load("../popups/retranscriptionCite.html");
+});
+$(document).ready(function(){
+                $("#transcriptionCiteCulotte").load("../popups/retranscriptionCite.html");
+});
+$(document).ready(function(){
+                $("#transcriptionCiteRobert").load("../popups/retranscriptionCite.html");
+});
+
 //LOAD POUR INVALIDES
 
 //LOAD POUR MAUBERT
