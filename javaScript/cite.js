@@ -158,7 +158,7 @@ $(document).ready(function()
             
             
             
-            $( "#retrCiteRobert" ).css('display', 'block');
+            $( "#transcriptionCiteRobert #retrCiteRobert" ).css('display', 'block');
             
             $( "#retrCiteRomain" ).css('display', 'none');
             $( "#retrCiteDiable" ).css('display', 'none');
@@ -208,7 +208,7 @@ $(document).ready(function()
             $("#video_culotte").attr("src",video);
             
             $( "#retrCiteRobert" ).css('display', 'none');
-            $( "#retrCiteRomain" ).css('display', 'block');
+            $( "#transcriptionCiteRomain #retrCiteRomain" ).css('display', 'block');
             $( "#retrCiteDiable" ).css('display', 'none');
             $( "#retrCitePlateau" ).css('display', 'none');
             $( "#retrCiteCulotte" ).css('display', 'none');
@@ -256,7 +256,7 @@ $(document).ready(function()
             
              $( "#retrCiteRobert" ).css('display', 'none');
             $( "#retrCiteRomain" ).css('display', 'none');
-            $( "#retrCiteDiable" ).css('display', 'block');
+            $( "#transcriptionCiteDiable #retrCiteDiable" ).css('display', 'block');
             $( "#retrCitePlateau" ).css('display', 'none');
             $( "#retrCiteCulotte" ).css('display', 'none');
             
@@ -306,7 +306,7 @@ $(document).ready(function()
              $( "#retrCiteRobert" ).css('display', 'none');
             $( "#retrCiteRomain" ).css('display', 'none');
             $( "#retrCiteDiable" ).css('display', 'none');
-            $( "#retrCitePlateau" ).css('display', 'block');
+            $( "#transcriptionCitePlateau #retrCitePlateau" ).css('display', 'block');
             $( "#retrCiteCulotte" ).css('display', 'none');
             
              
@@ -354,7 +354,7 @@ $(document).ready(function()
             $( "#retrCiteRomain" ).css('display', 'none');
             $( "#retrCiteDiable" ).css('display', 'none');
             $( "#retrCitePlateau" ).css('display', 'none');
-            $( "#retrCiteCulotte" ).css('display', 'block');
+            $( "#transcriptionCiteCulotte #retrCiteCulotte" ).css('display', 'block');
             
             
             
