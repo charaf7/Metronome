@@ -10,6 +10,8 @@ $(document).ready(function(){
 $(document).ready(function(){
                 $("#mobileMenu").load("../popups/mobileMenu.html");
 });
+
+
 $(document).ready(function(){
                 $("#transcriptionChateletDrakkar").load("../popups/retranscriptionChatelet.html");
 });

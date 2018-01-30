@@ -164,7 +164,7 @@ $(document).ready(function()
             $( "#retrChateletCadavre" ).css('display', 'none');
             $( "#retrChateletChevalier" ).css('display', 'none');
             
-             $( "#popupBarreau" ).css('display', 'block');      
+            $( "#popupBarreau" ).css('display', 'block');      
             $( "#popupDrakkar" ).css('display', 'none');
             $( "#popupProstitue" ).css('display', 'none');
             $( "#popupCadavre" ).css('display', 'none');
