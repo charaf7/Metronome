@@ -164,6 +164,11 @@ $(document).ready(function()
             $( "#retrChateletCadavre" ).css('display', 'none');
             $( "#retrChateletChevalier" ).css('display', 'none');
             
+             $( "#popupBarreau" ).css('display', 'block');      
+            $( "#popupDrakkar" ).css('display', 'none');
+            $( "#popupProstitue" ).css('display', 'none');
+            $( "#popupCadavre" ).css('display', 'none');
+            $( "#popupChevalier" ).css('display', 'none');
 
              
         });
@@ -215,6 +220,11 @@ $(document).ready(function()
             $( "#retrChateletCadavre" ).css('display', 'block');
             $( "#retrChateletChevalier" ).css('display', 'none');
             
+             $( "#popupBarreau" ).css('display', 'none');      
+            $( "#popupDrakkar" ).css('display', 'none');
+            $( "#popupProstitue" ).css('display', 'none');
+            $( "#popupCadavre" ).css('display', 'block');
+            $( "#popupChevalier" ).css('display', 'none');
         });
     
     /*-----------------------------------------------------------------------------*/
@@ -264,7 +274,11 @@ $(document).ready(function()
             $( "#retrChateletChevalier" ).css('display', 'none');
             
             
-            
+             $( "#popupBarreau" ).css('display', 'none');      
+            $( "#popupDrakkar" ).css('display', 'block');
+            $( "#popupProstitue" ).css('display', 'none');
+            $( "#popupCadavre" ).css('display', 'none');
+            $( "#popupChevalier" ).css('display', 'none');
         });
     
     /*-----------------------------------------------------------------------------*/
@@ -312,6 +326,12 @@ $(document).ready(function()
             $( "#retrChateletProstitue" ).css('display', 'block');
             $( "#retrChateletCadavre" ).css('display', 'none');
             $( "#retrChateletChevalier" ).css('display', 'none');
+            
+            $( "#popupBarreau" ).css('display', 'none');      
+            $( "#popupDrakkar" ).css('display', 'none');
+            $( "#popupProstitue" ).css('display', 'block');
+            $( "#popupCadavre" ).css('display', 'none');
+            $( "#popupChevalier" ).css('display', 'none');
             
             
              
@@ -361,6 +381,13 @@ $(document).ready(function()
             $( "#retrChateletProstitue" ).css('display', 'none');
             $( "#retrChateletCadavre" ).css('display', 'none');
             $( "#retrChateletChevalier" ).css('display', 'block');
+            
+            
+            $( "#popupBarreau" ).css('display', 'none');      
+            $( "#popupDrakkar" ).css('display', 'none');
+            $( "#popupProstitue" ).css('display', 'none');
+            $( "#popupCadavre" ).css('display', 'none');
+            $( "#popupChevalier" ).css('display', 'block');
             
         });
     

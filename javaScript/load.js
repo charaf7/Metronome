@@ -13,3 +13,17 @@ $(document).ready(function(){
 $(document).ready(function(){
                 $("#transcriptionChateletDrakkar").load("../popups/retranscriptionChatelet.html");
 });
+
+$(document).ready(function(){
+                $("#transcriptionChateletBarreau").load("../popups/retranscriptionChatelet.html");
+});
+$(document).ready(function(){
+                $("#transcriptionChateletCadavre").load("../popups/retranscriptionChatelet.html");
+});
+$(document).ready(function(){
+                $("#transcriptionChateletProstitue").load("../popups/retranscriptionChatelet.html");
+});
+$(document).ready(function(){
+                $("#transcriptionChateletChevalier").load("../popups/retranscriptionChatelet.html");
+});
+
