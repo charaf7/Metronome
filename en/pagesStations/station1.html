@@ -72,14 +72,19 @@
 
             <a href="#mapChatelet" id="map_linkChatelet"><img class="illustration" id="map_illustChatelet" src="../images/map/map_illust.png"></a>
             
-            <a href="#" id="retranscriptionChatelet">video's retranscription</a>
+    
+            <a href="#transcriptionChateletDrakkar" class="retranscriptionChatelet" id="retrChateletDrakkar">video's retranscription</a>
+            <a href="#transcriptionChateletBarreau" class="retranscriptionChatelet" id="retrChateletBarreau">video's retranscription</a>
+            <a href="#transcriptionChateletCadavre" class="retranscriptionChatelet" id="retrChateletCadavre">video's retranscription</a>
+            <a href="#transcriptionChateletProstitue" class="retranscriptionChatelet" id="retrChateletProstitue">video's retranscription</a>
+            <a href="#transcriptionChateletChevalier" class="retranscriptionChatelet" id="retrChateletChevalier">video's retranscription</a>
+            
             
              <!-- _______________________________________________________-DRAKKAR _____________________________________________________-->
 
             <img  class="illustrationMobile small" src="../images/anecdotes/drakkar-cropped.png" alt="La proue d'un immense drakkar viking jete son ombre sur le quais du métro."/>
             
-            <iframe class="anecdoteVideoChatelet" id ="video_drakkar" src="https://www.youtube.com/embed/kDehTEEoFnE" frameborder="0" allowfullscreen></iframe>
-            
+         <iframe class="anecdoteVideoChatelet" id ="video_drakkar" src="https://www.youtube.com/embed/6I-XQI0RyFY" frameborder="0" allowfullscreen></iframe>
             <div id="texte_drakkar" class="anecdoteTextChatelet">
             <p>DRAKKAR tetextetextetexttextetexte<br />
                 textetextetextetextetexttextetete<br />
@@ -107,7 +112,7 @@
             
             <img class="illustrationMobile" src="../images/anecdotes/barreaux.png" alt="Encastrés dans le mur du métro, de gros barreaux de métal donnent sur une zone d'ombre inquiétante."/>
 
-            <iframe  class="anecdoteVideoChatelet" id ="video_barreau" src="https://www.youtube.com/embed/LKFuXETZUsI" frameborder="0" allowfullscreen></iframe>
+          <iframe  class="anecdoteVideoChatelet" id ="video_barreau" src="https://www.youtube.com/embed/uEcsCq_NPaE" frameborder="0" allowfullscreen></iframe>
              <div id="texte_barreau" class="anecdoteTextChatelet">
             <p>BARREAU extetextetextetexttextetexte<br />
                 textetextetextetextetexttextetete<br />
@@ -135,7 +140,7 @@
             
             <img class="illustrationMobile" src="../images/anecdotes/cadavre.png" alt="Une silhouette tracée à la craie blanche sur le sol à côté d'un couteau recouvert de sang."/>
 
-            <iframe class="anecdoteVideoChatelet" id ="video_cadavre" src="https://www.youtube.com/embed/KYz2wyBy3kc" frameborder="0" allowfullscreen></iframe>
+            <iframe class="anecdoteVideoChatelet" id ="video_cadavre" src="https://www.youtube.com/embed/pfYMXWD-wSs" frameborder="0" allowfullscreen></iframe>
              <div id="texte_cadavre" class="anecdoteTextChatelet">
             <p>CADAVRE textetextetexteteextetexte<br />
                 textetextetextetextetexttextetete<br />
@@ -162,7 +167,7 @@
             <!-- _______________________________________________________PROSTITUE _____________________________________________________-->
             
             <img  class="illustrationMobile smallP" src="../images/anecdotes/prostitue.png" alt="Une prostituée joue avec les lacets de son corsage pour attirer l'attention de potentiels clients."/>
-            <iframe class="anecdoteVideoChatelet" id ="video_prostitue" src="https://www.youtube.com/embed/ViKC6MGYbUo" frameborder="0" allowfullscreen></iframe>
+            <iframe class="anecdoteVideoChatelet" id ="video_prostitue" src="https://www.youtube.com/embed/TIjL6LC5joc" frameborder="0" allowfullscreen></iframe>
             <div id="texte_prostitue" class="anecdoteTextChatelet">
             <p>PROSTITUE teetextetexteteextetexte<br />
                 textetextetextetextetexttextetete<br />
@@ -190,7 +195,7 @@
 
             <img class="illustrationMobile" src="../images/anecdotes/chevalier-geant.png" alt="Au plafond, une gravure reprend une scène de combat médiéval."/>
 
-            <iframe class="anecdoteVideoChatelet" id ="video_chevalier" src="https://www.youtube.com/embed/bY73vFGhSVk" frameborder="0" allowfullscreen></iframe>
+             <iframe class="anecdoteVideoChatelet" id ="video_chevalier" src="https://www.youtube.com/embed/PrfmotqwX28" frameborder="0" allowfullscreen></iframe>
             <div id="texte_chevalier" class="anecdoteTextChatelet">
                 <p>CHEVALIER xtetextetexteteextetexte<br />
                 textetextetextetextetexttextetete<br />
@@ -218,7 +223,7 @@
         
         <!-- Timeline de navigation -->
     <div id = "timeline">
-     <span class="hiddenForAccess">Une ligne de métro relie les stations :</span>
+     <span class="hiddenForAccess">A path links all the stations :</span>
         <div class="stations">
             <span class="station" id="invalides"><a href="station3.html">Invalides</a></span>
             <span class="station" id="chatelet"><a href="station1.html">Châtelet</a></span>
@@ -246,10 +251,15 @@
     <div id="credit" class="modal-window"></div>
     <div id="aide" class="modal-window"></div>
     <div id="mobileMenu" class="menuModal"></div>
+         <div id="transcriptionChateletDrakkar" class="modal-window" ></div>
+        <div id="transcriptionChateletBarreau" class="modal-window"></div>
+        <div id="transcriptionChateletCadavre" class="modal-window"></div>
+        <div id="transcriptionChateletProstitue" class="modal-window"></div>
+        <div id="transcriptionChateletChevalier" class="modal-window"></div>
 
     <!-- aller vers la map interactive-->
     <div id="mapChatelet" class="modal-window">
-        <span class="hiddenForAccess">Accéder à la carte interactive des stations de métro parisien.</span>
+        <span class="hiddenForAccess">Go to the interactive map of Paris subway</span>
         <div class="map">
             <a href="#modal-close" title="Fermer" class="modal-close">X</a>
             <div class="theMap">

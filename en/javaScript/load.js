@@ -10,3 +10,29 @@ $(document).ready(function(){
 $(document).ready(function(){
                 $("#mobileMenu").load("../popups/mobileMenu.html");
 });
+
+
+//LOAD POUR CHATELET
+$(document).ready(function(){
+                $("#transcriptionChateletDrakkar").load("../popups/retranscriptionChatelet.html");
+});
+
+$(document).ready(function(){
+                $("#transcriptionChateletBarreau").load("../popups/retranscriptionChatelet.html");
+});
+$(document).ready(function(){
+                $("#transcriptionChateletCadavre").load("../popups/retranscriptionChatelet.html");
+});
+$(document).ready(function(){
+                $("#transcriptionChateletProstitue").load("../popups/retranscriptionChatelet.html");
+});
+$(document).ready(function(){
+                $("#transcriptionChateletChevalier").load("../popups/retranscriptionChatelet.html");
+});
+
+
+//LOAD POUR CITE
+
+//LOAD POUR INVALIDES
+
+//LOAD POUR MAUBERT
