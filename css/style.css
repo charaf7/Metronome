@@ -457,4 +457,11 @@ video#backgroundVideo{
   background-size: cover;
   opacity: 0.4;
 }
+#accessibilite {
+    font-size: 22px;
+    color: #ffcb26;
+    text-decoration: underline;
+}
+#accessibilite span{
+    font-size: 14px;
 }
